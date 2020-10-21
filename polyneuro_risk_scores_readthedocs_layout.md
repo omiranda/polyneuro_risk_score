@@ -1,0 +1,21 @@
+- Overview
+- Basic Example
+    - Estimating beta-weights
+    - Estimating risk
+    - Exploring the outputs
+- Going deeper estimating beta-weights 
+    - Case 1, ignoring covariates
+    - Case 2, including covariates per brain feature
+    - Case 3, removing the effect of covariates before calculating the beta-weights (pre-whitening)
+    - Comparing outputs
+        - ciftis
+        - beta-weights
+        - explained variance
+    - Closing remarks and recomendations
+- Residulizaing imaging data
+- Detailed specifications for input data and files
+- Known issues
+- Comming next
+    - longitudinal analyses
+    - Predicting categorical outcomes
+- Installation and set-up

@@ -1,0 +1,13 @@
+site_name: PolyNeuro Risk Scores
+theme: material
+plugins:
+  - search
+pages:
+- Overview: PolyNeuro_Risk_Scores.md
+- Basic example: basic_example.md
+- Going deeper (using fconn data): going_deeper_1.md
+- Pre-whithening: prewhithening.md
+- Detailed specifications for input files and data: detailed_description.md
+- Coming next: coming_next.md
+- Known issues: issues.md
+- Installation and set-up: install_and_setup.md

@@ -1,0 +1,1 @@
+# Prediction of gait improvement using cortical thickness

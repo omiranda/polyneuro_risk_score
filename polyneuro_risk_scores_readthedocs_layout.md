@@ -1,19 +1,30 @@
-- Overview
+- Overview. Basic description with some screenshots of typical inputs and outputs
+- Inputs
+    - Mandatory
+    - Optional/Advanced options
 - Basic Example
     - Estimating beta-weights
+        - Exploring the outputs
     - Estimating risk
-    - Exploring the outputs
+        - Exploring the outputs
 - Going deeper estimating beta-weights 
     - Case 1, ignoring covariates
+        - Estimating beta-weights
+            - Exploring the outputs
+        - Estimating risk
+            - Exploring the outputs
     - Case 2, including covariates per brain feature
+        - Estimating beta-weights
+            - Exploring the outputs
+        - Estimating risk
+            - Exploring the outputs
     - Case 3, removing the effect of covariates before calculating the beta-weights (pre-whitening)
-    - Comparing outputs
-        - ciftis
-        - beta-weights
-        - explained variance
-    - Closing remarks and recomendations
+        - Estimating beta-weights
+            - Exploring the outputs
+        - Estimating risk
+            - Exploring the outputs
+- Closing remarks and recomendations
 - Residulizaing imaging data
-- Detailed specifications for input data and files
 - Known issues
 - Comming next
     - longitudinal analyses

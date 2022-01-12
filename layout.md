@@ -1,4 +1,7 @@
 - Overview
+- Inputs
+    - Mandatory
+    - Optional/Advanced options
 - Basic Example
     - Estimating beta-weights
     - Estimating risk

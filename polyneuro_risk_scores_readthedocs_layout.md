@@ -30,3 +30,5 @@
     - longitudinal analyses
     - Predicting categorical outcomes
 - Installation and set-up
+    - Using Matlab code
+    - Using containerized code

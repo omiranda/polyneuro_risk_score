@@ -3,9 +3,13 @@
     - Mandatory
     - Optional/Advanced options
 - Basic Example
-    - Estimating beta-weights
+    - BWAS: Estimating beta-weights
+        - Runing the code using Matlab
+        - Runing the code using the container
         - Exploring the outputs
-    - Estimating risk
+    - PNRS: Estimating risk
+        - Runing the code using Matlab
+        - Runing the code using the container
         - Exploring the outputs
 - Going deeper estimating beta-weights 
     - Case 1, ignoring covariates

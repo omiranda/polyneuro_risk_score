@@ -1,5 +1,6 @@
 # Detailed description of input data and files
 
+This package has 2 main functions: 
 ## Mandatory Inputs 
 
     -

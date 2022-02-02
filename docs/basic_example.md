@@ -1,4 +1,15 @@
-# Basic example using X data
+<script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS_CHTML"></script>
+
+\\( \beta^2 = b^2 \\)
+
+# Basic example 
+
+
+Considerations:
+
+- This is a toy example that uses a reduced sample to ilustrate the functionality of the toolbox
+- The same dataset is used to calculate the models and to 
 
 
 

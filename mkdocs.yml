@@ -7,6 +7,7 @@ pages:
 - Detailed specifications for input variables, files and data: detailed_description.md
 - Basic example: basic_example.md
 - Going deeper (using fconn data): going_deeper_1.md
+- Exploring outputs: exploring_outputs.md
 - Pre-whithening: prewhithening.md
 - Coming next: coming_next.md
 - Known issues: issues.md

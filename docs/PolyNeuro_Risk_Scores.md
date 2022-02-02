@@ -1,6 +1,6 @@
 # Brain Wide Associations and PolyNeuro Risk Scores
 
-Here we describe how to use the functions to calculate Brain Wide Associations and PolyNeuro Risk Scores. This is an implementation in Matlab of the methodology proposed by Zhao, *et. al*[<sup>1</sup>](https://pubmed.ncbi.nlm.nih.gov/33145600/). This set of ![slides](./intro/BWAS_brain_features_behavior_biostats_JC.pdf) describe the rational in more detail and also present some of the figures made by the toolbox.
+Here we describe how to use the functions to calculate Brain Wide Associations and PolyNeuro Risk Scores. This is an implementation in Matlab of the methodology proposed by Zhao, *et. al*[<sup>1</sup>](https://pubmed.ncbi.nlm.nih.gov/33145600/). This set of ![slides](./intro/BWAS_brain_features_behavior_biostats_JC.pdf) describes in more detail the rationale for this approach and  presents some of the figures made by the toolbox.
 
 The documentation includes how to install, run and explore  results, both using Matlab and the containarized version of the toolbox.
 

@@ -9,7 +9,7 @@
 Considerations:
 
 - This is a toy example that uses a reduced sample to ilustrate the functionality of the toolbox
-- The same dataset is used to calculate the models and to 
+- The same dataset is used to calculate the models and to predict scores. You should not do this in a real project.
 
 
 

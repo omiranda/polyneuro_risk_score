@@ -13,7 +13,7 @@ These are positional arguments and need to be provided in this order:
     1. path to a *dot mat* file where the last dimension corresponds to participant index. 
         1. Connectivity matrices: this would correspond to a 3D object of dimensions number of ROIs X number of ROIs x number of participants, as this example
         1. Scalars (such as cortical thickness values): this would correspond to a 2D matrix of dimensions number of ROIs x number of participants, as this example
-    1. path to a csv file with imaging data where the number of columns dimension corresponds to participant index (check this with code run for Carla with Cortical thickness). No headers
+    1. path to a csv file with imaging data where the number of columns  corresponds to participant index (**WIP**, still to be validated). No headers
     1. path to a txt file with paths to individual files with neuroimaging data. No headers
         - dot mat
         - cifti

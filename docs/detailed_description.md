@@ -5,7 +5,7 @@
 This package has 2 main functions: `run_CWAS` and `run_PBS` that are used to calculate the \\( \beta\\)-weights and to predict the corresponding brain-derived behavioral scores, respectively (To note, some of the inputs are shared with the toolboxes [*fconn_regression*](https://fconn-regression.readthedocs.io/en/latest/) and [*fconn_anova*](https://fconn-anova.readthedocs.io/en/latest/)).
 
 
-## 'run_CWAS'
+## `run_CWAS`
 ### Mandatory Inputs 
 These are positional arguments and need to be provided in this order:
 

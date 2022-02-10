@@ -8,6 +8,7 @@ This package has 2 main functions: `run_CWAS` and `run_PBS` that are used to cal
 ## Mandatory Inputs for *run_CWAS*
 These are positional arguments and need to be provided in this order:
 
+Testing adding stuff new computer.
 
 - **path_imaging**. Neuroimaging data. Path to neuroimaging data (brain features) from the reference sample.
     - path to a dot mat file where the last dimension corresponds to participant index

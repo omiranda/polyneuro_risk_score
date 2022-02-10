@@ -1,9 +1,12 @@
+<script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS_CHTML"></script>
 # Detailed description of input data and files
 
 This package has 2 main functions: `run_CWAS` and `run_PBS` that are used to calculate the \\( \beta\\)-weights and to predict the corresponding brain-derived behavioral scores, respectively (To note, some of the inputs are shared with the toolbox [*fconn_regression*](https://fconn-regression.readthedocs.io/en/latest/).
 
 
 ## Mandatory Inputs 
+These are positional arguments
 
     -
         -**path_imaging**. Neuroimaging data. Path to neuroimaging data

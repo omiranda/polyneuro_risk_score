@@ -8,17 +8,17 @@ This package has 2 main functions: `run_CWAS` and `run_PBS` that are used to cal
 ## Mandatory Inputs for *run_CWAS*
 These are positional arguments and need to be provided in this order:
 
-    -
-        -**path_imaging**. Neuroimaging data. Path to neuroimaging data
-            - path to a dot mat file where the last dimension corresponds to participant index
-            - path to a csv file with imaging data where the number of columns dimension corresponds to participant index (check this with code run for Carla with Cortical thickness). No headers
-            - path to a txt file with paths to individual files with neuroimaging data. No headers
-                - dot mat
-                - cifti
-        - **path_demographics_Table**. Path to the demographics table saved as csv. It must have headers. Such headers will be defined as *between* or *within* factors in the group design table (**group_Design_Table**). Depending on the analysis, this table could also have the reserved headers *id* and *outcome*. You could include a column in this table to associate each participant with the its relative position in the neuroimaging data (**path_imaging** ). If provided, the column should be titled "*consecutive_number*". If not provided, it will be assumed that neuroimaging (**path_imaging**) and non-imaging data are presented in the same order.
-        - **group_Design_Table** Path to group design table that indicates which elements of the **demographics_Table** will be used in this analysis. This table also will indicate if each included parameters is a *between* or *within* factor. This table must have the following headers in the presented order:
-            - Variable: Column names from the **demographics_Table** that will be used in the analysis. Column names listed in the **demographics_Table** but not included here will be ignored
-            - Design: Only option are *between* or *within*
+-
+    -**path_imaging**. Neuroimaging data. Path to neuroimaging data
+        - path to a dot mat file where the last dimension corresponds to participant index
+        - path to a csv file with imaging data where the number of columns dimension corresponds to participant index (check this with code run for Carla with Cortical thickness). No headers
+        - path to a txt file with paths to individual files with neuroimaging data. No headers
+            - dot mat
+            - cifti
+    - **path_demographics_Table**. Path to the demographics table saved as csv. It must have headers. Such headers will be defined as *between* or *within* factors in the group design table (**group_Design_Table**). Depending on the analysis, this table could also have the reserved headers *id* and *outcome*. You could include a column in this table to associate each participant with the its relative position in the neuroimaging data (**path_imaging** ). If provided, the column should be titled "*consecutive_number*". If not provided, it will be assumed that neuroimaging (**path_imaging**) and non-imaging data are presented in the same order.
+    - **group_Design_Table** Path to group design table that indicates which elements of the **demographics_Table** will be used in this analysis. This table also will indicate if each included parameters is a *between* or *within* factor. This table must have the following headers in the presented order:
+        - Variable: Column names from the **demographics_Table** that will be used in the analysis. Column names listed in the **demographics_Table** but not included here will be ignored
+        - Design: Only option are *between* or *within*
 
 ## Optional inputs
         - **parcel**, Parcel object. If not provided it will use defaults

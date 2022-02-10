@@ -20,7 +20,7 @@ These are positional arguments and need to be provided in this order:
     - Variable: Column names from the **demographics_Table** that will be used in the analysis. Column names listed in the **demographics_Table** but not included here will be ignored
     - Design: Only option are *between* or *within*
 
-## Optional inputs
+### Optional inputs
         - **parcel**, Parcel object. If not provided it will use defaults
             - dot mat file with assignemnt of ROIs to functional networks
             - table that assigns ROIs to functional networks. The number of ROIs (column ix, see below) must equal the number of elements of the neuroimaging data (i.e. mandatory input **path_imaging**). This table must be saved as a csv file and must have the following headers in the presented order

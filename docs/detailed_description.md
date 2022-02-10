@@ -9,10 +9,10 @@ This package has 2 main functions: `run_CWAS` and `run_PBS` that are used to cal
 ### Mandatory Inputs 
 These are positional arguments and need to be provided in this order:
 
-- **path_imaging**. Neuroimaging data. Path to neuroimaging data (brain features) from the reference sample.
-    - path to a dot mat file where the last dimension corresponds to participant index
-    - path to a csv file with imaging data where the number of columns dimension corresponds to participant index (check this with code run for Carla with Cortical thickness). No headers
-    - path to a txt file with paths to individual files with neuroimaging data. No headers
+- **path_imaging**. Path to neuroimaging data (brain features) for the reference sample. This code can take as brain features connectivity matrices or scalars (such as cortical thickness values) for each participant. This function can accept the data on any of the following formats:
+    1. path to a dot mat file where the last dimension corresponds to participant index
+    1. path to a csv file with imaging data where the number of columns dimension corresponds to participant index (check this with code run for Carla with Cortical thickness). No headers
+    1. path to a txt file with paths to individual files with neuroimaging data. No headers
         - dot mat
         - cifti
 - **path_demographics_Table**. Path to the demographics table saved as csv. It must have headers. Such headers will be defined as *between* or *within* factors in the group design table (**group_Design_Table**). Depending on the analysis, this table could also have the reserved headers *id* and *outcome*. You could include a column in this table to associate each participant with the its relative position in the neuroimaging data (**path_imaging** ). If provided, the column should be titled "*consecutive_number*". If not provided, it will be assumed that neuroimaging (**path_imaging**) and non-imaging data are presented in the same order.

@@ -1,11 +1,14 @@
 - Overview
-- Inputs
-    - Mandatory
-    - Optional/Advanced options
+- Detailed specifications for input data and files
+    - BWAS
+        - Mandatory
+        - Optional/Advanced options
+    - PNRS
+        - Mandatory
+        - Optional/Advance options
 - Basic Example
     - Estimating beta-weights
     - Estimating risk
-    - Exploring the outputs
 - Going deeper estimating beta-weights 
     - Case 1, ignoring covariates
     - Case 2, including covariates per brain feature
@@ -16,7 +19,6 @@
         - explained variance
     - Closing remarks and recomendations
 - Residulizaing imaging data
-- Detailed specifications for input data and files
 - Known issues
 - Comming next
     - longitudinal analyses

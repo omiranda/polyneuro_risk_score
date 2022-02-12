@@ -18,7 +18,6 @@
     - Estimating beta-weights
     - Estimating risk
 - Exploring outputs
-- Residulizaing imaging data
 - Known issues
 - Comming next
     - longitudinal analyses

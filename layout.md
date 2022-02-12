@@ -1,4 +1,4 @@
-- Overview
+- Overview. Add eye candy/screenshots
 - Detailed specifications for input data and files
     - BWAS
         - Mandatory

@@ -9,6 +9,9 @@
 - Example using functional connectivity
     - Estimating beta-weights
     - Estimating risk
+- Example using residualized data
+    - Estimating beta-weights
+    - Estimating risk
 - Example using cortical thickness
     - Estimating beta-weights
     - Estimating risk

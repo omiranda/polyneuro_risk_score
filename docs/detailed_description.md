@@ -21,8 +21,9 @@ The order of each row should match the order of the imaging data (see advanced u
 Each column corresponds to the associated data for each participant.
 The columnn containing the data to be used as outcome must have as header the reserved word **outcome**.
     - Additional details:
-        - You can use a csv file with more columns/data than needed in the analysis. For example, you can have the subject id in one of the columns. If you do this, you should use the reserved word *id* for this column. This way the outputs with individual scores will have the subject id for each participant.
-        - You will select which columns to include in the group design table (**group_Design_Table**). Such headers will be defined as *between* or *within* factors in the group design table (**group_Design_Table**).  
+        - You can use a csv file with more columns/data than needed in the analysis. 
+        - You will select which columns to include in the group design table (**group_Design_Table**). Such headers will be defined as *between* or *within* factors in the group design table (**group_Design_Table**). 
+        - You can have the subject id in one of the columns. If you do this, you should use the reserved word *id* for this column. This way the some of the output tables generated using this code will report the subject id for each row/participant. 
     - **Advanced usage**: You can include a column in this table to associate each participant with the its relative position in the neuroimaging data (**path_imaging** ). If provided, the column should be titled "*consecutive_number*". If not provided, it will be assumed that neuroimaging (**path_imaging**) and non-imaging data are presented in the same order.
 1. **group_Design_Table** Path to group design table that indicates which elements of the **demographics_Table** will be used in this analysis. This table also will indicate if each included parameters is a *between* or *within* factor. This table must have the following headers in the presented order:
     - Variable: Column names from the **demographics_Table** that will be used in the analysis. Column names listed in the **demographics_Table** but not included here will be ignored

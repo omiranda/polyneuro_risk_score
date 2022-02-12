@@ -8,7 +8,7 @@ This package has 2 main functions: `run_CWAS` and `run_PBS` that are used to cal
 ### Mandatory Inputs 
 These are positional arguments and need to be provided in this order:
 
-1. **path_imaging**. Path to neuroimaging data (brain features) for the reference sample. The function can take as brain features connectivity matrices or scalars (such as cortical thickness values) for each participant. This function can accept the imaging data on any of the following formats:
+1. **path_imaging**. Path to neuroimaging data (brain features) for the reference sample. This argument can take as brain features connectivity matrices or scalars (such as cortical thickness values) for each participant. This function can accept the imaging data on any of the following formats:
     1. path to a *dot mat* file where the last dimension corresponds to participant index. 
         1. Connectivity matrices: this would correspond to a 3D object of dimensions number of ROIs X number of ROIs x number of participants.
         1. Scalars (such as cortical thickness values): this would correspond to a 2D matrix of dimensions number of ROIs x number of participants.

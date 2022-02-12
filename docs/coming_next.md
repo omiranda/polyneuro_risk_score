@@ -1,5 +1,6 @@
 # Coming next
 
-Future additions 
+Future additions:
+
 - longitudinal analyses
 - Predicting categorical outcomes

@@ -13,18 +13,19 @@ These are positional arguments and need to be provided in this order:
         1. Connectivity matrices: this would correspond to a 3D object of dimensions number of ROIs X number of ROIs x number of participants.
         1. Scalars (such as cortical thickness values): this would correspond to a 2D matrix of dimensions number of ROIs x number of participants.
     2. path to a text file with extension txt ("*txt file*") with paths to individual files with neuroimaging data. This file should NOT include headers. Each row is the path to a cifti file with imaging data for each participant. The cifti files can correspond to timeseries (parcellated or dense) or a connectivity matrix. 
-    3. path to a file with extension *csv* ("*csv file*") with imaging data, where the number of columns corresponds to the data from each participant (**WIP**, still to be validated). No headers.
-
-        
-2. **path_demographics_Table**. Path to a [csv file](https://en.wikipedia.org/wiki/Comma-separated_values) containing the demographic and behavioral data to be used in the BWAS. 
+    3. path to a file with extension *csv* ("*csv file*") with imaging data, where the number of columns corresponds to the data from each participant (**WIP**, still to be validated). No headers.   
+1. **path_demographics_Table**. Path to a [csv file](https://en.wikipedia.org/wiki/Comma-separated_values) containing the demographic and behavioral data to be used in the BWAS. 
 It must have headers. 
 Each row should correspond to the data for each unique participant. 
 The order of each row should match the order of the imaging data (see advanced usage below to skip participants in the imaging data).
 Each column corresponds to the associated data for each participant.
-You can use a csv file with more columns than needed in the analyis. 
-Youl will select with columns to include in the group design table (**group_Design_Table**).
-
-Such headers will be defined as *between* or *within* factors in the group design table (**group_Design_Table**). Depending on the analysis, this table could also have the reserved headers *id* and *outcome*. You could include a column in this table to associate each participant with the its relative position in the neuroimaging data (**path_imaging** ). If provided, the column should be titled "*consecutive_number*". If not provided, it will be assumed that neuroimaging (**path_imaging**) and non-imaging data are presented in the same order.
+The columnn containing the data to be used as outcome must have as header the reserved word **outcome**.
+    - Additional details:
+      - You can use a csv file with more columns/data than needed in the analyis. 
+      - For example, you can have the subject id in one of the columns. If you do this, you should use the reserved word *id* for this column. This way the outputs with individual scores will have the subject id for each participant.
+      - You will select which columns to include in the group design table (**group_Design_Table**).
+      - Such headers will be defined as *between* or *within* factors in the group design table (**group_Design_Table**).  
+    - **Advanced usage**: You can include a column in this table to associate each participant with the its relative position in the neuroimaging data (**path_imaging** ). If provided, the column should be titled "*consecutive_number*". If not provided, it will be assumed that neuroimaging (**path_imaging**) and non-imaging data are presented in the same order.
 1. **group_Design_Table** Path to group design table that indicates which elements of the **demographics_Table** will be used in this analysis. This table also will indicate if each included parameters is a *between* or *within* factor. This table must have the following headers in the presented order:
     - Variable: Column names from the **demographics_Table** that will be used in the analysis. Column names listed in the **demographics_Table** but not included here will be ignored
     - Design: Only option are *between* or *within*

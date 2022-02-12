@@ -6,18 +6,13 @@
     - PNRS
         - Mandatory
         - Optional/Advance options
-- Basic Example
+- Example using functional connectivity
     - Estimating beta-weights
     - Estimating risk
-- Going deeper estimating beta-weights 
-    - Case 1, ignoring covariates
-    - Case 2, including covariates per brain feature
-    - Case 3, removing the effect of covariates before calculating the beta-weights (pre-whitening)
-    - Comparing outputs
-        - ciftis
-        - beta-weights
-        - explained variance
-    - Closing remarks and recomendations
+- Example using cortical thickness
+    - Estimating beta-weights
+    - Estimating risk
+- Exploring outputs
 - Residulizaing imaging data
 - Known issues
 - Comming next

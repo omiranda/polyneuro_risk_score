@@ -14,4 +14,4 @@ pages:
 - Known issues: issues.md
 - Installation and set-up: install_and_setup.md
 - FAQ: FAQ.md
-- Testing html: ./html/Readme_showM.html
+# - Testing html: ./html/Readme_showM.html

@@ -18,5 +18,4 @@
 - Comming next
     - longitudinal analyses
     - Predicting categorical outcomes
-    - for fconn make seed ciftis with sum of weights
 - Installation and set-up

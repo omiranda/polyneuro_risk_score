@@ -4,14 +4,14 @@ plugins:
   - search
 pages:
 - Overview: PolyNeuro_Risk_Scores.md
+- Installation and set-up: install_and_setup.md
 - Detailed specifications for input variables, files and data: detailed_description.md
 - Example using functional connectivity: basic_example.md
 - Example using residualized data: example_using_residuals.md
 - Example using cortical thickness: going_deeper_1.md
 - Exploring outputs: exploring_outputs.md
-- Residualizing imaging data: prewhithening.md
-- Coming next: coming_next.md
+#- Residualizing imaging data: prewhithening.md
 - Known issues: issues.md
-- Installation and set-up: install_and_setup.md
 - FAQ: FAQ.md
+- Coming next: coming_next.md
 # - Testing html: ./html/Readme_showM.html

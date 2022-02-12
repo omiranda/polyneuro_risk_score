@@ -12,8 +12,9 @@ These are positional arguments and need to be provided in this order:
     1. path to a *dot mat* file where the last dimension corresponds to participant index. 
         1. Connectivity matrices: this would correspond to a 3D object of dimensions number of ROIs X number of ROIs x number of participants.
         1. Scalars (such as cortical thickness values): this would correspond to a 2D matrix of dimensions number of ROIs x number of participants.
-    1. path to a csv file with imaging data where the number of columns  corresponds to participant index (**WIP**, still to be validated). No headers
     1. path to a txt file with paths to individual files with neuroimaging data. Each row is the path to the cifti file with imaging data for each participant. The cifti file can be a timeseries (parcellated or dense) or a connectivity matrix. This file should NOT include headers.
+    1. path to a csv file with imaging data where the number of columns  corresponds to participant index (**WIP**, still to be validated). No headers
+
         
 1. **path_demographics_Table**. Path to a [csv file](https://en.wikipedia.org/wiki/Comma-separated_values) containing the demographic and behavioral data to be used in the BWAS. 
 It must have headers. 

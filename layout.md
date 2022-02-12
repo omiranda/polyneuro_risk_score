@@ -1,3 +1,5 @@
+[Link to google docs](https://docs.google.com/document/d/1BeYNaNH1ITZRLiOVYvXqz5pBjUQThot40O_G7BUGItw/edit?usp=sharing)
+
 - Overview. Add eye candy/screenshots
 - Detailed specifications for input data and files
     - BWAS

@@ -21,7 +21,7 @@ Path to neuroimaging data (brain features) for the reference sample. This argume
 Path to a [csv file](https://en.wikipedia.org/wiki/Comma-separated_values) containing the demographic and behavioral data to be used in the BWAS. 
 It must have headers. 
 The header should describe the data included in the demographics file.
-Avoid using spaces and minimize the number of '_' in the name of the header, specially for the first column.
+Avoid using spaces and minimize the number of '_' in the name of the headers, specially for the first column.
 Each row must have the data for each unique participant. 
 The order of each row should match the order of the imaging data (see advanced usage below to skip participants in the imaging data).
 Each column corresponds to the associated data for each participant.

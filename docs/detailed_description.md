@@ -30,14 +30,18 @@ It is okay to use a csv file with additional columns/data since you will define 
 - **Advanced usage**: You can include a column in this table to associate each participant with the its relative position in the neuroimaging data (**path_imaging** ). If provided, the column should have as header the reserved word "*consecutive_number*". If the demographics table does not have a column titled "*consecutive_number*" the code will assume that neuroimaging (**path_imaging**) and non-imaging data are presented in the same order. 
 
 #### 3. **path_dictionary_demographics**. 
-This is a csv file where you define if the data included in the demographics file is numeric or alphanumeric. This file must have headers. The number of rows corresponds to the number of columns included in the demogrpahics file. 
+This is the path to a csv file where you define if the data included in the demographics file is numeric or alphanumeric. This file must have headers. The number of rows corresponds to the number of columns included in the demogrpahics file. 
 
-- **headers**. This file must have the following headers
-    1. Variable_name, mandatory. The rows below must be the headers used in the demographcis file, provided in the same order. Make sure 1) there are no typos and 2) there are no empty spaces at the begining of the text.
+- **headers**. This file must have the following headers:
+    1. Variable_name, mandatory. The rows of this column must be the headers used in the demographcis file, in the same order. Make sure 1) there are no typos and 2) there are no empty spaces at the begining of the text.
     1. Variable_type, mandatory, only allowed values are alphanumeric or numeric.
-    1. Description: WOuld be nice of you indicate what the variable means.
-    1. Range: Expected range in values (it is fine if you provide no info)
-    1. Units: Self-descriptive (it is fine if you provide no info)
+    1. Description, optional. Here you can describe each variable.
+    1. Range, optional. Here you can indicate the expected range in values
+    1. Units, optional. Self-descriptive.
+- Examples:
+    - demographics file
+    - dictionary_demographics
+
 
 #### 4. **group_Design_Table** 
 Path to group design table that indicates which elements of the **demographics_Table** will be used in this analysis. This table also will indicate if each included parameters is a *between* or *within* factor. This table must have the following headers in the presented order:

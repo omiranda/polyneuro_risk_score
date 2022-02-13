@@ -20,6 +20,8 @@ Path to neuroimaging data (brain features) for the reference sample. This argume
 #### 2. **path_demographics_Table**. 
 Path to a [csv file](https://en.wikipedia.org/wiki/Comma-separated_values) containing the demographic and behavioral data to be used in the BWAS. 
 It must have headers. 
+The header should describe the data included in the demographics file.
+Avoid using spaces and minimize the number of '_' in the name of the header, specially for the first column.
 Each row must have the data for each unique participant. 
 The order of each row should match the order of the imaging data (see advanced usage below to skip participants in the imaging data).
 Each column corresponds to the associated data for each participant.
@@ -28,6 +30,13 @@ It is okay to use a csv file with additional columns/data since you will define 
 - **Advanced usage**: You can include a column in this table to associate each participant with the its relative position in the neuroimaging data (**path_imaging** ). If provided, the column should have as header the reserved word "*consecutive_number*". If the demographics table does not have a column titled "*consecutive_number*" the code will assume that neuroimaging (**path_imaging**) and non-imaging data are presented in the same order. 
 
 #### 3. **path_dictionary_demographics**. 
+This is a csv file where you define if the data included in the demographics file is numeric or alphanumeric. This file must have headers. The number of rows corresponds to the number of columns included in the demogrpahics file. 
+- **headers**. This file must have the following headers
+    1. Variable_name, mandatory. The rows below must be the headers used in the demographcis file, provided in the same order. Make sure 1) there are no typos and 2) there are no empty spaces at the begining of the text.
+    1. Variable_type, mandatory, only allowed values are alphanumeric or numeric.
+    1. Description: WOuld be nice of you indicate what the variable means.
+    1. Range: Expected range in values (it is fine if you provide no info)
+    1. Units: Self-descriptive (it is fine if you provide no info)
 
 #### 4. **group_Design_Table** 
 Path to group design table that indicates which elements of the **demographics_Table** will be used in this analysis. This table also will indicate if each included parameters is a *between* or *within* factor. This table must have the following headers in the presented order:

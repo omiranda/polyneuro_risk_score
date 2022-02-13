@@ -57,7 +57,7 @@ This table will also indicate if each included variable is a *between* or *withi
 - **Example**. This is a [**group_Design_Table** file](./detailed_specs/Group_Design_Table.csv)
 
 #### Optional inputs
-- **path_parcellation_table**, path to a Parcel object. If not provided it will use defaults
+- **path_parcellation_table**, path to a Parcel object that assigns each region of interest (ROI) to a given network. It can be provided as a dot mat file ot as a table in csv format.
     - dot mat file with assignemnt of ROIs to functional networks
     - table that assigns ROIs to functional networks. The number of ROIs (column ix, see below) must equal the number of elements of the neuroimaging data (i.e. mandatory input **path_imaging**). This table must be saved as a csv file and must have the following headers in the presented order
         - index

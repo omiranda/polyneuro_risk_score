@@ -68,10 +68,11 @@ It can be provided as a [dot mat](./detailed_specs/HCP_ColeAnticevic.mat) file o
     - R. Number from 0 to 1 to indicate the Red value for the RGB colormap.
     - G. Number from 0 to 1 to indicate the Green value for the RGB colormap.
     - B. Number from 0 to 1 to indicate the Blue value for the RGB colormap.
-- **path_Group_Color_Table**
-- **output_folder**. Path to output folder to save the results. If not provided, it will make in the current path a new folder named output_fconn_anovan
-- **options**
-- **model**
+#### **path_Group_Color_Table**
+#### **output_folder**. 
+Path to output folder to save the results. If not provided, it will make in the current path a new folder named output_fconn_anovan
+#### **options**
+#### **model**
 
 
 

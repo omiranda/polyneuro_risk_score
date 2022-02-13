@@ -28,7 +28,7 @@ Each column corresponds to the associated data for each participant.
 It is okay to use a csv file with additional columns/data since you will define which columns to include in the group design table (**group_Design_Table**, see below). This allows you to re-use demographic tables to test different cases.
 
 - **Advanced usage**: You can include a column in this table to associate each participant with its relative position in the neuroimaging data (**path_imaging** ). If provided, the column should have as header the reserved word "*consecutive_number*". If the demographics table does not have a column titled "*consecutive_number*" the code will assume that neuroimaging (**path_imaging**) and non-imaging data are presented in the same order. 
-- example of a demographics_file.
+- example of a [**demographics_file**](./detailed_specs/demographics_Table.csv)
 
 #### 3. **path_dictionary_demographics**. 
 This is the path to a csv file where you define if the data included in the demographics file is numeric or alphanumeric. This file must have headers. The number of rows corresponds to the number of columns included in the demogrpahics file. 
@@ -40,8 +40,9 @@ This is the path to a csv file where you define if the data included in the demo
     1. Range, optional. Here you can indicate the expected range in values
     1. Units, optional. Self-descriptive.
 - Examples:
-    - demographics file
-    - dictionary_demographics
+    - [**demographics**](./detailed_specs/demographics_Table.csv)
+    - [**dictionary_demographics**](./detailed_specs/Dictionary_for_demographics_Table.csv)
+    
 
 
 #### 4. **group_Design_Table** 

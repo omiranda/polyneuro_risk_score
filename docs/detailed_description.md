@@ -57,17 +57,18 @@ This table will also indicate if each included variable is a *between* or *withi
 - **Example**. This is a [**group_Design_Table** file](./detailed_specs/Group_Design_Table.csv)
 
 #### Optional inputs
-        - **parcel**, Parcel object. If not provided it will use defaults
-            - dot mat file with assignemnt of ROIs to functional networks
-            - table that assigns ROIs to functional networks. The number of ROIs (column ix, see below) must equal the number of elements of the neuroimaging data (i.e. mandatory input **path_imaging**). This table must be saved as a csv file and must have the following headers in the presented order
-                - index
-                - Network name. Network name each ROI belong to.
-                - Newortk short name. Two or three letters' acronym to describe the network this ROI belongs to.
-                - R. Number from 0 to 1 to indicate the Red value for the RGB colormap.
-                - G. Number from 0 to 1 to indicate the Green value for the RGB colormap.
-                - B. Number from 0 to 1 to indicate the Blue value for the RGB colormap.
-        - color group design table. If not provided, colors will be assigned 
-        - options, an structure with the required fields or a dot m  file with the text to define this structure
-        - output_folder. Path to output folder to save the results. If not provided, it will make in the current path a new folder named output_fconn_anovan
+- **parcel**, Parcel object. If not provided it will use defaults
+    - dot mat file with assignemnt of ROIs to functional networks
+    - table that assigns ROIs to functional networks. The number of ROIs (column ix, see below) must equal the number of elements of the neuroimaging data (i.e. mandatory input **path_imaging**). This table must be saved as a csv file and must have the following headers in the presented order
+        - index
+        - Network name. Network name each ROI belong to.
+        - Newortk short name. Two or three letters' acronym to describe the network this ROI belongs to.
+        - R. Number from 0 to 1 to indicate the Red value for the RGB colormap.
+        - G. Number from 0 to 1 to indicate the Green value for the RGB colormap.
+        - B. Number from 0 to 1 to indicate the Blue value for the RGB colormap.
+- color group design table. If not provided, colors will be assigned 
+- options, an structure with the required fields or a dot m  file with the text to define this structure
+- output_folder. Path to output folder to save the results. If not provided, it will make in the current path a new folder named output_fconn_anovan
 
 
+## `run_PBS`

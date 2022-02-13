@@ -7,15 +7,17 @@ This package has 2 main functions: `run_CWAS` and `run_PBS` that are used to cal
 ## `run_CWAS`
 ### Mandatory Inputs 
 These are positional arguments and need to be provided in this order:
-#### What happen if I used this ectra header
-In this section I am testing the effect of adding a new heading
-1. **path_imaging**. Path to neuroimaging data (brain features) for the reference sample. This argument can take as brain features connectivity matrices or scalars (such as cortical thickness values) for each participant. This function can accept the imaging data on any of the following formats:
-    1. path to a *dot mat* file where the last dimension corresponds to participant index. 
-        1. Connectivity matrices: this would correspond to a 3D object of dimensions number of ROIs X number of ROIs x number of participants.
-        1. Scalars (such as cortical thickness values): this would correspond to a 2D matrix of dimensions number of ROIs x number of participants.
-    2. path to a text file with extension txt ("*txt file*") with paths to individual files with neuroimaging data. This file should NOT include headers. Each row is the path to a cifti file with imaging data for each participant. The cifti files can correspond to timeseries (parcellated or dense) or a connectivity matrix. 
-    3. path to a file with extension *csv* ("*csv file*") with imaging data, where the number of columns corresponds to the data from each participant (**WIP**, still to be validated). No headers.   
-1. **path_demographics_Table**. Path to a [csv file](https://en.wikipedia.org/wiki/Comma-separated_values) containing the demographic and behavioral data to be used in the BWAS. 
+
+#### 1. **path_imaging**. 
+Path to neuroimaging data (brain features) for the reference sample. This argument can take as brain features connectivity matrices or scalars (such as cortical thickness values) for each participant. This function can accept the imaging data on any of the following formats:
+1. path to a *dot mat* file where the last dimension corresponds to participant index. 
+    1. Connectivity matrices: this would correspond to a 3D object of dimensions number of ROIs X number of ROIs x number of participants.
+    1. Scalars (such as cortical thickness values): this would correspond to a 2D matrix of dimensions number of ROIs x number of participants.
+2. path to a text file with extension txt ("*txt file*") with paths to individual files with neuroimaging data. This file should NOT include headers. Each row is the path to a cifti file with imaging data for each participant. The cifti files can correspond to timeseries (parcellated or dense) or a connectivity matrix. 
+3. path to a file with extension *csv* ("*csv file*") with imaging data, where the number of columns corresponds to the data from each participant (**WIP**, still to be validated). No headers.   
+
+#### 2. **path_demographics_Table**. 
+Path to a [csv file](https://en.wikipedia.org/wiki/Comma-separated_values) containing the demographic and behavioral data to be used in the BWAS. 
 It must have headers. 
 Each row must have the data for each unique participant. 
 The order of each row should match the order of the imaging data (see advanced usage below to skip participants in the imaging data).

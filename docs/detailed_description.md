@@ -44,16 +44,17 @@ This is the path to a csv file where you define if the data included in the demo
     - [**dictionary_demographics_file**](./detailed_specs/Dictionary_for_demographics_Table.csv)
     
 #### 4. **group_Design_Table** 
-Path to a csv file that will define which elements of the **demographics_Table** will be used in this analysis. 
-This table also will indicate if each included parameters is a *between* or *within* factor. 
+Path to a csv file that defines which elements of the **demographics_Table** will be used in this analysis. 
+This table will also indicate if each included variable is a *between* or *within* factor (*within* factors are ignored in this version). 
 
 - Headers. This table must have the following headers in the presented order:
     - **Variable**: Column names from the **demographics_Table** that will be used in the analysis. Column names listed in the **demographics_Table** but not included here will be ignored
     - **Design**: Only option are *between* or *within*
-The row containing the data to be used as outcome must be labeled with the reserved word **outcome**.
-    
-
-        - You can have the subject id in one of the columns. If you do this, you should use the reserved word *id* for this column. This way the some of the output tables generated using this code will report the subject id for each row/participant. 
+- Valid options for **Design**
+    - **outcome**. The row containing the data to be used as outcome must be labeled with the reserved word **outcome**.
+    - **id**. You can have the subject id in one of the columns of the demographics file. If you do this, you should use the reserved word *id* for this row. This way the some of the output tables generated using this code will report the subject id for each row/participant. 
+    - **between**. Use this reserved word to include covariates in the model. 
+- **Example**. This is a [**group_Design_Table** file](./detailed_specs/Group_Design_Table.csv)
 ### Optional inputs
         - **parcel**, Parcel object. If not provided it will use defaults
             - dot mat file with assignemnt of ROIs to functional networks

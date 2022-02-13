@@ -61,9 +61,9 @@ This table will also indicate if each included variable is a *between* or *withi
 It can be provided as a [dot mat](./detailed_specs/HCP_ColeAnticevic.mat) file ot as a table in [csv format](./detailed_specs/HCP_ColeAnticevic.csv).
     - dot mat file with assignemnt of ROIs to functional networks
     - table that assigns ROIs to functional networks. The number of ROIs (column ix, see below) must equal the number of elements of the neuroimaging data (i.e. mandatory input **path_imaging**). This table must be saved as a csv file and must have the following headers in the presented order
-        - index
-        - Network name. Network name each ROI belong to.
-        - Newortk short name. Two or three letters' acronym to describe the network this ROI belongs to.
+        - ix, index
+        - name, Network name. Network name each ROI belong to.
+        - shortname, Newortk short name. Two or three letters' acronym to describe the network this ROI belongs to.
         - R. Number from 0 to 1 to indicate the Red value for the RGB colormap.
         - G. Number from 0 to 1 to indicate the Green value for the RGB colormap.
         - B. Number from 0 to 1 to indicate the Blue value for the RGB colormap.

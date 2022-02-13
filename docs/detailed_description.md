@@ -24,6 +24,7 @@ Each row must have the data for each unique participant.
 The order of each row should match the order of the imaging data (see advanced usage below to skip participants in the imaging data).
 Each column corresponds to the associated data for each participant.
 It is okay to use a csv file with additional columns/data since you will define which columns to include in the group design table (**group_Design_Table**, see below). This allows you to re-use demographic tables to test different cases.
+
 - **Advanced usage**: You can include a column in this table to associate each participant with the its relative position in the neuroimaging data (**path_imaging** ). If provided, the column should have as header the reserved word "*consecutive_number*". If the demographics table does not have a column titled "*consecutive_number*" the code will assume that neuroimaging (**path_imaging**) and non-imaging data are presented in the same order. 
 #### 3. **path_dictionary_demographics**. 
 

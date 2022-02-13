@@ -31,6 +31,7 @@ It is okay to use a csv file with additional columns/data since you will define 
 
 #### 3. **path_dictionary_demographics**. 
 This is a csv file where you define if the data included in the demographics file is numeric or alphanumeric. This file must have headers. The number of rows corresponds to the number of columns included in the demogrpahics file. 
+
 - **headers**. This file must have the following headers
     1. Variable_name, mandatory. The rows below must be the headers used in the demographcis file, provided in the same order. Make sure 1) there are no typos and 2) there are no empty spaces at the begining of the text.
     1. Variable_type, mandatory, only allowed values are alphanumeric or numeric.

@@ -78,7 +78,7 @@ This is an optional input but it is highly recomended to use it.
 (If used, it will ignore the data provided in the [*group_Design_Table*](#4-groupdesigntable)).
 Here you can explicitly define the model to be used in the BWAS.
 Model must be defined using [Wilkinson notation](https://www.mathworks.com/help/stats/wilkinson-notation.html). 
-This input is text defined the model formatted as follows: `outcome~brain_feature+...1`, where **outcome** and **brain_feature** are reserved words that are used to define the behavioral outcome to be predicted as a function of the imaging data, respectively. Include "1" if you want to include the intercept in the model. YOu can also add covariates that are defined in the *demographics_table*.
+This input is text defined the model formatted as follows: `outcome~brain_feature+...1`, where **outcome** and **brain_feature** are reserved words that are used to define the behavioral outcome to be predicted as a function of the imaging data, respectively. Include "1" if you want to include the intercept in the model. You can also add covariates that are defined in the *demographics_table*.
 
 - Example 1: `outcome~brain_feature`. Here you are only predicting the variable defined as outcome as a function of the imaging data.
 - Example 2: `outcome~brain_feature+FoG+Age_at_session+MDS_UPDRSIII_score+1`. Same as before but controling for `FoG`, `Age_at_session`, and `MDS_UPDRSIII_score`. The model also includes intercept.

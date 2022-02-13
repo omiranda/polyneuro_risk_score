@@ -61,8 +61,8 @@ This table will also indicate if each included variable is a *between* or *withi
 path to a Parcel object that assigns each region of interest (ROI) to a given network. If provided, the code will make Manhattan plots colorcoded by network. 
 It can be provided as a [dot mat](./detailed_specs/HCP_ColeAnticevic.mat) file ot as a table in [csv format](./detailed_specs/HCP_ColeAnticevic.csv).
 
-- dot mat file with assignemnt of ROIs to functional networks
-- table that assigns ROIs to functional networks. The number of ROIs (column ix, see below) must equal the number of elements of the neuroimaging data (i.e. mandatory input **path_imaging**). This table must be saved as a csv file and must have the following headers in the presented order
+- [dot mat](./detailed_specs/HCP_ColeAnticevic.mat) file with assignemnt of ROIs to functional networks
+- [table](./detailed_specs/HCP_ColeAnticevic.csv) that assigns ROIs to functional networks. The number of ROIs (column ix, see below) must equal the number of elements of the neuroimaging data (i.e. mandatory input **path_imaging**). This table must be saved as a csv file and must have the following headers in the presented order
     - ix, index
     - name, Network name. Network name each ROI belong to.
     - shortname, Newortk short name. Two or three letters' acronym to describe the network this ROI belongs to.

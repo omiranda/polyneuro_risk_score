@@ -44,14 +44,15 @@ This is the path to a csv file where you define if the data included in the demo
     - [**dictionary_demographics_file**](./detailed_specs/Dictionary_for_demographics_Table.csv)
     
 #### 4. **group_Design_Table** 
-Path to group design table that indicates which elements of the **demographics_Table** will be used in this analysis. This table also will indicate if each included parameters is a *between* or *within* factor. This table must have the following headers in the presented order:
-    - Variable: Column names from the **demographics_Table** that will be used in the analysis. Column names listed in the **demographics_Table** but not included here will be ignored
-    - Design: Only option are *between* or *within*
-The columnn containing the data to be used as outcome must have as header the reserved word **outcome**.
+Path to a csv file that will define which elements of the **demographics_Table** will be used in this analysis. 
+This table also will indicate if each included parameters is a *between* or *within* factor. 
+
+- Headers. This table must have the following headers in the presented order:
+    - **Variable**: Column names from the **demographics_Table** that will be used in the analysis. Column names listed in the **demographics_Table** but not included here will be ignored
+    - **Design**: Only option are *between* or *within*
+The row containing the data to be used as outcome must be labeled with the reserved word **outcome**.
     
-        - You can use  since the variables that will be included in the analysis
-        . If you do this, you can indicate which columns to include using 
-        -  Such headers will be defined as *between* or *within* factors in the group design table (**group_Design_Table**). 
+
         - You can have the subject id in one of the columns. If you do this, you should use the reserved word *id* for this column. This way the some of the output tables generated using this code will report the subject id for each row/participant. 
 ### Optional inputs
         - **parcel**, Parcel object. If not provided it will use defaults

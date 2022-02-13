@@ -40,8 +40,8 @@ This is the path to a csv file where you define if the data included in the demo
     1. Range, optional. Here you can indicate the expected range in values
     1. Units, optional. Self-descriptive.
 - Examples:
-    - [**demographics**](./detailed_specs/demographics_Table.csv)
-    - [**dictionary_demographics**](./detailed_specs/Dictionary_for_demographics_Table.csv)
+    - [**demographics_file**](./detailed_specs/demographics_Table.csv)
+    - [**dictionary_demographics_file**](./detailed_specs/Dictionary_for_demographics_Table.csv)
     
 
 

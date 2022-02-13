@@ -4,13 +4,13 @@ Repo locarrobaion: `https://gitlab.com/Fair_lab/polyneuro_risk_score.git`
 
 Development team:
 
-- Oscar Miranda-Domínguez (miran045 arroba umn.edu), main developer.
-- Damien Fair (faird arroba umn.edu), consultant.
-- Eric Fezcko (feczk001 arroba umn.edu), consultant.
-- Greg Conan (gconan arroba umn.edu), Marrobalab's stand alone executables.
-- Cristian Morales Carrasco (moral453 arroba umn.edu), container.
-- Nora Byington  (bying015 arroba umn.edu), beta-tester.
-- Gracie Grimsrud  (grims090 arroba umn.edu), beta-tester.
-- Amandine Marie Van Rinsveld  (avrinsve arroba stanford.edu), beta-tester.
-- Dakota Kliamovich  (kliamovi arroba ohsu.edu), beta-tester.
-- Elina Thomas  (Elina.Thomas arroba uvm.edu), beta-tester.
+- Oscar Miranda-Domínguez (miran045 arroba umn dot edu), main developer.
+- Damien Fair (faird arroba umn dot edu), consultant.
+- Eric Fezcko (feczk001 arroba umn dot edu), consultant.
+- Greg Conan (gconan arroba umn dot edu), Marrobalab's stand alone executables.
+- Cristian Morales Carrasco (moral453 arroba umn dot edu), container.
+- Nora Byington  (bying015 arroba umn dot edu), beta-tester.
+- Gracie Grimsrud  (grims090 arroba umn dot edu), beta-tester.
+- Amandine Marie Van Rinsveld  (avrinsve arroba stanford dot edu), beta-tester.
+- Dakota Kliamovich  (kliamovi arroba ohsu dot edu), beta-tester.
+- Elina Thomas  (Elina.Thomas arroba uvm dot edu), beta-tester.

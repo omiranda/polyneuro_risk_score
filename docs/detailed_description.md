@@ -95,6 +95,7 @@ These are positional arguments and need to be provided in this order:
 Same as defined for [**path_imaging_reference**](#1-pathimagingreference). 
 
 #### 2. **path_betaweights**
+Here you provide the path to the table containg the \\( \beta\\)-weights calculated by `run_CWAS`.
 #### 3. **path_Rsquared**
 
 ### Optional inputs

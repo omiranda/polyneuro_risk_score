@@ -74,8 +74,6 @@ It can be provided as a [dot mat](./detailed_specs/HCP_ColeAnticevic.mat) file o
 If not provided, colors will be assigned 
 #### **output_folder**. 
 Path to output folder to save the results. If not provided, it will make in the current path a new folder named output_fconn_anovan
-#### **options**
-an structure with the required fields or a dot m  file with the text to define this structure
 #### **model**
 This is an optional input but it is highly recomended to use it.
 (If used, it will ignore the data provided in the [*group_Design_Table*](#4-groupdesigntable)).
@@ -85,5 +83,6 @@ This input is text defined the model formatted as follows: `outcome~brain_featur
 
 - Example 1: `outcome~brain_feature`. Here you are only predicting the variable defined as outcome as a function of the imaging data.
 - Example 2: `outcome~brain_feature+FoG+Age_at_session+MDS_UPDRSIII_score+1`. Same as before but controling for `FoG`, `Age_at_session`, and `MDS_UPDRSIII_score`. The model also includes intercept.
-
+#### **options**
+an structure with the required fields or a dot m  file with the text to define this structure
 ## `run_PBS`

@@ -78,14 +78,14 @@ If provided, the table needs to be saved as a csv file and have 4 columns titled
 Define the path to save the results. If not provided, the function will make a folder named *BWAS* in the location where the function is called and it will save the results there.
 
 #### **model**
-This is an optional input but it is highly recomended to use it.
-(If used, it will ignore the data provided in the [*group_Design_Table*](#4-groupdesigntable)).
-Here you can explicitly define the model to be used in the BWAS.
-Model must be defined using [Wilkinson notation](https://www.mathworks.com/help/stats/wilkinson-notation.html). 
-This input is text defined the model formatted as follows: `outcome~brain_feature+...1`, where **outcome** and **brain_feature** are reserved words that are used to define the behavioral outcome to be predicted as a function of the imaging data, respectively. Include "1" if you want to include the intercept in the model. You can also add covariates that are defined in the *demographics_table*.
-
-- Example 1: `outcome~brain_feature`. Here you are only predicting the variable defined as outcome as a function of the imaging data.
-- Example 2: `outcome~brain_feature+FoG+Age_at_session+MDS_UPDRSIII_score+1`. Same as before but controling for `FoG`, `Age_at_session`, and `MDS_UPDRSIII_score`. The model also includes intercept.
+This is an optional input but it is **highly recomended** to use it.
+Using this argument, you can explicitly define the model to be used in the BWAS.
+If provided, the function will ignore the model defined by the [*group_Design_Table*](#4-groupdesigntable).
+The Model must be defined using [Wilkinson notation](https://www.mathworks.com/help/stats/wilkinson-notation.html). 
+This input is text defining the model and needs to be formatted as follows: `outcome~brain_feature+...1`, where **outcome** needs to be replaces with the variable to be modeled and **brain_feature** is a reserved words to indicate dependance on the provided imaging data. You can add covariates, if they where provided in the *demographics_table*. 
+Include "1" if you want to include the intercept in the model. 
+- Example 1: `lutein_PCA1~brain_feature`. Here you are modeling `lutein_PCA1` as a function of the provided imaging data (`brain_feature`). Notice that `lutein_PCA1` should be data provided in the *demographics_table*.
+- Example 2: `Delta_DTCgaitspeed~brain_feature+FoG+Age_at_session+MDS_UPDRSIII_score+1`. Here you are modeling `Delta_DTCgaitspeed` as a function of the provided imaging data (`brain_feature`). This model includes **intercept** and controls for `FoG`, `Age_at_session`, and `MDS_UPDRSIII_score`. 
 #### **options**
 an structure with the required fields or a dot m  file with the text to define this structure
 ## `run_PBS`

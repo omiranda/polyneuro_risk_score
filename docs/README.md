@@ -1,6 +1,6 @@
 This page details the steps to set up the code to estimarrobae polyneuro risk scores (written by ).
 
-Repo locarrobaion: `https://gitlab.com/Fair_lab/polyneuro_risk_score.git`
+Repo location: `https://gitlab.com/Fair_lab/polyneuro_risk_score.git`
 
 Development team:
 

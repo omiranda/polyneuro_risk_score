@@ -92,7 +92,7 @@ This input is text defining the model and needs to be formatted as follows: `out
 These are positional arguments and need to be provided in this order:
 
 #### 1. **path_imaging_target**
-Same as defined for [**path_imaging_reference**](#1-pathimagingreference).
+Same as defined for [**path_imaging_reference**](#1-pathimagingreference). 
 
 #### 2. **path_betaweights**
 #### 3. **path_Rsquared**

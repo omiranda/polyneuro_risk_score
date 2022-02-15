@@ -58,7 +58,7 @@ This table will also indicate if each included variable is a *between* or *withi
 
 ### Optional inputs
 #### **path_parcellation_table**
-path to a Parcel object that assigns each region of interest (ROI) to a given network. If provided, the code will make Manhattan plots colorcoded by network. 
+Path to a Parcel object that assigns each region of interest (ROI) to a given network. If provided, the code will make Manhattan plots colorcoded by network. 
 It can be provided as a [dot mat](./detailed_specs/HCP_ColeAnticevic.mat) file ot as a table in [csv format](./detailed_specs/HCP_ColeAnticevic.csv).
 
 - [dot mat](./detailed_specs/HCP_ColeAnticevic.mat) file with assignemnt of ROIs to functional networks
@@ -69,11 +69,13 @@ It can be provided as a [dot mat](./detailed_specs/HCP_ColeAnticevic.mat) file o
     - R. Number from 0 to 1 to indicate the Red value for the RGB colormap.
     - G. Number from 0 to 1 to indicate the Green value for the RGB colormap.
     - B. Number from 0 to 1 to indicate the Blue value for the RGB colormap.
-#### **path_Group_Color_Table**
 
+#### **path_Group_Color_Table**
 If not provided, colors will be assigned 
+
 #### **output_folder**. 
-Path to output folder to save the results. If not provided, it will make in the current path a new folder named output_fconn_anovan
+Define the path to save the results. If not provided, the function will make a folder named *BWAS* in the location where the function is called and it will save the results there.
+
 #### **model**
 This is an optional input but it is highly recomended to use it.
 (If used, it will ignore the data provided in the [*group_Design_Table*](#4-groupdesigntable)).

@@ -72,7 +72,7 @@ It can be provided as a [dot mat](./detailed_specs/HCP_ColeAnticevic.mat) file o
 
 #### **path_Group_Color_Table**
 This optional argument corresponds to a table with colors for categorical variables included as covariates. Those colors are used to colorcode subjects in scatter plots. If not provided, colors will be auto-assigned.
-If provided, the table needs to be saved as a csv file and have 4 columns, titled: *subgroup*, *R*, *G*, and *B*. To add color for a variable, list the name of the variable, and include the corresponding color in RGB scale (0-1), as indicated in this [example](./detailed_specs/Group_Color_Table.csv). 
+If provided, the table needs to be saved as a csv file and have 4 columns titled: *subgroup*, *R*, *G*, and *B*. To add color for a variable, list the name of the variable, and include the corresponding color in RGB scale (0-1), as indicated in this [example](./detailed_specs/Group_Color_Table.csv). 
 
 #### **output_folder**. 
 Define the path to save the results. If not provided, the function will make a folder named *BWAS* in the location where the function is called and it will save the results there.

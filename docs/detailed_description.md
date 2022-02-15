@@ -4,11 +4,11 @@
 
 This package has 2 main functions: `run_CWAS` and `run_PBS` that are used to calculate the \\( \beta\\)-weights and to predict the corresponding brain-derived behavioral scores (or PoyNeuro Risk scores, PNRS), respectively (To note, some of the inputs are compatible with the inputs used in the toolboxes [*fconn_regression*](https://fconn-regression.readthedocs.io/en/latest/) and [*fconn_anova*](https://fconn-anova.readthedocs.io/en/latest/)).
 
-## `run_CWAS`.
-### Mandatory Inputs.
+## `run_CWAS`
+### Mandatory Inputs
 These are positional arguments and need to be provided in this order:
 
-#### 1. **path_imaging**. 
+#### 1. **path_imaging_reference**
 Path to neuroimaging data (brain features) for the reference sample. This argument can take as brain features connectivity matrices or scalars (such as cortical thickness values) for each participant. This function can accept the imaging data on any of the following formats:
 
 1. path to a *dot mat* file where the last dimension corresponds to participant index. 
@@ -17,7 +17,7 @@ Path to neuroimaging data (brain features) for the reference sample. This argume
 2. path to a text file with extension txt ("*txt file*") with paths to individual files with neuroimaging data. This file should NOT include headers. Each row is the path to a cifti file with imaging data for each participant. The cifti files can correspond to timeseries (parcellated or dense) or a connectivity matrix. 
 3. path to a file with extension *csv* ("*csv file*") with imaging data, where the number of columns corresponds to the data from each participant (**WIP**, still to be validated). No headers.   
 
-#### 2. **path_demographics_Table**. 
+#### 2. **path_demographics_Table_reference**
 Path to a [csv file](https://en.wikipedia.org/wiki/Comma-separated_values) containing the demographic and behavioral data to be used in the BWAS. 
 It must have headers. 
 The header should describe the data included in the demographics file.
@@ -30,7 +30,7 @@ It is okay to use a csv file with additional columns/data since you will define 
 - **Advanced usage**: You can include a column in this table to associate each participant with its relative position in the neuroimaging data (**path_imaging** ). If provided, the column should have as header the reserved word "*consecutive_number*". If the demographics table does not have a column titled "*consecutive_number*" the code will assume that neuroimaging (**path_imaging**) and non-imaging data are presented in the same order. 
 - example of a [**demographics_file**](./detailed_specs/demographics_Table.csv)
 
-#### 3. **path_dictionary_demographics**. 
+#### 3. **path_dictionary_demographics_reference**
 This is the path to a csv file where you define if the data included in the demographics file is numeric or alphanumeric. This file must have headers. The number of rows corresponds to the number of columns included in the demogrpahics file. 
 
 - **headers**. This file must have the following headers:
@@ -43,8 +43,8 @@ This is the path to a csv file where you define if the data included in the demo
     - [**demographics_file**](./detailed_specs/demographics_Table.csv)
     - [**dictionary_demographics_file**](./detailed_specs/Dictionary_for_demographics_Table.csv)
     
-#### 4. **group_Design_Table**.
-Path to a csv file that defines which elements of the **demographics_Table** will be used in this analysis. 
+#### 4. **group_Design_Table_reference**
+Path to a csv file that defines which elements of the **demographics_Table_reference** will be used in this analysis. 
 This table will also indicate if each included variable is a *between* or *within* factor (*within* factors are ignored in this version). 
 
 - Headers. This table must have the following headers in the presented order:
@@ -56,7 +56,7 @@ This table will also indicate if each included variable is a *between* or *withi
     - **between**. Use this reserved word to include covariates in the model. 
 - **Example**. This is a [**group_Design_Table** file](./detailed_specs/Group_Design_Table.csv)
 
-### Optional inputs.
+### Optional inputs
 #### **path_parcellation_table**
 Path to a Parcel object that assigns each region of interest (ROI) to a given network. If provided, the code will make Manhattan plots colorcoded by network. 
 It can be provided as a [dot mat](./detailed_specs/HCP_ColeAnticevic.mat) file ot as a table in [csv format](./detailed_specs/HCP_ColeAnticevic.csv).
@@ -70,14 +70,14 @@ It can be provided as a [dot mat](./detailed_specs/HCP_ColeAnticevic.mat) file o
     - G. Number from 0 to 1 to indicate the Green value for the RGB colormap.
     - B. Number from 0 to 1 to indicate the Blue value for the RGB colormap.
 
-#### **path_Group_Color_Table**.
+#### **path_Group_Color_Table**
 This optional argument corresponds to a table with colors for categorical variables included as covariates. Those colors are used to colorcode subjects in scatter plots. If not provided, colors will be auto-assigned.
 If provided, the table needs to be saved as a csv file and have 4 columns titled: *subgroup*, *R*, *G*, and *B*. To add color for a variable, list the name of the variable, and include the corresponding color in RGB scale (0-1), as indicated in this [example](./detailed_specs/Group_Color_Table.csv). 
 
-#### **output_folder**. 
+#### **output_folder_reference**
 Define the path to save the results. If not provided, the function will make a folder named *BWAS* in the location where the function is called and it will save the results there.
 
-#### **model**.
+#### **model**
 This is an optional input but it is **highly recomended** to use it.
 Using this argument, you can explicitly define the model to be used in the BWAS.
 If provided, the function will ignore the model defined by the [*group_Design_Table*](#4-groupdesigntable).
@@ -88,19 +88,20 @@ This input is text defining the model and needs to be formatted as follows: `out
 - Example 2: `Delta_DTCgaitspeed~brain_feature+FoG+Age_at_session+MDS_UPDRSIII_score+1`. Here you are modeling `Delta_DTCgaitspeed` as a function of the provided imaging data (`brain_feature`). This model includes **intercept** and controls for `FoG`, `Age_at_session`, and `MDS_UPDRSIII_score`. 
 
 ## `run_PBS`
-### Mandatory Inputs.
+### Mandatory Inputs
 These are positional arguments and need to be provided in this order:
 
-#### 1. **path_imaging**. 
+#### 1. **path_imaging_target**
+[as](.)
 
-### 2. **path_betaweights**.
-### 3. **path_Rsquared**.
+### 2. **path_betaweights**
+### 3. **path_Rsquared**
 
 ### Optional inputs
-#### **path_Group_Color_Table**.
-#### **output_folder**.
-#### **path_demographics_Table**.
-#### **path_dictionary_demographics_Table**.
-#### **path_group_Design_Table**.
-#### **path_parcellation_table**.
-#### **path_reference_table_by_networks**.
+#### **path_Group_Color_Table_target**
+#### **output_folder_target**
+#### **path_demographics_Table_target**
+#### **path_dictionary_demographics_Table_target**
+#### **path_group_Design_Table_target**
+#### **path_parcellation_table_target**
+#### **path_reference_table_by_networks**

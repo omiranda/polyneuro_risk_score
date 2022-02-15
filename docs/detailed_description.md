@@ -94,10 +94,11 @@ These are positional arguments and need to be provided in this order:
 #### 1. **path_imaging_target**
 Same as defined for [**path_imaging_reference**](#1-pathimagingreference).
 
-### 2. **path_betaweights**
-### 3. **path_Rsquared**
+#### 2. **path_betaweights**
+#### 3. **path_Rsquared**
 
 ### Optional inputs
+
 #### **path_Group_Color_Table_target**
 #### **output_folder_target**
 #### **path_demographics_Table_target**

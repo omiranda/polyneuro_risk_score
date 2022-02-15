@@ -4,8 +4,8 @@
 
 This package has 2 main functions: `run_CWAS` and `run_PBS` that are used to calculate the \\( \beta\\)-weights and to predict the corresponding brain-derived behavioral scores (or PoyNeuro Risk scores, PNRS), respectively (To note, some of the inputs are compatible with the inputs used in the toolboxes [*fconn_regression*](https://fconn-regression.readthedocs.io/en/latest/) and [*fconn_anova*](https://fconn-anova.readthedocs.io/en/latest/)).
 
-## `run_CWAS`
-### Mandatory Inputs 
+## `run_CWAS`.
+### Mandatory Inputs.
 These are positional arguments and need to be provided in this order:
 
 #### 1. **path_imaging**. 
@@ -43,7 +43,7 @@ This is the path to a csv file where you define if the data included in the demo
     - [**demographics_file**](./detailed_specs/demographics_Table.csv)
     - [**dictionary_demographics_file**](./detailed_specs/Dictionary_for_demographics_Table.csv)
     
-#### 4. **group_Design_Table** 
+#### 4. **group_Design_Table**.
 Path to a csv file that defines which elements of the **demographics_Table** will be used in this analysis. 
 This table will also indicate if each included variable is a *between* or *within* factor (*within* factors are ignored in this version). 
 
@@ -56,7 +56,7 @@ This table will also indicate if each included variable is a *between* or *withi
     - **between**. Use this reserved word to include covariates in the model. 
 - **Example**. This is a [**group_Design_Table** file](./detailed_specs/Group_Design_Table.csv)
 
-### Optional inputs
+### Optional inputs.
 #### **path_parcellation_table**
 Path to a Parcel object that assigns each region of interest (ROI) to a given network. If provided, the code will make Manhattan plots colorcoded by network. 
 It can be provided as a [dot mat](./detailed_specs/HCP_ColeAnticevic.mat) file ot as a table in [csv format](./detailed_specs/HCP_ColeAnticevic.csv).
@@ -70,14 +70,14 @@ It can be provided as a [dot mat](./detailed_specs/HCP_ColeAnticevic.mat) file o
     - G. Number from 0 to 1 to indicate the Green value for the RGB colormap.
     - B. Number from 0 to 1 to indicate the Blue value for the RGB colormap.
 
-#### **path_Group_Color_Table**
+#### **path_Group_Color_Table**.
 This optional argument corresponds to a table with colors for categorical variables included as covariates. Those colors are used to colorcode subjects in scatter plots. If not provided, colors will be auto-assigned.
 If provided, the table needs to be saved as a csv file and have 4 columns titled: *subgroup*, *R*, *G*, and *B*. To add color for a variable, list the name of the variable, and include the corresponding color in RGB scale (0-1), as indicated in this [example](./detailed_specs/Group_Color_Table.csv). 
 
 #### **output_folder**. 
 Define the path to save the results. If not provided, the function will make a folder named *BWAS* in the location where the function is called and it will save the results there.
 
-#### **model**
+#### **model**.
 This is an optional input but it is **highly recomended** to use it.
 Using this argument, you can explicitly define the model to be used in the BWAS.
 If provided, the function will ignore the model defined by the [*group_Design_Table*](#4-groupdesigntable).
@@ -86,6 +86,21 @@ This input is text defining the model and needs to be formatted as follows: `out
 
 - Example 1: `lutein_PCA1~brain_feature`. Here you are modeling `lutein_PCA1` as a function of the provided imaging data (`brain_feature`). Notice that `lutein_PCA1` should be data provided in the *demographics_table*.
 - Example 2: `Delta_DTCgaitspeed~brain_feature+FoG+Age_at_session+MDS_UPDRSIII_score+1`. Here you are modeling `Delta_DTCgaitspeed` as a function of the provided imaging data (`brain_feature`). This model includes **intercept** and controls for `FoG`, `Age_at_session`, and `MDS_UPDRSIII_score`. 
-#### **options**
-an structure with the required fields or a dot m  file with the text to define this structure
+
 ## `run_PBS`
+### Mandatory Inputs.
+These are positional arguments and need to be provided in this order:
+
+#### 1. **path_imaging**. 
+
+### 2. **path_betaweights**.
+### 3. **path_Rsquared**.
+
+### Optional inputs
+#### **path_Group_Color_Table**.
+#### **output_folder**.
+#### **path_demographics_Table**.
+#### **path_dictionary_demographics_Table**.
+#### **path_group_Design_Table**.
+#### **path_parcellation_table**.
+#### **path_reference_table_by_networks**.

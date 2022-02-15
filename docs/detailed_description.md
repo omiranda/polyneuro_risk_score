@@ -71,7 +71,7 @@ It can be provided as a [dot mat](./detailed_specs/HCP_ColeAnticevic.mat) file o
     - B. Number from 0 to 1 to indicate the Blue value for the RGB colormap.
 
 #### **path_Group_Color_Table**
-If not provided, colors will be assigned 
+This optional argument corresponds to a table with colors for categorical variables used as covariates. Those colors are used to colorcode subjects in scatter plots. If not provided, colors will be auto-assigned. 
 
 #### **output_folder**. 
 Define the path to save the results. If not provided, the function will make a folder named *BWAS* in the location where the function is called and it will save the results there.

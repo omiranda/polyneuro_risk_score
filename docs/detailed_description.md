@@ -95,9 +95,9 @@ These are positional arguments and need to be provided in this order:
 Same as defined for [**path_imaging_reference**](#1-pathimagingreference). 
 
 #### 2. **path_betaweights**
-Here you provide the path to the table containg the \\( \beta\\)-weights calculated by `run_CWAS`.
+Here you provide the path to the table containg the \\( \beta\\)-weights calculated by the function `run_CWAS`. The path to this table is `*output_folder_reference/tables/brain_feature.csv'`
 #### 3. **path_Rsquared**
-
+Here you provide the path to the table containg the explained variance by each brain feature. This table is calculated by the function `run_CWAS`. The path to this table is `*output_folder_reference/tables/Rsquared.csv'`
 ### Optional inputs
 
 #### **path_Group_Color_Table_target**

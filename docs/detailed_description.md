@@ -108,7 +108,7 @@ Same as defined for [path_demographics_Table_reference](#2-pathdemographicstable
 #### **path_dictionary_demographics_Table_target**
 Same as defined for [path_dictionary_demographics_reference](#3-pathdictionarydemographicsreference)
 #### **path_group_Design_Table_target**
-Same as defined for [group_Design_Table_reference](#4-groupdesigntablereference). Predicted scores by the function `run_PBS` will be compered with the data in the *demographics_Table_target* labeled as *outcome* in this file. 
+Same as defined for [group_Design_Table_reference](#4-groupdesigntablereference). This table is used to indicate which column from the *demographics_Table_target* will be used to compare with the predicted brain scores calculated by the function `run_PBS`.  This selection is done by labeling the column of interest with the reserved word *outcome*. 
 #### **path_parcellation_table_target**
 Same as defined for [path_parcellation_table](#pathparcellationtable)
 #### **path_reference_table_by_networks**

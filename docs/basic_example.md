@@ -31,7 +31,6 @@ Once you have opened Matlab and added to your session the path to the repo, defi
                             output_folder_BWAS = '/home/example1/BWAS';
                         path_parcellation_table= '/home/example1/input_data/parcel.mat';
                path_Group_Color_Table_reference= '/home/example1/input_data/Group_Color_Table.csv';
-                        model='lutein_PCA1 ~ brain_feature+Diet+betacarotene_PCA1+1';
                         model='lutein_PCA1 ~ brain_feature-1';
 ```
 
@@ -47,6 +46,7 @@ run_CWAS (path_imaging_reference,...
     'path_parcellation_table',path_parcellation_table) 
 ```
 
+Bonus: Consider reruning the code using the following model `model='lutein_PCA1 ~ brain_feature+Diet+betacarotene_PCA1+1`, i.e., adding the intersect and controlling for the variables *Diet* and *betacarotene_PCA1*.
 
 ### Runing the code using the container
 

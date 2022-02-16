@@ -17,9 +17,10 @@ In this example we'll run a BWAS analysis using functional connectivity as brain
         - [Group_Color_Table_reference](./example1/)
 
 ## BWAS: Estimating beta-weights
-asas sasad ad ad 
+The first part of the analysis is to calculate the \\( \beta\\)-weights. This section describes how to do it using Matlab and also using the container.
+
 ### Runing the code using Matlab
-Once you have opened Matlab and added to your session the path to the repo, 
+Once you have opened Matlab and added to your session the path to the repo, define the input arguments:
 
 ```Matlab
                         path_imaging_reference = '/home/example1/input_data/fconn.mat';
@@ -33,7 +34,7 @@ Once you have opened Matlab and added to your session the path to the repo,
                         model='lutein_PCA1 ~ brain_feature-1';
 ```
 
-Now, you can call the function
+Now, you can call the function as follows:
 
 ```Matlab
 run_CWAS (path_imaging_reference,...

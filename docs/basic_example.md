@@ -7,6 +7,18 @@ In this example we'll run a BWAS analysis using functional connectivity as brain
 
 - This is a toy example that uses a reduced sample to ilustrate the functionality of the toolbox
 - The same dataset is used to calculate the models and to predict scores. You should not do this in a real project.
+- In this example we will assume that you have downloaded the data in the folder `/home/example1/input_data/`
+- Here is the input data you will need to run this example:
+        - [imaging_reference]()
+        - [demographics_Table_reference]()
+        - [dictionary_demographics_Table_reference]()
+        - [group_Design_Table_reference]()
+        - [parcellation_table]()
+        - [Group_Color_Table_reference]()
+        - []()
+        - []()
+        - []()
+        - []()
 
 
 ## BWAS: Estimating beta-weights
@@ -15,13 +27,13 @@ asas sasad ad ad
 Once you have opened Matlab and added to your session the path to the repo, 
 
 ```Matlab
-                        path_imaging_reference = '/panfs/roc/groups/8/faird/shared/code/stable/utilities/BWAS_PNRS_package/v2/codebase/polyneuro_risk_score/data/xsectional_1_outcome_fconn/fconn.mat';
-             path_demographics_Table_reference = '/panfs/roc/groups/8/faird/shared/code/stable/utilities/BWAS_PNRS_package/v2/codebase/polyneuro_risk_score/data/xsectional_1_outcome_fconn/demographcis_Table.csv';
-  path_dictionary_demographics_Table_reference = '/panfs/roc/groups/8/faird/shared/code/stable/utilities/BWAS_PNRS_package/v2/codebase/polyneuro_risk_score/data/xsectional_1_outcome_fconn/Dictionary_for_demographics_Table.csv';
-             path_group_Design_Table_reference = '/panfs/roc/groups/8/faird/shared/code/stable/utilities/BWAS_PNRS_package/v2/codebase/polyneuro_risk_score/data/xsectional_1_outcome_fconn/Group_Design_Table.csv';
+                        path_imaging_reference = '/home/example1/input_data/fconn.mat';
+             path_demographics_Table_reference = '/home/example1/input_data/demographcis_Table.csv';
+  path_dictionary_demographics_Table_reference = '/home/example1/input_data/Dictionary_for_demographics_Table.csv';
+             path_group_Design_Table_reference = '/home/example1/input_data/Group_Design_Table.csv';
                             output_folder_BWAS = '/panfs/roc/groups/4/miran045/shared/projects/polyneuro_risk_score/experiments/toolbox_tutorial/example1/BWAS';
-                        path_parcellation_table= '/panfs/roc/groups/8/faird/shared/code/stable/utilities/BWAS_PNRS_package/v2/codebase/polyneuro_risk_score/data/xsectional_1_outcome_fconn/parcel.mat';
-               path_Group_Color_Table_reference= '/panfs/roc/groups/8/faird/shared/code/stable/utilities/BWAS_PNRS_package/v2/codebase/polyneuro_risk_score/data/xsectional_1_outcome_fconn/Group_Color_Table.csv';
+                        path_parcellation_table= '/home/example1/input_data/parcel.mat';
+               path_Group_Color_Table_reference= '/home/example1/input_data/Group_Color_Table.csv';
                         model='lutein_PCA1 ~ brain_feature+Diet+betacarotene_PCA1+1';
                         model='lutein_PCA1 ~ brain_feature-1';
 ```
@@ -46,9 +58,9 @@ run_CWAS (path_imaging_reference,...
 ### Runing the code using Matlab
 
 ```Matlab
-path_imaging_target = '/panfs/roc/groups/8/faird/shared/code/stable/utilities/BWAS_PNRS_package/v2/codebase/polyneuro_risk_score/data/xsectional_1_outcome_fconn/fconn.mat';
-path_demographics_Table_target = '/panfs/roc/groups/8/faird/shared/code/stable/utilities/BWAS_PNRS_package/v2/codebase/polyneuro_risk_score/data/xsectional_1_outcome_fconn/demographcis_Table.csv';
-path_dictionary_demographics_Table_target = '/panfs/roc/groups/8/faird/shared/code/stable/utilities/BWAS_PNRS_package/v2/codebase/polyneuro_risk_score/data/xsectional_1_outcome_fconn/Dictionary_for_demographics_Table.csv';
+path_imaging_target = '/home/example1/input_data/fconn.mat';
+path_demographics_Table_target = '/home/example1/input_data/demographcis_Table.csv';
+path_dictionary_demographics_Table_target = '/home/example1/input_data/Dictionary_for_demographics_Table.csv';
 
 
 path_betaweights = '/panfs/roc/groups/4/miran045/shared/projects/polyneuro_risk_score/experiments/toolbox_tutorial/example1/BWAS/tables/brain_feature.csv';
@@ -56,8 +68,8 @@ path_Rsquared = '/panfs/roc/groups/4/miran045/shared/projects/polyneuro_risk_sco
 path_reference_table_by_networks= '/panfs/roc/groups/4/miran045/shared/projects/polyneuro_risk_score/experiments/toolbox_tutorial/example1/BWAS/tables/correlations_by_networks.csv';
 
 output_folder_PNS = '/panfs/roc/groups/4/miran045/shared/projects/polyneuro_risk_score/experiments/toolbox_tutorial/example1/PNRS';
-path_group_Design_Table_target = '/panfs/roc/groups/8/faird/shared/code/stable/utilities/BWAS_PNRS_package/v2/codebase/polyneuro_risk_score/data/xsectional_1_outcome_fconn/Group_Design_Table.csv';
-path_Group_Color_Table_target = '/panfs/roc/groups/8/faird/shared/code/stable/utilities/BWAS_PNRS_package/v2/codebase/polyneuro_risk_score/data/xsectional_1_outcome_fconn/Group_Color_Table.csv';
+path_group_Design_Table_target = '/home/example1/input_data/Group_Design_Table.csv';
+path_Group_Color_Table_target = '/home/example1/input_data/Group_Color_Table.csv';
 ```
 
 ```Matlab

@@ -70,10 +70,6 @@ It can be provided as a [dot mat](./detailed_specs/HCP_ColeAnticevic.mat) file o
     - G. Number from 0 to 1 to indicate the Green value for the RGB colormap.
     - B. Number from 0 to 1 to indicate the Blue value for the RGB colormap.
 
-#### **path_Group_Color_Table**
-This optional argument corresponds to a table with colors for categorical variables included as covariates. Those colors are used to colorcode subjects in scatter plots. If not provided, colors will be auto-assigned.
-If provided, the table needs to be saved as a csv file and have 4 columns titled: *subgroup*, *R*, *G*, and *B*. To add color for a variable, list the name of the variable, and include the corresponding color in RGB scale (0-1), as indicated in this [example](./detailed_specs/Group_Color_Table.csv). 
-
 #### **output_folder_reference**
 Define the path to save the results. If not provided, the function will make a folder named *BWAS* in the location where the function is called and it will save the results there.
 
@@ -95,15 +91,24 @@ These are positional arguments and need to be provided in this order:
 Same as defined for [**path_imaging_reference**](#1-pathimagingreference). 
 
 #### 2. **path_betaweights**
-Here you provide the path to the table containg the \\( \beta\\)-weights calculated by the function `run_CWAS`. The path to this table is `*output_folder_reference/tables/brain_feature.csv'`
+Here you provide the path to the table containg the \\( \beta\\)-weights calculated by the function `run_CWAS`. The path to this table is `output_folder_reference/tables/brain_feature.csv'`
 #### 3. **path_Rsquared**
-Here you provide the path to the table containg the explained variance by each brain feature. This table is calculated by the function `run_CWAS`. The path to this table is `*output_folder_reference/tables/Rsquared.csv'`
+Here you provide the path to the table containg the explained variance by each brain feature. This table is calculated by the function `run_CWAS`. The path to this table is `output_folder_reference/tables/Rsquared.csv'`
 ### Optional inputs
 
-#### **path_Group_Color_Table_target**
+#### **path_Group_Color_Table**
+This optional argument corresponds to a table with colors for categorical variables included as covariates. Those colors are used to colorcode subjects in scatter plots. If not provided, colors will be auto-assigned.
+If provided, the table needs to be saved as a csv file and have 4 columns titled: *subgroup*, *R*, *G*, and *B*. To add color for a variable, list the name of the variable, and include the corresponding color in RGB scale (0-1), as indicated in this [example](./detailed_specs/Group_Color_Table.csv). 
+
 #### **output_folder_target**
+Define the path to save the results. If not provided, the function will make a folder named *PBS* in the location where the function is called and it will save the results there.
+
 #### **path_demographics_Table_target**
+Same as defined for [path_demographics_Table_reference](#2-pathdemographicstablereference)
 #### **path_dictionary_demographics_Table_target**
+Same as defined for [path_dictionary_demographics_reference](#3-pathdictionarydemographicsreference)
 #### **path_group_Design_Table_target**
+Same as defined for [group_Design_Table_reference](#4-groupdesigntablereference). Predicted scores by the function `run_PBS` will be compered with the data in the *demographics_Table_target* labeled as *outcome* in this file. 
 #### **path_parcellation_table_target**
+Same as defined for [path_parcellation_table](#pathparcellationtable)
 #### **path_reference_table_by_networks**

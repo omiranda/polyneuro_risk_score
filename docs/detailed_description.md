@@ -112,3 +112,4 @@ Same as defined for [group_Design_Table_reference](#4-groupdesigntablereference)
 #### **path_parcellation_table_target**
 Same as defined for [path_parcellation_table](#pathparcellationtable)
 #### **path_reference_table_by_networks**
+This table is created by the function `run_CWAS` when a parcellation table is provided. This table reports how much variance is predicted using within-sample. When provided to the function `run_PBS` it will calculate and combined scores in the target sample following the order provided by this table. The path to this table is `output_folder_reference/tables/correlations_by_networks.csv'`

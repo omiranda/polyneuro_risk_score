@@ -18,7 +18,7 @@ In this example we'll run a BWAS analysis using functional connectivity as brain
     - [Group_Color_Table_reference](./example1/Group_Color_Table.csv)
 
 ## BWAS: Estimating beta-weights
-The first part of the analysis is to calculate the \\( \beta\\)-weights. This section describes how to do it using Matlab and also using the container.
+The first part of the analysis is to calculate the \\( \beta\\)-weights. This section describes how to do it using Matlab and also using the container. See [Detailed specs.](./detailed_description.md) for details about input arguments.
 
 ### Runing the code using Matlab
 Once you have opened Matlab and added to your session the path to the repo, define the input arguments:
@@ -71,7 +71,7 @@ Bonus: Consider re-runing the code using the following model `model='lutein_PCA1
 
 ## PNRS: Estimating risk
 
-Once the \\( \beta\\)-weights are calculated, you can use them to predict scores in an independent sample. Weights and explained variance files are saved in a subfolder named `tables/` within the folder that contains the outputs of the BWAS analyses.
+Once the \\( \beta\\)-weights are calculated, you can use them to predict scores in an independent sample. Weights and explained variance files are saved in a subfolder named `tables/` within the folder that contains the outputs of the BWAS analyses. See [Detailed specs.](./detailed_description.md) for details about input arguments/
 ### Runing the code using Matlab
 
 ```Matlab

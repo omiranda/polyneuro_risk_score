@@ -12,7 +12,19 @@ In this example we'll run a BWAS analysis using functional connectivity as brain
 ## BWAS: Estimating beta-weights
 asas sasad ad ad 
 ### Runing the code using Matlab
-asasas
+Once you have opened Matlab and added to your session the path to the repo, 
+
+```Matlab
+run_CWAS (path_imaging_reference,...
+    path_demographics_Table_reference,...
+    path_dictionary_demographics_Table_reference,...
+    path_group_Design_Table_reference,...
+    'output_folder',output_folder_BWAS,...
+    'model',model,...
+    'path_parcellation_table',path_parcellation_table) 
+```
+
+
 ### Runing the code using the container
 
 

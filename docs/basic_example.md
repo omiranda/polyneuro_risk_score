@@ -49,8 +49,8 @@ run_CWAS (path_imaging_reference,...
 Once the run is completed, all the files will be saved in the folder you defined as output folder (in this example is `/home/example1/BWAS`). This folder will contain the following subfolders:
 
 ```markdown
-├── BWAS  
-    ├── case2_yes_covariates_g1
+├── /home/example1/BWAS  
+    ├── BWAS
         └── tables
         ├── figures
             └── weights_explainedvariance
@@ -61,7 +61,7 @@ Once the run is completed, all the files will be saved in the folder you defined
             └── manhattan_plots
         └── ciftis
 ```
-See details in the section [Explring outputs](./exploring_outputs.md)
+See details in the section [Explring outputs](./exploring_outputs.md).
 
 
 Bonus: Consider re-runing the code using the following model `model='lutein_PCA1 ~ brain_feature+Diet+betacarotene_PCA1+1`, *i.e.*, adding the intersect and controlling for the variables *Diet* and *betacarotene_PCA1*.
@@ -102,5 +102,27 @@ PBScores=run_PBS(path_imaging_target,...
     'path_parcellation_table',path_parcellation_table,...
     'path_reference_table_by_networks',path_reference_table_by_networks);
 ```
+
+Once the run is completed, all the files will be saved in the folder you defined as output folder (in this example is `/home/example1/BWAS`). This folder will contain the following subfolders:
+
+```markdown
+├── /home/example1/PNRS
+    ├── PNRS
+        └── tables
+            └── weights_explainedvariance
+        └── figures
+            └── weights_explainedvariance
+            └── scores
+            └── scatter_plots
+                └── by_top_connection
+                └── by_networks
+            └── pvalues_explainedvariance_2_samples
+            └── pvalues_explainedvariance
+            └── explainedvariance_and_null
+```
+See details in the section [Explring outputs](./exploring_outputs.md).
+
 ### Runing the code using the container
 - Exploring the outputs 
+
+

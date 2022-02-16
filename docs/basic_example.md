@@ -54,21 +54,22 @@ Bonus: Consider re-runing the code using the following model `model='lutein_PCA1
 ## PNRS: Estimating risk
 
 Once the \\( \beta\\)-weights are calculated, you can use them to predict scores in an independent sample. Weights and explained variance files are saved in a subfolder named `tables/` within the folder that contains the outputs of the BWAS analyses.
-### Runing the code using Matlab
+### Runing the code using Matlab 
 
 ```Matlab
-path_imaging_target = '/home/example1/input_data/fconn.mat';
-path_demographics_Table_target = '/home/example1/input_data/demographcis_Table.csv';
-path_dictionary_demographics_Table_target = '/home/example1/input_data/Dictionary_for_demographics_Table.csv';
 
+                       path_imaging_target = '/home/example1/input_data/fconn.mat';
+            path_demographics_Table_target = '/home/example1/input_data/demographcis_Table.csv';
+ path_dictionary_demographics_Table_target = '/home/example1/input_data/Dictionary_for_demographics_Table.csv';
 
-path_betaweights = '/panfs/roc/groups/4/miran045/shared/projects/polyneuro_risk_score/experiments/toolbox_tutorial/example1/BWAS/tables/brain_feature.csv';
-path_Rsquared = '/panfs/roc/groups/4/miran045/shared/projects/polyneuro_risk_score/experiments/toolbox_tutorial/example1/BWAS/tables/Rsquared.csv';
-path_reference_table_by_networks= '/panfs/roc/groups/4/miran045/shared/projects/polyneuro_risk_score/experiments/toolbox_tutorial/example1/BWAS/tables/correlations_by_networks.csv';
+                          path_betaweights = '/home/example1/BWAS/tables/brain_feature.csv';
+                             path_Rsquared = '/home/example1/BWAS/tables/Rsquared.csv';
+          path_reference_table_by_networks = '/home/example1/BWAS/tables/correlations_by_networks.csv';
 
-output_folder_PNS = '/panfs/roc/groups/4/miran045/shared/projects/polyneuro_risk_score/experiments/toolbox_tutorial/example1/PNRS';
-path_group_Design_Table_target = '/home/example1/input_data/Group_Design_Table.csv';
-path_Group_Color_Table_target = '/home/example1/input_data/Group_Color_Table.csv';
+                         output_folder_PNS = '/home/example1/PNRS';
+            path_group_Design_Table_target = '/home/example1/input_data/Group_Design_Table.csv';
+             path_Group_Color_Table_target = '/home/example1/input_data/Group_Color_Table.csv';
+
 ```
 
 ```Matlab
@@ -80,7 +81,8 @@ PBScores=run_PBS(path_imaging_target,...
     'path_dictionary_demographics_Table',path_dictionary_demographics_Table_target,...
     'path_group_Design_Table',path_group_Design_Table_target,...
     'path_Group_Color_Table',path_Group_Color_Table_target,...
-    'path_parcellation_table',path_parcellation_table);
+    'path_parcellation_table',path_parcellation_table,...
+    'path_reference_table_by_networks',path_reference_table_by_networks);
 ```
 ### Runing the code using the container
-- Exploring the outputs
+- Exploring the outputs 

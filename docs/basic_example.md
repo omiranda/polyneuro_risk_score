@@ -46,6 +46,24 @@ run_CWAS (path_imaging_reference,...
     'path_parcellation_table',path_parcellation_table) 
 ```
 
+Once the run is completed, all the files will be saved in the folder you defined as output folder (in this example is `/home/example1/BWAS`). This folder will contain the following subfolders:
+
+```markdown
+├── BWAS  
+    ├── case2_yes_covariates_g1
+        └── tables
+        ├── figures
+            └── weights_explainedvariance
+            ├── scatter_plots
+               └── by_networks
+            └── relativecontributions_plots
+            └── pvalues_explainedvariance
+            └── manhattan_plots
+        └── ciftis
+```
+See details in the section [Explring outputs](./exploring_outputs.md)
+
+
 Bonus: Consider re-runing the code using the following model `model='lutein_PCA1 ~ brain_feature+Diet+betacarotene_PCA1+1`, *i.e.*, adding the intersect and controlling for the variables *Diet* and *betacarotene_PCA1*.
 
 ### Runing the code using the container

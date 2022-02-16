@@ -46,12 +46,14 @@ run_CWAS (path_imaging_reference,...
     'path_parcellation_table',path_parcellation_table) 
 ```
 
-Bonus: Consider reruning the code using the following model `model='lutein_PCA1 ~ brain_feature+Diet+betacarotene_PCA1+1`, i.e., adding the intersect and controlling for the variables *Diet* and *betacarotene_PCA1*.
+Bonus: Consider re-runing the code using the following model `model='lutein_PCA1 ~ brain_feature+Diet+betacarotene_PCA1+1`, *i.e.*, adding the intersect and controlling for the variables *Diet* and *betacarotene_PCA1*.
 
 ### Runing the code using the container
 
 
 ## PNRS: Estimating risk
+
+Once the \\( \beta\\)-weights are calculated, you can use them to predict scores in an independent sample. Weights and explained variance files are saved in a subfolder named `tables/` within the folder that contains the outputs of the BWAS analyses.
 ### Runing the code using Matlab
 
 ```Matlab

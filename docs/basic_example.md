@@ -73,6 +73,7 @@ Bonus: Consider re-runing the code using the following model `model='lutein_PCA1
 
 Once the \\( \beta\\)-weights are calculated, you can use them to predict scores in an independent sample. Weights and explained variance files are saved in a subfolder named `tables/` within the folder that contains the outputs of the BWAS analyses. See [Detailed specs.](./detailed_description.md) for details about input arguments/
 ### Runing the code using Matlab
+First, you need to define input arguments:
 
 ```Matlab
 
@@ -89,6 +90,7 @@ Once the \\( \beta\\)-weights are calculated, you can use them to predict scores
              path_Group_Color_Table_target = '/home/example1/input_data/Group_Color_Table.csv';
 
 ```
+Now, you can call the function as follows:
 
 ```Matlab
 PBScores=run_PBS(path_imaging_target,...
@@ -103,7 +105,7 @@ PBScores=run_PBS(path_imaging_target,...
     'path_reference_table_by_networks',path_reference_table_by_networks);
 ```
 
-Once the run is completed, all the files will be saved in the folder you defined as output folder (in this example is `/home/example1/BWAS`). This folder will contain the following subfolders:
+Once the run is completed, all the files will be saved in the folder you defined as output folder (in this example is `/home/example1/PNRS`). This folder will contain the following subfolders:
 
 ```markdown
 ├── /home/example1/
@@ -123,6 +125,5 @@ Once the run is completed, all the files will be saved in the folder you defined
 See details in the section [Explring outputs](./exploring_outputs.md).
 
 ### Runing the code using the container
-- Exploring the outputs 
 
 

@@ -61,7 +61,7 @@ Once the run is completed, all the files will be saved in the folder you defined
             └── manhattan_plots
         └── ciftis
 ```
-See details in the section [Explring outputs](./exploring_outputs.md).
+The section [Exploring outputs](./exploring_outputs.md) describes all the outputs.
 
 
 Bonus: Consider re-runing the code using the following model `model='lutein_PCA1 ~ brain_feature+Diet+betacarotene_PCA1+1`, *i.e.*, adding the intersect and controlling for the variables *Diet* and *betacarotene_PCA1*.

@@ -54,7 +54,7 @@ Bonus: Consider re-runing the code using the following model `model='lutein_PCA1
 ## PNRS: Estimating risk
 
 Once the \\( \beta\\)-weights are calculated, you can use them to predict scores in an independent sample. Weights and explained variance files are saved in a subfolder named `tables/` within the folder that contains the outputs of the BWAS analyses.
-### Runing the code using Matlab
+### Runing the code using Matlab 
 
 ```Matlab
 

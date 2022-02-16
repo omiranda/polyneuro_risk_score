@@ -49,7 +49,7 @@ run_CWAS (path_imaging_reference,...
 Once the run is completed, all the files will be saved in the folder you defined as output folder (in this example is `/home/example1/BWAS`). This folder will contain the following subfolders:
 
 ```markdown
-├── /home/example1/BWAS  
+├── /home/example1  
     ├── BWAS
         └── tables
         ├── figures
@@ -106,7 +106,7 @@ PBScores=run_PBS(path_imaging_target,...
 Once the run is completed, all the files will be saved in the folder you defined as output folder (in this example is `/home/example1/BWAS`). This folder will contain the following subfolders:
 
 ```markdown
-├── /home/example1/PNRS
+├── /home/example1/
     ├── PNRS
         └── tables
             └── weights_explainedvariance

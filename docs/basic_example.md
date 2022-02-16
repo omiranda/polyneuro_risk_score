@@ -15,7 +15,7 @@ In this example we'll run a BWAS analysis using functional connectivity as brain
     - [dictionary_demographics_Table_reference](./example1/Dictionary_for_demographics_Table.csv)
     - [group_Design_Table_reference](./example1/Group_Design_Table.csv)
     - [parcellation_table](./example1/parcel.mat)
-    - [Group_Color_Table_reference](./example1/)
+    - [Group_Color_Table_reference](./example1/Group_Color_Table.csv)
 
 ## BWAS: Estimating beta-weights
 The first part of the analysis is to calculate the \\( \beta\\)-weights. This section describes how to do it using Matlab and also using the container.

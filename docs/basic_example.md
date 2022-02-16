@@ -43,6 +43,33 @@ run_CWAS (path_imaging_reference,...
 
 
 ## PNRS: Estimating risk
-- Runing the code using Matlab
-- Runing the code using the container
+### Runing the code using Matlab
+
+```Matlab
+path_imaging_target = '/panfs/roc/groups/8/faird/shared/code/stable/utilities/BWAS_PNRS_package/v2/codebase/polyneuro_risk_score/data/xsectional_1_outcome_fconn/fconn.mat';
+path_demographics_Table_target = '/panfs/roc/groups/8/faird/shared/code/stable/utilities/BWAS_PNRS_package/v2/codebase/polyneuro_risk_score/data/xsectional_1_outcome_fconn/demographcis_Table.csv';
+path_dictionary_demographics_Table_target = '/panfs/roc/groups/8/faird/shared/code/stable/utilities/BWAS_PNRS_package/v2/codebase/polyneuro_risk_score/data/xsectional_1_outcome_fconn/Dictionary_for_demographics_Table.csv';
+
+
+path_betaweights = '/panfs/roc/groups/4/miran045/shared/projects/polyneuro_risk_score/experiments/toolbox_tutorial/example1/BWAS/tables/brain_feature.csv';
+path_Rsquared = '/panfs/roc/groups/4/miran045/shared/projects/polyneuro_risk_score/experiments/toolbox_tutorial/example1/BWAS/tables/Rsquared.csv';
+path_reference_table_by_networks= '/panfs/roc/groups/4/miran045/shared/projects/polyneuro_risk_score/experiments/toolbox_tutorial/example1/BWAS/tables/correlations_by_networks.csv';
+
+output_folder_PNS = '/panfs/roc/groups/4/miran045/shared/projects/polyneuro_risk_score/experiments/toolbox_tutorial/example1/PNRS';
+path_group_Design_Table_target = '/panfs/roc/groups/8/faird/shared/code/stable/utilities/BWAS_PNRS_package/v2/codebase/polyneuro_risk_score/data/xsectional_1_outcome_fconn/Group_Design_Table.csv';
+path_Group_Color_Table_target = '/panfs/roc/groups/8/faird/shared/code/stable/utilities/BWAS_PNRS_package/v2/codebase/polyneuro_risk_score/data/xsectional_1_outcome_fconn/Group_Color_Table.csv';
+```
+
+```Matlab
+PBScores=run_PBS(path_imaging_target,...
+    path_betaweights,...
+    path_Rsquared,...
+    'output_folder',output_folder_PNS,...
+    'path_demographics_Table',path_demographics_Table_target,...
+    'path_dictionary_demographics_Table',path_dictionary_demographics_Table_target,...
+    'path_group_Design_Table',path_group_Design_Table_target,...
+    'path_Group_Color_Table',path_Group_Color_Table_target,...
+    'path_parcellation_table',path_parcellation_table);
+```
+### Runing the code using the container
 - Exploring the outputs

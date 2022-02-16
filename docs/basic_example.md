@@ -9,6 +9,7 @@ In this example we'll run a BWAS analysis using functional connectivity as brain
 - The same dataset is used to calculate the models and to predict scores. You should not do this in a real project.
 - In this example we will assume that you have downloaded the data in the folder `/home/example1/input_data/`
 - Here is the input data you will need to run this example:
+
         - [imaging_reference](./example1/fconn.mat)
         - [demographics_Table_reference](./example1/demographcis_Table.csv)
         - [dictionary_demographics_Table_reference](./example1/Dictionary_for_demographics_Table.csv)

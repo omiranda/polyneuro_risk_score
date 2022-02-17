@@ -31,4 +31,5 @@ This section explores the various outputs of the code. Of note, there are slight
             └── pvalues_explainedvariance
             └── explainedvariance_and_null
 ```
+Manhattan plot:
 ![Manhathan plot](./example1/BWAS/figures/Manhattan_plots/BWAS_manhattan_plot_like.png)

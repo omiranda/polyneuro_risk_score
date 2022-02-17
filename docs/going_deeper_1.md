@@ -1,21 +1,21 @@
 <script type="text/javascript"
         src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS_CHTML"></script>
 # Example using cortical thickness as brain features
-In this example we'll run a BWAS analysis using functional connectivity as brain features. Resulting \\( \beta\\)-weights will be used to predict the corresponding brain-derived behavioral scores. Here we assume you have succesfully downloaded the toolbox and associated data. Here we are using as brain features connectivity matrices obtained using macaque data that was parcellated using the [Bezgin ROI set](https://doi.org/10.1016/j.neuroimage.2012.04.013) with network assignment by [Grayson, *et. al.*, 2016](https://doi.org/10.1016/j.neuron.2016.06.005).
+In this example we'll run a BWAS analysis using cortical thickness as brain features. Resulting \\( \beta\\)-weights will be used to predict the corresponding brain-derived behavioral scores. This example runs the same way as the [previous example using functional connectivity](./basic_example.md) as input imaging data. The difference is the input data. Again, we assume you have succesfully downloaded the toolbox and associated data. Here we are using as brain features cortical thickness data obtained using human data that was parcellated using the [Human Connectome Project ROI set](https://www.nature.com/articles/nature18933) with network assignment by [Cole-Anticevic](https://github.com/ColeLab/ColeAnticevicNetPartition/blob/master/README.md).
 
 **Considerations**:
 
 - This is a toy example that uses a reduced sample to ilustrate the functionality of the toolbox.
 - The same dataset is used to calculate the models and to predict scores. You should not do this in a real project.
-- In this example we will assume that you have downloaded the data in the folder `/home/example1/input_data/`
+- In this example we will assume that you have downloaded the data in the folder `/home/example3/input_data/`
 - Here is the input data you will need to run this example:
 
-    - [imaging_reference](./example1/fconn.mat)
-    - [demographics_Table_reference](./example1/demographcis_Table.csv)
-    - [dictionary_demographics_Table_reference](./example1/Dictionary_for_demographics_Table.csv)
-    - [group_Design_Table_reference](./example1/Group_Design_Table.csv)
-    - [parcellation_table](./example1/parcel.mat)
-    - [Group_Color_Table_reference](./example1/Group_Color_Table.csv)
+    - [imaging_reference](./example3/fconn.mat)
+    - [demographics_Table_reference](./example3/demographcis_Table.csv)
+    - [dictionary_demographics_Table_reference](./example3/Dictionary_for_demographics_Table.csv)
+    - [group_Design_Table_reference](./example3/Group_Design_Table.csv)
+    - [parcellation_table](./example3/parcel.mat)
+    - [Group_Color_Table_reference](./example3/Group_Color_Table.csv)
 
 ## BWAS: Estimating beta-weights
 The first part of the analysis is to calculate the \\( \beta\\)-weights. This section describes how to do it using Matlab and also using the container. See [Detailed specs.](./detailed_description.md) for details about input arguments.

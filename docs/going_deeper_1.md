@@ -10,8 +10,8 @@ In this example we'll run a BWAS analysis using cortical thickness as brain feat
 - In this example we will assume that you have downloaded the data in the folder `/home/example3/input_data/`
 - Here is the input data you will need to run this example:
 
-    - [imaging_reference](./example3/fconn.mat)
-    - [demographics_Table_reference](./example3/demographcis_Table.csv)
+    - [imaging_reference](./example3/cortical_thickness.mat)
+    - [demographics_Table_reference](./example3/demographics_Table.csv)
     - [dictionary_demographics_Table_reference](./example3/Dictionary_for_demographics_Table.csv)
     - [group_Design_Table_reference](./example3/Group_Design_Table.csv)
     - [parcellation_table](./example3/parcel.mat)

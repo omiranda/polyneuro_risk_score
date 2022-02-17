@@ -1,6 +1,6 @@
 <script type="text/javascript"
         src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS_CHTML"></script>
-# Basic example 
+# Example using functional connectivity as brain features 
 In this example we'll run a BWAS analysis using functional connectivity as brain features. Resulting \\( \beta\\)-weights will be used to predict the corresponding brain-derived behavioral scores. Here we assume you have succesfully downloaded the toolbox and associated data. Here we are using as brain features connectivity matrices obtained using macaque data that was parcellated using the [Bezgin ROI set](https://doi.org/10.1016/j.neuroimage.2012.04.013) with network assignment by [Grayson, *et. al.*, 2016](https://doi.org/10.1016/j.neuron.2016.06.005).
 
 **Considerations**:

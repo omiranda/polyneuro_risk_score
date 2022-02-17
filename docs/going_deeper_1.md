@@ -24,14 +24,14 @@ The first part of the analysis is to calculate the \\( \beta\\)-weights. This se
 Once you have opened Matlab and added to your session the path to the repo, define the input arguments:
 
 ```Matlab
-                        path_imaging_reference = '/home/example1/input_data/fconn.mat';
-             path_demographics_Table_reference = '/home/example1/input_data/demographcis_Table.csv';
-  path_dictionary_demographics_Table_reference = '/home/example1/input_data/Dictionary_for_demographics_Table.csv';
-             path_group_Design_Table_reference = '/home/example1/input_data/Group_Design_Table.csv';
-                            output_folder_BWAS = '/home/example1/BWAS';
-                        path_parcellation_table= '/home/example1/input_data/parcel.mat';
-               path_Group_Color_Table_reference= '/home/example1/input_data/Group_Color_Table.csv';
-                        model='lutein_PCA1 ~ brain_feature-1';
+                        path_imaging_reference = '/home/example3/input_data/cortical_thickness.mat';
+             path_demographics_Table_reference = '/home/example3/input_data/demographics_Table.csv';
+  path_dictionary_demographics_Table_reference = '/home/example3/input_data/Dictionary_for_demographics_Table.csv';
+             path_group_Design_Table_reference = '/home/example3/input_data/Group_Design_Table.csv';
+                            output_folder_BWAS = '/home/example3/BWAS';
+                        path_parcellation_table= '/home/example3/input_data/HCP_ColeAnticevic.csv';
+               path_Group_Color_Table_reference= '/home/example3/input_data/Group_Color_Table.csv';
+                        model='var3 ~ brain_feature-1';
 ```
 
 Now, you can call the function as follows:
@@ -46,10 +46,10 @@ run_CWAS (path_imaging_reference,...
     'path_parcellation_table',path_parcellation_table) 
 ```
 
-Once the run is completed, all the files will be saved in the folder you defined as output folder (in this example is `/home/example1/BWAS`). This folder will contain the following subfolders:
+Once the run is completed, all the files will be saved in the folder you defined as output folder (in this example is `/home/example3/BWAS`). This folder will contain the following subfolders:
 
 ```markdown
-├── /home/example1  
+├── /home/example3  
     ├── BWAS
         └── tables
         ├── figures
@@ -64,7 +64,6 @@ Once the run is completed, all the files will be saved in the folder you defined
 The section [Exploring outputs](./exploring_outputs.md) describes all the outputs.
 
 
-Bonus: Consider re-runing the code using the following model `model='lutein_PCA1 ~ brain_feature+Diet+betacarotene_PCA1+1`, *i.e.*, adding the intersect and controlling for the variables *Diet* and *betacarotene_PCA1*.
 
 ### Runing the code using the container
 
@@ -77,17 +76,17 @@ First, you need to define input arguments:
 
 ```Matlab
 
-                       path_imaging_target = '/home/example1/input_data/fconn.mat';
-            path_demographics_Table_target = '/home/example1/input_data/demographcis_Table.csv';
- path_dictionary_demographics_Table_target = '/home/example1/input_data/Dictionary_for_demographics_Table.csv';
+                       path_imaging_target = '/home/example3/input_data/fconn.mat';
+            path_demographics_Table_target = '/home/example3/input_data/demographcis_Table.csv';
+ path_dictionary_demographics_Table_target = '/home/example3/input_data/Dictionary_for_demographics_Table.csv';
 
-                          path_betaweights = '/home/example1/BWAS/tables/brain_feature.csv';
-                             path_Rsquared = '/home/example1/BWAS/tables/Rsquared.csv';
-          path_reference_table_by_networks = '/home/example1/BWAS/tables/correlations_by_networks.csv';
+                          path_betaweights = '/home/example3/BWAS/tables/brain_feature.csv';
+                             path_Rsquared = '/home/example3/BWAS/tables/Rsquared.csv';
+          path_reference_table_by_networks = '/home/example3/BWAS/tables/correlations_by_networks.csv';
 
-                         output_folder_PNS = '/home/example1/PNRS';
-            path_group_Design_Table_target = '/home/example1/input_data/Group_Design_Table.csv';
-             path_Group_Color_Table_target = '/home/example1/input_data/Group_Color_Table.csv';
+                         output_folder_PNS = '/home/example3/PNRS';
+            path_group_Design_Table_target = '/home/example3/input_data/Group_Design_Table.csv';
+             path_Group_Color_Table_target = '/home/example3/input_data/Group_Color_Table.csv';
 
 ```
 Now, you can call the function as follows:
@@ -105,10 +104,10 @@ PBScores=run_PBS(path_imaging_target,...
     'path_reference_table_by_networks',path_reference_table_by_networks);
 ```
 
-Once the run is completed, all the files will be saved in the folder you defined as output folder (in this example is `/home/example1/PNRS`). This folder will contain the following subfolders:
+Once the run is completed, all the files will be saved in the folder you defined as output folder (in this example is `/home/example3/PNRS`). This folder will contain the following subfolders:
 
 ```markdown
-├── /home/example1/
+├── /home/example3/
     ├── PNRS
         └── tables
             └── weights_explainedvariance

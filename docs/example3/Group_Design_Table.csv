@@ -1,10 +1,10 @@
 Variable,Design
 id,id
-Delta_DTCgaitspeed,between
 FoG,between
 sex,between
 Age_at_session,between
 scanner_model,between
-MoCA_score,between
-Disease_duration_yrs,between
-MDS_UPDRSIII_score,outcome
+var1,between
+variable_2,outcome
+var3,between
+var4,between

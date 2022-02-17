@@ -122,7 +122,8 @@ Once the run is completed, all the files will be saved in the folder you defined
             └── pvalues_explainedvariance
             └── explainedvariance_and_null
 ```
-See details in the section [Explring outputs](./exploring_outputs.md).
+The section [Exploring outputs](./exploring_outputs.md) describes all the outputs.
+
 
 ### Runing the code using the container
 

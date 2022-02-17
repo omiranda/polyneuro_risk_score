@@ -14,7 +14,7 @@ In this example we'll run a BWAS analysis using cortical thickness as brain feat
     - [demographics_Table_reference](./example3/demographics_Table.csv)
     - [dictionary_demographics_Table_reference](./example3/Dictionary_for_demographics_Table.csv)
     - [group_Design_Table_reference](./example3/Group_Design_Table.csv)
-    - [parcellation_table](./example3/parcel.mat)
+    - [parcellation_table](./example3/HCP_ColeAnticevic.csv)
     - [Group_Color_Table_reference](./example3/Group_Color_Table.csv)
 
 ## BWAS: Estimating beta-weights

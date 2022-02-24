@@ -44,7 +44,7 @@ Of note, there are slight differences in the outputs based on your choice of inp
 
 ___
 
-### *Tables*
+### ***Tables***
 
 - Rsquared.csv
 - brain_feature.csv
@@ -52,7 +52,7 @@ ___
 - mapping_brain_feature_index_2_ROIs.csv
 - scores_by_networks.csv
 
-### *Figures*
+### ***Figures***
 
 #### **Weights by Explained Variance**
 
@@ -64,9 +64,10 @@ ___
 - AbsWeights_explainedVariance_by_explainedvariance.png
 - Weights_explainedVariance_by_Weight.png
 - Weights_explainedVariance_by_brainFeature.png
-- Weights_explainedVariance_by_explainedvariance.png
 
-![Weights by Explained Variance](./example1/BWAS/figures/Weights_ExplainedVariance/Weights_explainedVariance_by_explainedvariance.png)
+![Weights by Explained Variance](./example1/BWAS/figures/Weights_ExplainedVariance/Weights_explainedVariance_by_brainFeature.png)
+
+- Weights_explainedVariance_by_explainedvariance.png
 
 #### **Relative Contribution Plots**
 
@@ -94,7 +95,7 @@ ___
 - BWAS_manhattan_plot_covering_more_than_1_percent.png
 - BWAS_manhattan_plot_truncated.png
 
-### *Ciftis*
+### ***Ciftis***
 
 - explained_variance.pconn.nii
 - normalized_rank_by_explaining_variance.pconn.nii
@@ -114,7 +115,7 @@ ___
 
 ___
 
-### *Tables*
+### ***Tables***
 
 #### **Weights by Explained Variance**
 
@@ -134,7 +135,7 @@ ___
 - scores_by_networks_cummulative.csv
 - scores_by_networks_cummulative_reserved.csv
 
-### *Figures*
+### ***Figures***
 
 #### **Explained Variance and Null**
 
@@ -186,20 +187,20 @@ ___
 #### **Scatter Plots**
 
 - by_networks
-  - dscatter
-  - gscatter
-  - scatter
+    - dscatter
+    - gscatter
+    - scatter
 
 - by_top_connection
-  - dscatter
+    - dscatter
 
   ![dscatter top 2%](./example1/PNRS/figures/scatter_plots/by_top_connection/dscatter_top_002_point_0_percent.png)
 
-  - gscatter
+    - gscatter
 
   ![gscatter top 10%](./example1/PNRS/figures/scatter_plots/by_top_connection/gscatter_top_010_point_0_percent_by_Diet.png)
 
-  - scatter
+    - scatter
 
   ![scatter top 25%](./example1/PNRS/figures/scatter_plots/by_top_connection/scatter_top_025_point_0_percent.png)
 

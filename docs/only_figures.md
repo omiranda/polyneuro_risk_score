@@ -63,7 +63,8 @@ ___
 <img src="./example1/BWAS/figures/Weights_ExplainedVariance/AbsWeights_explainedVariance_by_Weight.png" width="200px" />
 
 
-![drawing](./example1/BWAS/figures/Weights_ExplainedVariance/AbsWeights_explainedVariance_by_Weight.png){ width=50% }
+![drawing](./example1/BWAS/figures/Weights_ExplainedVariance/AbsWeights_explainedVariance_by_Weight.png){ width=100% }
+![drawing](./example1/BWAS/figures/Weights_ExplainedVariance/AbsWeights_explainedVariance_by_Weight.png){ width=200px }
 
 
 - AbsWeights_explainedVariance_by_brainFeature.png

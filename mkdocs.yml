@@ -2,6 +2,8 @@ site_name: PolyNeuro Risk Scores
 theme: material
 plugins:
   - search
+markdown_extensions:
+  - attr_list
 pages:
 - Overview: PolyNeuro_Risk_Scores.md
 - Installation and set-up: install_and_setup.md

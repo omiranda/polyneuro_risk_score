@@ -60,7 +60,7 @@ ___
 
 ![AbsWeights by Weight ](./example1/BWAS/figures/Weights_ExplainedVariance/AbsWeights_explainedVariance_by_Weight.png)
 
-<img src="./example1/BWAS/figures/Weights_ExplainedVariance/AbsWeights_explainedVariance_by_Weight.png" alt="drawing" style="width:200px;" />
+<img src="./example1/BWAS/figures/Weights_ExplainedVariance/AbsWeights_explainedVariance_by_Weight.png" width="200px" />
 
 
 

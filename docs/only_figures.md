@@ -60,16 +60,9 @@ ___
 
 ![AbsWeights by Weight ](./example1/BWAS/figures/Weights_ExplainedVariance/AbsWeights_explainedVariance_by_Weight.png)
 [<img src="./example1/BWAS/figures/Weights_ExplainedVariance/AbsWeights_explainedVariance_by_Weight.png" width="250"/>](./example1/BWAS/figures/Weights_ExplainedVariance/AbsWeights_explainedVariance_by_Weight.png)
-%<img src=./example1/BWAS/figures/Weights_ExplainedVariance/AbsWeights_explainedVariance_by_Weight.png width="200" height="200" />
+<img src=./example1/BWAS/figures/Weights_ExplainedVariance/AbsWeights_explainedVariance_by_Weight.png width="200" height="200" />
 
 
-
-Here is an inline ![smiley](./example1/BWAS/figures/Weights_ExplainedVariance/AbsWeights_explainedVariance_by_Weight.png){:height="36px" width="36px"}.
-
-And here is a referenced ![smile]
-
-[smile]: ./example1/BWAS/figures/Weights_ExplainedVariance/AbsWeights_explainedVariance_by_Weight.png
-{: height="36px" width="36px"}
 
 
 

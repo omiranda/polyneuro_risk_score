@@ -63,7 +63,7 @@ ___
 <img src="./example1/BWAS/figures/Weights_ExplainedVariance/AbsWeights_explainedVariance_by_Weight.png" width="200px" />
 
 
-
+![drawing](./example1/BWAS/figures/Weights_ExplainedVariance/AbsWeights_explainedVariance_by_Weight.png){ width=50% }
 
 
 - AbsWeights_explainedVariance_by_brainFeature.png

@@ -432,3 +432,7 @@ text_to_readthedocs
 ![Correlationsbynetworks N 12](./example3/PNRS/figures/ExplainedVariance_and_Null/Correlationsbynetworks_N_12.png){ width=302px }
 ![ExplainedVariancebynetworks Negcorr  N 12](./example3/PNRS/figures/ExplainedVariance_and_Null/ExplainedVariancebynetworks_Negcorr__N_12.png){ width=302px }
 ![Correlationsbynetworks Negcorr  N 12](./example3/PNRS/figures/ExplainedVariance_and_Null/Correlationsbynetworks_Negcorr__N_12.png){ width=302px }
+
+
+![percent Explained variance by networks](./example1/PNRS/figures/ExplainedVariance_and_Null/percent_Explained_variance_by_networks.png){ width=302px }
+![Correlations by networks](./example1/PNRS/figures/ExplainedVariance_and_Null/Correlations_by_networks.png){ width=302px }

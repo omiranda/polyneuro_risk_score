@@ -1,7 +1,7 @@
-# Exploring outputs
-
+# Testing
 
 text_to_readthedocs
+
 ![Weights explainedVariance by brainFeature](./example1/BWAS/figures/Weights_ExplainedVariance/Weights_explainedVariance_by_brainFeature.png){ width=302px }
 ![Weights explainedVariance by Weight](./example1/BWAS/figures/Weights_ExplainedVariance/Weights_explainedVariance_by_Weight.png){ width=302px }
 ![Weights explainedVariance by explainedVariance](./example1/BWAS/figures/Weights_ExplainedVariance/Weights_explainedVariance_by_explainedVariance.png){ width=302px }

@@ -65,156 +65,436 @@ ___
 
 ![drawing](./example1/BWAS/figures/Weights_ExplainedVariance/AbsWeights_explainedVariance_by_Weight.png){ width=100% }
 ![drawing](./example1/BWAS/figures/Weights_ExplainedVariance/AbsWeights_explainedVariance_by_Weight.png){ width=200px }
+## Here is the text with links 
 
-
-- AbsWeights_explainedVariance_by_brainFeature.png
-- AbsWeights_explainedVariance_by_explainedvariance.png
-- Weights_explainedVariance_by_Weight.png
-- Weights_explainedVariance_by_brainFeature.png
-
-![Weights by Explained Variance](./example1/BWAS/figures/Weights_ExplainedVariance/Weights_explainedVariance_by_brainFeature.png)
-
-- Weights_explainedVariance_by_explainedvariance.png
-
-#### **Relative Contribution Plots**
-
-- Relative_networks_contribution.png
-
-![Relative networks](./example1/BWAS/figures/RelativeContribution_plots/Relative_networks_contribution.png)
-
-- Relative_networks_contribution_truncated.png
-
-#### **P-values by Explained Variance**
-
-- pValue_Variance_by_brainFeature.png
-
-![pValue](./example1/BWAS/figures/pValues_ExplainedVariance/pValue_Variance_by_brainFeature.png)
-
-- logpValue_Variance_by_brainFeature.png
-
-#### **Manhattan Plots**
-
-- BWAS_manhattan_plot_like.png
-
-![Manhattan plot](./example1/BWAS/figures/Manhattan_plots/BWAS_manhattan_plot_like.png)
-
-- BWAS_manhattan_plot_covering_less_than_1_percent.png
-- BWAS_manhattan_plot_covering_more_than_1_percent.png
-- BWAS_manhattan_plot_truncated.png
-
-### ***Ciftis***
-
-- explained_variance.pconn.nii
-- normalized_rank_by_explaining_variance.pconn.nii
-- rois_sorted_by_explaining_variance.pconn.nii
-
-#### **Brain Features**
-
-- by_networks
-- by_networks_cummulative
-- by_networks_cummulative_reversed
-- sum_betas_by_th
-- brain_feature_Estimate.pconn.nii
-- brain_feature_pValue.pconn.nii
-- brain_feature_tStat.pconn.nii
-
-## PNRS
-
-___
-
-### ***Tables***
-
-#### **Weights by Explained Variance**
-
-- Rsquared.csv
-
-#### **Correlations**
-
-- correlations.csv
-- correlations_by_networks.csv
-- correlations_by_networks_cummulative.csv
-- correlations_by_networks_cummulative_reversed.csv
-
-#### **Scores**
-
-- scores.csv
-- scores_by_networks.csv
-- scores_by_networks_cummulative.csv
-- scores_by_networks_cummulative_reserved.csv
-
-### ***Figures***
-
-#### **Explained Variance and Null**
-
-- Correlations_N_11.png
-
-![Correlations](./example1/PNRS/figures/ExplainedVariance_and_Null/Correlations_N_11.png)
-
-- Correlationsbynetworks_N_15.png
-- Correlationsbynetworks_N_28.png
-- Correlationsbynetworks_Negcorr__N_15.png
-- Correlationsbynetworks_Negcorr__N_28.png
-- ExplainedVariance_N_11.png
-- ExplainedVariancebynetworks_N_15.png
-- ExplainedVariancebynetworks_N_28.png
-- ExplainedVariancebynetworks_Negcorr__N_15.png
-- ExplainedVariancebynetworks_Negcorr__N_28.png
-
-![Explained Variance NegCorr](./example1/PNRS/figures/ExplainedVariance_and_Null/ExplainedVariancebynetworks_Negcorr__N_15.png)
-
-#### **Weights and Explained Variance**
-
-- AbsWeights_explainedVariance_by_Weight.png
-
-![AbsWeights Explained Variance](./example1/PNRS/figures/Weights_ExplainedVariance/AbsWeights_explainedVariance_by_Weight.png)
-
-- AbsWeights_explainedVariance_by_brainFeature.png
-- AbsWeights_explainedVariance_by_explainedVariance.png
-- Weights_explainedVariance_by_Weight.png
-- Weights_explainedVariance_by_brainFeature.png
-- Weights_explainedVariance_by_explainedVariance.png
-
-![AbsWeights Explained Variance](./example1/PNRS/figures/Weights_ExplainedVariance/Weights_explainedVariance_by_explainedVariance.png)
-
-#### **pValues and Explained Variance**
-
-- pValue_Variance_by_brainFeature.png
-- logpValue_Variance_by_brainFeature.png
-
-![log pValue](./example1/PNRS/figures/pValues_ExplainedVariance/logpValue_Variance_by_brainFeature.png)
-
-#### **pValues and Explained Variance - 2 Samples**
-
-- pValue_Variance_by_brainFeature.png
-
-![pValue 2 samples](./example1/PNRS/figures/pValues_ExplainedVariance_2_samples/logpValue_Variance_by_brainFeature.png)
-
-- logpValue_Variance_by_brainFeature.png
-
-#### **Scatter Plots**
-
-- by_networks
-    - dscatter
-    - gscatter
-    - scatter
-
-- by_top_connection
-    - dscatter
-
-  ![dscatter top 2%](./example1/PNRS/figures/scatter_plots/by_top_connection/dscatter_top_002_point_0_percent.png)
-
-    - gscatter
-
-  ![gscatter top 10%](./example1/PNRS/figures/scatter_plots/by_top_connection/gscatter_top_010_point_0_percent_by_Diet.png)
-
-    - scatter
-
-  ![scatter top 25%](./example1/PNRS/figures/scatter_plots/by_top_connection/scatter_top_025_point_0_percent.png)
-
-#### **Scores**
-
-- Scores.png
-
-![scores](./example1/PNRS/figures/scores/Scores.png)
-
-- Scores_by_networks.png
+text_to_readthedocs
+![Weights explainedVariance by brainFeature](./example1/BWAS/figures/Weights_ExplainedVariance/Weights_explainedVariance_by_brainFeature.png){ width=302px }
+![Weights explainedVariance by Weight](./example1/BWAS/figures/Weights_ExplainedVariance/Weights_explainedVariance_by_Weight.png){ width=302px }
+![Weights explainedVariance by explainedVariance](./example1/BWAS/figures/Weights_ExplainedVariance/Weights_explainedVariance_by_explainedVariance.png){ width=302px }
+![AbsWeights explainedVariance by brainFeature](./example1/BWAS/figures/Weights_ExplainedVariance/AbsWeights_explainedVariance_by_brainFeature.png){ width=298px }
+![AbsWeights explainedVariance by Weight](./example1/BWAS/figures/Weights_ExplainedVariance/AbsWeights_explainedVariance_by_Weight.png){ width=302px }
+![AbsWeights explainedVariance by explainedVariance](./example1/BWAS/figures/Weights_ExplainedVariance/AbsWeights_explainedVariance_by_explainedVariance.png){ width=302px }
+![pValue Variance by brainFeature](./example1/BWAS/figures/pValues_ExplainedVariance/pValue_Variance_by_brainFeature.png){ width=302px }
+![logpValue Variance by brainFeature](./example1/BWAS/figures/pValues_ExplainedVariance/logpValue_Variance_by_brainFeature.png){ width=302px }
+![BWAS manhattan plot like](./example1/BWAS/figures/Manhattan_plots/BWAS_manhattan_plot_like.png){ width=831px }
+![BWAS manhattan plot truncated](./example1/BWAS/figures/Manhattan_plots/BWAS_manhattan_plot_truncated.png){ width=831px }
+![BWAS manhattan plot networks covering more than 1 percent](./example1/BWAS/figures/Manhattan_plots/BWAS_manhattan_plot_networks_covering_more_than_1_percent.png){ width=831px }
+![BWAS manhattan plot networks covering less than 1 percent](./example1/BWAS/figures/Manhattan_plots/BWAS_manhattan_plot_networks_covering_less_than_1_percent.png){ width=832px }
+![Relative networks contribution](./example1/BWAS/figures/RelativeContribution_plots/Relative_networks_contribution.png){ width=831px }
+![Relative networks contribution truncated](./example1/BWAS/figures/RelativeContribution_plots/Relative_networks_contribution_truncated.png){ width=832px }
+![Weights explainedVariance by brainFeature](./example1/PNRS/figures/Weights_ExplainedVariance/Weights_explainedVariance_by_brainFeature.png){ width=302px }
+![Weights explainedVariance by Weight](./example1/PNRS/figures/Weights_ExplainedVariance/Weights_explainedVariance_by_Weight.png){ width=302px }
+![Weights explainedVariance by explainedVariance](./example1/PNRS/figures/Weights_ExplainedVariance/Weights_explainedVariance_by_explainedVariance.png){ width=302px }
+![AbsWeights explainedVariance by brainFeature](./example1/PNRS/figures/Weights_ExplainedVariance/AbsWeights_explainedVariance_by_brainFeature.png){ width=302px }
+![AbsWeights explainedVariance by Weight](./example1/PNRS/figures/Weights_ExplainedVariance/AbsWeights_explainedVariance_by_Weight.png){ width=302px }
+![AbsWeights explainedVariance by explainedVariance](./example1/PNRS/figures/Weights_ExplainedVariance/AbsWeights_explainedVariance_by_explainedVariance.png){ width=302px }
+![pValue Variance by brainFeature](./example1/PNRS/figures/pValues_ExplainedVariance/pValue_Variance_by_brainFeature.png){ width=302px }
+![logpValue Variance by brainFeature](./example1/PNRS/figures/pValues_ExplainedVariance/logpValue_Variance_by_brainFeature.png){ width=302px }
+![pValue Variance by brainFeature](./example1/PNRS/figures/pValues_ExplainedVariance_2_samples/pValue_Variance_by_brainFeature.png){ width=302px }
+![logpValue Variance by brainFeature](./example1/PNRS/figures/pValues_ExplainedVariance_2_samples/logpValue_Variance_by_brainFeature.png){ width=302px }
+![Scores](./example1/PNRS/figures/scores/Scores.png){ width=302px }
+![Scores by networks](./example1/PNRS/figures/scores/Scores_by_networks.png){ width=302px }
+![scatter Top feature](./example1/PNRS/figures/scatter_plots/by_top_connection/scatter_Top_feature.png){ width=302px }
+![dscatter Top feature](./example1/PNRS/figures/scatter_plots/by_top_connection/dscatter_Top_feature.png){ width=302px }
+![gscatter Top feature by Diet](./example1/PNRS/figures/scatter_plots/by_top_connection/gscatter_Top_feature_by_Diet.png){ width=302px }
+![gscatter Top feature by betacarotene PCA1](./example1/PNRS/figures/scatter_plots/by_top_connection/gscatter_Top_feature_by_betacarotene_PCA1.png){ width=302px }
+![scatter top 000 point 1 percent](./example1/PNRS/figures/scatter_plots/by_top_connection/scatter_top_000_point_1_percent.png){ width=302px }
+![dscatter top 000 point 1 percent](./example1/PNRS/figures/scatter_plots/by_top_connection/dscatter_top_000_point_1_percent.png){ width=302px }
+![gscatter top 000 point 1 percent by Diet](./example1/PNRS/figures/scatter_plots/by_top_connection/gscatter_top_000_point_1_percent_by_Diet.png){ width=298px }
+![gscatter top 000 point 1 percent by betacarotene PCA1](./example1/PNRS/figures/scatter_plots/by_top_connection/gscatter_top_000_point_1_percent_by_betacarotene_PCA1.png){ width=302px }
+![scatter top 000 point 2 percent](./example1/PNRS/figures/scatter_plots/by_top_connection/scatter_top_000_point_2_percent.png){ width=302px }
+![dscatter top 000 point 2 percent](./example1/PNRS/figures/scatter_plots/by_top_connection/dscatter_top_000_point_2_percent.png){ width=302px }
+![gscatter top 000 point 2 percent by Diet](./example1/PNRS/figures/scatter_plots/by_top_connection/gscatter_top_000_point_2_percent_by_Diet.png){ width=302px }
+![gscatter top 000 point 2 percent by betacarotene PCA1](./example1/PNRS/figures/scatter_plots/by_top_connection/gscatter_top_000_point_2_percent_by_betacarotene_PCA1.png){ width=302px }
+![scatter top 000 point 5 percent](./example1/PNRS/figures/scatter_plots/by_top_connection/scatter_top_000_point_5_percent.png){ width=302px }
+![dscatter top 000 point 5 percent](./example1/PNRS/figures/scatter_plots/by_top_connection/dscatter_top_000_point_5_percent.png){ width=302px }
+![scatter top 001 point 0 percent](./example1/PNRS/figures/scatter_plots/by_top_connection/scatter_top_001_point_0_percent.png){ width=302px }
+![gscatter top 000 point 5 percent by Diet](./example1/PNRS/figures/scatter_plots/by_top_connection/gscatter_top_000_point_5_percent_by_Diet.png){ width=302px }
+![gscatter top 000 point 5 percent by betacarotene PCA1](./example1/PNRS/figures/scatter_plots/by_top_connection/gscatter_top_000_point_5_percent_by_betacarotene_PCA1.png){ width=302px }
+![dscatter top 001 point 0 percent](./example1/PNRS/figures/scatter_plots/by_top_connection/dscatter_top_001_point_0_percent.png){ width=302px }
+![gscatter top 001 point 0 percent by Diet](./example1/PNRS/figures/scatter_plots/by_top_connection/gscatter_top_001_point_0_percent_by_Diet.png){ width=302px }
+![gscatter top 001 point 0 percent by betacarotene PCA1](./example1/PNRS/figures/scatter_plots/by_top_connection/gscatter_top_001_point_0_percent_by_betacarotene_PCA1.png){ width=302px }
+![scatter top 002 point 0 percent](./example1/PNRS/figures/scatter_plots/by_top_connection/scatter_top_002_point_0_percent.png){ width=302px }
+![dscatter top 002 point 0 percent](./example1/PNRS/figures/scatter_plots/by_top_connection/dscatter_top_002_point_0_percent.png){ width=302px }
+![gscatter top 002 point 0 percent by Diet](./example1/PNRS/figures/scatter_plots/by_top_connection/gscatter_top_002_point_0_percent_by_Diet.png){ width=302px }
+![gscatter top 002 point 0 percent by betacarotene PCA1](./example1/PNRS/figures/scatter_plots/by_top_connection/gscatter_top_002_point_0_percent_by_betacarotene_PCA1.png){ width=302px }
+![scatter top 005 point 0 percent](./example1/PNRS/figures/scatter_plots/by_top_connection/scatter_top_005_point_0_percent.png){ width=302px }
+![dscatter top 005 point 0 percent](./example1/PNRS/figures/scatter_plots/by_top_connection/dscatter_top_005_point_0_percent.png){ width=302px }
+![gscatter top 005 point 0 percent by Diet](./example1/PNRS/figures/scatter_plots/by_top_connection/gscatter_top_005_point_0_percent_by_Diet.png){ width=302px }
+![gscatter top 005 point 0 percent by betacarotene PCA1](./example1/PNRS/figures/scatter_plots/by_top_connection/gscatter_top_005_point_0_percent_by_betacarotene_PCA1.png){ width=302px }
+![scatter top 010 point 0 percent](./example1/PNRS/figures/scatter_plots/by_top_connection/scatter_top_010_point_0_percent.png){ width=302px }
+![dscatter top 010 point 0 percent](./example1/PNRS/figures/scatter_plots/by_top_connection/dscatter_top_010_point_0_percent.png){ width=302px }
+![gscatter top 010 point 0 percent by Diet](./example1/PNRS/figures/scatter_plots/by_top_connection/gscatter_top_010_point_0_percent_by_Diet.png){ width=302px }
+![gscatter top 010 point 0 percent by betacarotene PCA1](./example1/PNRS/figures/scatter_plots/by_top_connection/gscatter_top_010_point_0_percent_by_betacarotene_PCA1.png){ width=306px }
+![scatter top 025 point 0 percent](./example1/PNRS/figures/scatter_plots/by_top_connection/scatter_top_025_point_0_percent.png){ width=298px }
+![dscatter top 025 point 0 percent](./example1/PNRS/figures/scatter_plots/by_top_connection/dscatter_top_025_point_0_percent.png){ width=302px }
+![gscatter top 025 point 0 percent by Diet](./example1/PNRS/figures/scatter_plots/by_top_connection/gscatter_top_025_point_0_percent_by_Diet.png){ width=306px }
+![gscatter top 025 point 0 percent by betacarotene PCA1](./example1/PNRS/figures/scatter_plots/by_top_connection/gscatter_top_025_point_0_percent_by_betacarotene_PCA1.png){ width=302px }
+![scatter top 050 point 0 percent](./example1/PNRS/figures/scatter_plots/by_top_connection/scatter_top_050_point_0_percent.png){ width=302px }
+![dscatter top 050 point 0 percent](./example1/PNRS/figures/scatter_plots/by_top_connection/dscatter_top_050_point_0_percent.png){ width=302px }
+![gscatter top 050 point 0 percent by Diet](./example1/PNRS/figures/scatter_plots/by_top_connection/gscatter_top_050_point_0_percent_by_Diet.png){ width=306px }
+![gscatter top 050 point 0 percent by betacarotene PCA1](./example1/PNRS/figures/scatter_plots/by_top_connection/gscatter_top_050_point_0_percent_by_betacarotene_PCA1.png){ width=302px }
+![scatter top 100 point 0 percent](./example1/PNRS/figures/scatter_plots/by_top_connection/scatter_top_100_point_0_percent.png){ width=302px }
+![dscatter top 100 point 0 percent](./example1/PNRS/figures/scatter_plots/by_top_connection/dscatter_top_100_point_0_percent.png){ width=302px }
+![gscatter top 100 point 0 percent by Diet](./example1/PNRS/figures/scatter_plots/by_top_connection/gscatter_top_100_point_0_percent_by_Diet.png){ width=302px }
+![gscatter top 100 point 0 percent by betacarotene PCA1](./example1/PNRS/figures/scatter_plots/by_top_connection/gscatter_top_100_point_0_percent_by_betacarotene_PCA1.png){ width=302px }
+![scatter Aud and Aud](./example1/PNRS/figures/scatter_plots/by_networks/scatter_Aud_and_Aud.png){ width=298px }
+![dscatter Aud and Aud](./example1/PNRS/figures/scatter_plots/by_networks/dscatter_Aud_and_Aud.png){ width=302px }
+![gscatter Aud and Aud by Diet](./example1/PNRS/figures/scatter_plots/by_networks/gscatter_Aud_and_Aud_by_Diet.png){ width=302px }
+![gscatter Aud and Aud by betacarotene PCA1](./example1/PNRS/figures/scatter_plots/by_networks/gscatter_Aud_and_Aud_by_betacarotene_PCA1.png){ width=302px }
+![scatter Aud and Def](./example1/PNRS/figures/scatter_plots/by_networks/scatter_Aud_and_Def.png){ width=302px }
+![dscatter Aud and Def](./example1/PNRS/figures/scatter_plots/by_networks/dscatter_Aud_and_Def.png){ width=302px }
+![gscatter Aud and Def by Diet](./example1/PNRS/figures/scatter_plots/by_networks/gscatter_Aud_and_Def_by_Diet.png){ width=302px }
+![gscatter Aud and Def by betacarotene PCA1](./example1/PNRS/figures/scatter_plots/by_networks/gscatter_Aud_and_Def_by_betacarotene_PCA1.png){ width=302px }
+![scatter Aud and DoA](./example1/PNRS/figures/scatter_plots/by_networks/scatter_Aud_and_DoA.png){ width=302px }
+![dscatter Aud and DoA](./example1/PNRS/figures/scatter_plots/by_networks/dscatter_Aud_and_DoA.png){ width=302px }
+![gscatter Aud and DoA by Diet](./example1/PNRS/figures/scatter_plots/by_networks/gscatter_Aud_and_DoA_by_Diet.png){ width=302px }
+![gscatter Aud and DoA by betacarotene PCA1](./example1/PNRS/figures/scatter_plots/by_networks/gscatter_Aud_and_DoA_by_betacarotene_PCA1.png){ width=302px }
+![scatter Aud and InO](./example1/PNRS/figures/scatter_plots/by_networks/scatter_Aud_and_InO.png){ width=302px }
+![dscatter Aud and InO](./example1/PNRS/figures/scatter_plots/by_networks/dscatter_Aud_and_InO.png){ width=302px }
+![gscatter Aud and InO by Diet](./example1/PNRS/figures/scatter_plots/by_networks/gscatter_Aud_and_InO_by_Diet.png){ width=302px }
+![gscatter Aud and InO by betacarotene PCA1](./example1/PNRS/figures/scatter_plots/by_networks/gscatter_Aud_and_InO_by_betacarotene_PCA1.png){ width=302px }
+![scatter Aud and Lmb](./example1/PNRS/figures/scatter_plots/by_networks/scatter_Aud_and_Lmb.png){ width=302px }
+![dscatter Aud and Lmb](./example1/PNRS/figures/scatter_plots/by_networks/dscatter_Aud_and_Lmb.png){ width=302px }
+![gscatter Aud and Lmb by Diet](./example1/PNRS/figures/scatter_plots/by_networks/gscatter_Aud_and_Lmb_by_Diet.png){ width=302px }
+![gscatter Aud and Lmb by betacarotene PCA1](./example1/PNRS/figures/scatter_plots/by_networks/gscatter_Aud_and_Lmb_by_betacarotene_PCA1.png){ width=302px }
+![scatter Aud and SoM](./example1/PNRS/figures/scatter_plots/by_networks/scatter_Aud_and_SoM.png){ width=302px }
+![dscatter Aud and SoM](./example1/PNRS/figures/scatter_plots/by_networks/dscatter_Aud_and_SoM.png){ width=302px }
+![gscatter Aud and SoM by Diet](./example1/PNRS/figures/scatter_plots/by_networks/gscatter_Aud_and_SoM_by_Diet.png){ width=302px }
+![gscatter Aud and SoM by betacarotene PCA1](./example1/PNRS/figures/scatter_plots/by_networks/gscatter_Aud_and_SoM_by_betacarotene_PCA1.png){ width=302px }
+![scatter Aud and Vis](./example1/PNRS/figures/scatter_plots/by_networks/scatter_Aud_and_Vis.png){ width=302px }
+![dscatter Aud and Vis](./example1/PNRS/figures/scatter_plots/by_networks/dscatter_Aud_and_Vis.png){ width=302px }
+![gscatter Aud and Vis by Diet](./example1/PNRS/figures/scatter_plots/by_networks/gscatter_Aud_and_Vis_by_Diet.png){ width=298px }
+![gscatter Aud and Vis by betacarotene PCA1](./example1/PNRS/figures/scatter_plots/by_networks/gscatter_Aud_and_Vis_by_betacarotene_PCA1.png){ width=302px }
+![scatter Def and Def](./example1/PNRS/figures/scatter_plots/by_networks/scatter_Def_and_Def.png){ width=302px }
+![dscatter Def and Def](./example1/PNRS/figures/scatter_plots/by_networks/dscatter_Def_and_Def.png){ width=302px }
+![gscatter Def and Def by Diet](./example1/PNRS/figures/scatter_plots/by_networks/gscatter_Def_and_Def_by_Diet.png){ width=302px }
+![gscatter Def and Def by betacarotene PCA1](./example1/PNRS/figures/scatter_plots/by_networks/gscatter_Def_and_Def_by_betacarotene_PCA1.png){ width=302px }
+![scatter Def and DoA](./example1/PNRS/figures/scatter_plots/by_networks/scatter_Def_and_DoA.png){ width=302px }
+![dscatter Def and DoA](./example1/PNRS/figures/scatter_plots/by_networks/dscatter_Def_and_DoA.png){ width=302px }
+![gscatter Def and DoA by Diet](./example1/PNRS/figures/scatter_plots/by_networks/gscatter_Def_and_DoA_by_Diet.png){ width=302px }
+![gscatter Def and DoA by betacarotene PCA1](./example1/PNRS/figures/scatter_plots/by_networks/gscatter_Def_and_DoA_by_betacarotene_PCA1.png){ width=302px }
+![scatter Def and InO](./example1/PNRS/figures/scatter_plots/by_networks/scatter_Def_and_InO.png){ width=302px }
+![dscatter Def and InO](./example1/PNRS/figures/scatter_plots/by_networks/dscatter_Def_and_InO.png){ width=302px }
+![gscatter Def and InO by Diet](./example1/PNRS/figures/scatter_plots/by_networks/gscatter_Def_and_InO_by_Diet.png){ width=302px }
+![gscatter Def and InO by betacarotene PCA1](./example1/PNRS/figures/scatter_plots/by_networks/gscatter_Def_and_InO_by_betacarotene_PCA1.png){ width=306px }
+![scatter Def and Lmb](./example1/PNRS/figures/scatter_plots/by_networks/scatter_Def_and_Lmb.png){ width=302px }
+![dscatter Def and Lmb](./example1/PNRS/figures/scatter_plots/by_networks/dscatter_Def_and_Lmb.png){ width=302px }
+![gscatter Def and Lmb by Diet](./example1/PNRS/figures/scatter_plots/by_networks/gscatter_Def_and_Lmb_by_Diet.png){ width=302px }
+![gscatter Def and Lmb by betacarotene PCA1](./example1/PNRS/figures/scatter_plots/by_networks/gscatter_Def_and_Lmb_by_betacarotene_PCA1.png){ width=302px }
+![scatter Def and SoM](./example1/PNRS/figures/scatter_plots/by_networks/scatter_Def_and_SoM.png){ width=302px }
+![dscatter Def and SoM](./example1/PNRS/figures/scatter_plots/by_networks/dscatter_Def_and_SoM.png){ width=302px }
+![gscatter Def and SoM by Diet](./example1/PNRS/figures/scatter_plots/by_networks/gscatter_Def_and_SoM_by_Diet.png){ width=302px }
+![gscatter Def and SoM by betacarotene PCA1](./example1/PNRS/figures/scatter_plots/by_networks/gscatter_Def_and_SoM_by_betacarotene_PCA1.png){ width=302px }
+![scatter Def and Vis](./example1/PNRS/figures/scatter_plots/by_networks/scatter_Def_and_Vis.png){ width=302px }
+![dscatter Def and Vis](./example1/PNRS/figures/scatter_plots/by_networks/dscatter_Def_and_Vis.png){ width=302px }
+![gscatter Def and Vis by Diet](./example1/PNRS/figures/scatter_plots/by_networks/gscatter_Def_and_Vis_by_Diet.png){ width=302px }
+![gscatter Def and Vis by betacarotene PCA1](./example1/PNRS/figures/scatter_plots/by_networks/gscatter_Def_and_Vis_by_betacarotene_PCA1.png){ width=302px }
+![scatter DoA and DoA](./example1/PNRS/figures/scatter_plots/by_networks/scatter_DoA_and_DoA.png){ width=302px }
+![dscatter DoA and DoA](./example1/PNRS/figures/scatter_plots/by_networks/dscatter_DoA_and_DoA.png){ width=306px }
+![gscatter DoA and DoA by Diet](./example1/PNRS/figures/scatter_plots/by_networks/gscatter_DoA_and_DoA_by_Diet.png){ width=306px }
+![gscatter DoA and DoA by betacarotene PCA1](./example1/PNRS/figures/scatter_plots/by_networks/gscatter_DoA_and_DoA_by_betacarotene_PCA1.png){ width=302px }
+![scatter DoA and InO](./example1/PNRS/figures/scatter_plots/by_networks/scatter_DoA_and_InO.png){ width=302px }
+![dscatter DoA and InO](./example1/PNRS/figures/scatter_plots/by_networks/dscatter_DoA_and_InO.png){ width=298px }
+![gscatter DoA and InO by Diet](./example1/PNRS/figures/scatter_plots/by_networks/gscatter_DoA_and_InO_by_Diet.png){ width=302px }
+![gscatter DoA and InO by betacarotene PCA1](./example1/PNRS/figures/scatter_plots/by_networks/gscatter_DoA_and_InO_by_betacarotene_PCA1.png){ width=302px }
+![scatter DoA and Lmb](./example1/PNRS/figures/scatter_plots/by_networks/scatter_DoA_and_Lmb.png){ width=302px }
+![dscatter DoA and Lmb](./example1/PNRS/figures/scatter_plots/by_networks/dscatter_DoA_and_Lmb.png){ width=302px }
+![gscatter DoA and Lmb by Diet](./example1/PNRS/figures/scatter_plots/by_networks/gscatter_DoA_and_Lmb_by_Diet.png){ width=302px }
+![gscatter DoA and Lmb by betacarotene PCA1](./example1/PNRS/figures/scatter_plots/by_networks/gscatter_DoA_and_Lmb_by_betacarotene_PCA1.png){ width=302px }
+![scatter DoA and SoM](./example1/PNRS/figures/scatter_plots/by_networks/scatter_DoA_and_SoM.png){ width=302px }
+![dscatter DoA and SoM](./example1/PNRS/figures/scatter_plots/by_networks/dscatter_DoA_and_SoM.png){ width=302px }
+![gscatter DoA and SoM by Diet](./example1/PNRS/figures/scatter_plots/by_networks/gscatter_DoA_and_SoM_by_Diet.png){ width=302px }
+![gscatter DoA and SoM by betacarotene PCA1](./example1/PNRS/figures/scatter_plots/by_networks/gscatter_DoA_and_SoM_by_betacarotene_PCA1.png){ width=302px }
+![scatter DoA and Vis](./example1/PNRS/figures/scatter_plots/by_networks/scatter_DoA_and_Vis.png){ width=302px }
+![dscatter DoA and Vis](./example1/PNRS/figures/scatter_plots/by_networks/dscatter_DoA_and_Vis.png){ width=302px }
+![gscatter DoA and Vis by Diet](./example1/PNRS/figures/scatter_plots/by_networks/gscatter_DoA_and_Vis_by_Diet.png){ width=302px }
+![gscatter DoA and Vis by betacarotene PCA1](./example1/PNRS/figures/scatter_plots/by_networks/gscatter_DoA_and_Vis_by_betacarotene_PCA1.png){ width=302px }
+![scatter InO and InO](./example1/PNRS/figures/scatter_plots/by_networks/scatter_InO_and_InO.png){ width=302px }
+![dscatter InO and InO](./example1/PNRS/figures/scatter_plots/by_networks/dscatter_InO_and_InO.png){ width=302px }
+![gscatter InO and InO by Diet](./example1/PNRS/figures/scatter_plots/by_networks/gscatter_InO_and_InO_by_Diet.png){ width=302px }
+![gscatter InO and InO by betacarotene PCA1](./example1/PNRS/figures/scatter_plots/by_networks/gscatter_InO_and_InO_by_betacarotene_PCA1.png){ width=302px }
+![scatter InO and Lmb](./example1/PNRS/figures/scatter_plots/by_networks/scatter_InO_and_Lmb.png){ width=306px }
+![dscatter InO and Lmb](./example1/PNRS/figures/scatter_plots/by_networks/dscatter_InO_and_Lmb.png){ width=302px }
+![gscatter InO and Lmb by Diet](./example1/PNRS/figures/scatter_plots/by_networks/gscatter_InO_and_Lmb_by_Diet.png){ width=302px }
+![gscatter InO and Lmb by betacarotene PCA1](./example1/PNRS/figures/scatter_plots/by_networks/gscatter_InO_and_Lmb_by_betacarotene_PCA1.png){ width=302px }
+![scatter InO and SoM](./example1/PNRS/figures/scatter_plots/by_networks/scatter_InO_and_SoM.png){ width=302px }
+![dscatter InO and SoM](./example1/PNRS/figures/scatter_plots/by_networks/dscatter_InO_and_SoM.png){ width=302px }
+![gscatter InO and SoM by Diet](./example1/PNRS/figures/scatter_plots/by_networks/gscatter_InO_and_SoM_by_Diet.png){ width=302px }
+![gscatter InO and SoM by betacarotene PCA1](./example1/PNRS/figures/scatter_plots/by_networks/gscatter_InO_and_SoM_by_betacarotene_PCA1.png){ width=302px }
+![scatter InO and Vis](./example1/PNRS/figures/scatter_plots/by_networks/scatter_InO_and_Vis.png){ width=302px }
+![dscatter InO and Vis](./example1/PNRS/figures/scatter_plots/by_networks/dscatter_InO_and_Vis.png){ width=302px }
+![gscatter InO and Vis by Diet](./example1/PNRS/figures/scatter_plots/by_networks/gscatter_InO_and_Vis_by_Diet.png){ width=302px }
+![gscatter InO and Vis by betacarotene PCA1](./example1/PNRS/figures/scatter_plots/by_networks/gscatter_InO_and_Vis_by_betacarotene_PCA1.png){ width=302px }
+![scatter Lmb and Lmb](./example1/PNRS/figures/scatter_plots/by_networks/scatter_Lmb_and_Lmb.png){ width=302px }
+![dscatter Lmb and Lmb](./example1/PNRS/figures/scatter_plots/by_networks/dscatter_Lmb_and_Lmb.png){ width=302px }
+![gscatter Lmb and Lmb by Diet](./example1/PNRS/figures/scatter_plots/by_networks/gscatter_Lmb_and_Lmb_by_Diet.png){ width=302px }
+![gscatter Lmb and Lmb by betacarotene PCA1](./example1/PNRS/figures/scatter_plots/by_networks/gscatter_Lmb_and_Lmb_by_betacarotene_PCA1.png){ width=302px }
+![scatter Lmb and SoM](./example1/PNRS/figures/scatter_plots/by_networks/scatter_Lmb_and_SoM.png){ width=302px }
+![dscatter Lmb and SoM](./example1/PNRS/figures/scatter_plots/by_networks/dscatter_Lmb_and_SoM.png){ width=302px }
+![gscatter Lmb and SoM by Diet](./example1/PNRS/figures/scatter_plots/by_networks/gscatter_Lmb_and_SoM_by_Diet.png){ width=302px }
+![gscatter Lmb and SoM by betacarotene PCA1](./example1/PNRS/figures/scatter_plots/by_networks/gscatter_Lmb_and_SoM_by_betacarotene_PCA1.png){ width=302px }
+![scatter Lmb and Vis](./example1/PNRS/figures/scatter_plots/by_networks/scatter_Lmb_and_Vis.png){ width=302px }
+![dscatter Lmb and Vis](./example1/PNRS/figures/scatter_plots/by_networks/dscatter_Lmb_and_Vis.png){ width=302px }
+![gscatter Lmb and Vis by Diet](./example1/PNRS/figures/scatter_plots/by_networks/gscatter_Lmb_and_Vis_by_Diet.png){ width=302px }
+![gscatter Lmb and Vis by betacarotene PCA1](./example1/PNRS/figures/scatter_plots/by_networks/gscatter_Lmb_and_Vis_by_betacarotene_PCA1.png){ width=302px }
+![scatter SoM and SoM](./example1/PNRS/figures/scatter_plots/by_networks/scatter_SoM_and_SoM.png){ width=302px }
+![dscatter SoM and SoM](./example1/PNRS/figures/scatter_plots/by_networks/dscatter_SoM_and_SoM.png){ width=302px }
+![gscatter SoM and SoM by Diet](./example1/PNRS/figures/scatter_plots/by_networks/gscatter_SoM_and_SoM_by_Diet.png){ width=302px }
+![gscatter SoM and SoM by betacarotene PCA1](./example1/PNRS/figures/scatter_plots/by_networks/gscatter_SoM_and_SoM_by_betacarotene_PCA1.png){ width=302px }
+![scatter SoM and Vis](./example1/PNRS/figures/scatter_plots/by_networks/scatter_SoM_and_Vis.png){ width=302px }
+![dscatter SoM and Vis](./example1/PNRS/figures/scatter_plots/by_networks/dscatter_SoM_and_Vis.png){ width=302px }
+![gscatter SoM and Vis by Diet](./example1/PNRS/figures/scatter_plots/by_networks/gscatter_SoM_and_Vis_by_Diet.png){ width=302px }
+![gscatter SoM and Vis by betacarotene PCA1](./example1/PNRS/figures/scatter_plots/by_networks/gscatter_SoM_and_Vis_by_betacarotene_PCA1.png){ width=302px }
+![scatter Vis and Vis](./example1/PNRS/figures/scatter_plots/by_networks/scatter_Vis_and_Vis.png){ width=306px }
+![dscatter Vis and Vis](./example1/PNRS/figures/scatter_plots/by_networks/dscatter_Vis_and_Vis.png){ width=302px }
+![gscatter Vis and Vis by Diet](./example1/PNRS/figures/scatter_plots/by_networks/gscatter_Vis_and_Vis_by_Diet.png){ width=302px }
+![gscatter Vis and Vis by betacarotene PCA1](./example1/PNRS/figures/scatter_plots/by_networks/gscatter_Vis_and_Vis_by_betacarotene_PCA1.png){ width=302px }
+![ExplainedVariance N 11](./example1/PNRS/figures/ExplainedVariance_and_Null/ExplainedVariance_N_11.png){ width=302px }
+![Correlations N 11](./example1/PNRS/figures/ExplainedVariance_and_Null/Correlations_N_11.png){ width=302px }
+![ExplainedVariancebynetworks N 28](./example1/PNRS/figures/ExplainedVariance_and_Null/ExplainedVariancebynetworks_N_28.png){ width=756px }
+![ExplainedVariancebynetworks N 15](./example1/PNRS/figures/ExplainedVariance_and_Null/ExplainedVariancebynetworks_N_15.png){ width=302px }
+![Correlationsbynetworks N 28](./example1/PNRS/figures/ExplainedVariance_and_Null/Correlationsbynetworks_N_28.png){ width=760px }
+![Correlationsbynetworks N 15](./example1/PNRS/figures/ExplainedVariance_and_Null/Correlationsbynetworks_N_15.png){ width=302px }
+![ExplainedVariancebynetworks Negcorr  N 28](./example1/PNRS/figures/ExplainedVariance_and_Null/ExplainedVariancebynetworks_Negcorr__N_28.png){ width=756px }
+![ExplainedVariancebynetworks Negcorr  N 15](./example1/PNRS/figures/ExplainedVariance_and_Null/ExplainedVariancebynetworks_Negcorr__N_15.png){ width=302px }
+![Correlationsbynetworks Negcorr  N 28](./example1/PNRS/figures/ExplainedVariance_and_Null/Correlationsbynetworks_Negcorr__N_28.png){ width=756px }
+![Correlationsbynetworks Negcorr  N 15](./example1/PNRS/figures/ExplainedVariance_and_Null/Correlationsbynetworks_Negcorr__N_15.png){ width=302px }
+![Weights explainedVariance by brainFeature](./example3/BWAS/figures/Weights_ExplainedVariance/Weights_explainedVariance_by_brainFeature.png){ width=302px }
+![Weights explainedVariance by Weight](./example3/BWAS/figures/Weights_ExplainedVariance/Weights_explainedVariance_by_Weight.png){ width=306px }
+![Weights explainedVariance by explainedVariance](./example3/BWAS/figures/Weights_ExplainedVariance/Weights_explainedVariance_by_explainedVariance.png){ width=306px }
+![AbsWeights explainedVariance by brainFeature](./example3/BWAS/figures/Weights_ExplainedVariance/AbsWeights_explainedVariance_by_brainFeature.png){ width=302px }
+![AbsWeights explainedVariance by Weight](./example3/BWAS/figures/Weights_ExplainedVariance/AbsWeights_explainedVariance_by_Weight.png){ width=302px }
+![AbsWeights explainedVariance by explainedVariance](./example3/BWAS/figures/Weights_ExplainedVariance/AbsWeights_explainedVariance_by_explainedVariance.png){ width=302px }
+![pValue Variance by brainFeature](./example3/BWAS/figures/pValues_ExplainedVariance/pValue_Variance_by_brainFeature.png){ width=302px }
+![logpValue Variance by brainFeature](./example3/BWAS/figures/pValues_ExplainedVariance/logpValue_Variance_by_brainFeature.png){ width=302px }
+![BWAS manhattan plot like](./example3/BWAS/figures/Manhattan_plots/BWAS_manhattan_plot_like.png){ width=454px }
+![BWAS manhattan plot truncated](./example3/BWAS/figures/Manhattan_plots/BWAS_manhattan_plot_truncated.png){ width=454px }
+![BWAS manhattan plot networks covering more than 1 percent](./example3/BWAS/figures/Manhattan_plots/BWAS_manhattan_plot_networks_covering_more_than_1_percent.png){ width=454px }
+![BWAS manhattan plot networks covering less than 1 percent](./example3/BWAS/figures/Manhattan_plots/BWAS_manhattan_plot_networks_covering_less_than_1_percent.png){ width=454px }
+![Relative networks contribution](./example3/BWAS/figures/RelativeContribution_plots/Relative_networks_contribution.png){ width=458px }
+![Weights explainedVariance by brainFeature](./example3/PNRS/figures/Weights_ExplainedVariance/Weights_explainedVariance_by_brainFeature.png){ width=302px }
+![Weights explainedVariance by Weight](./example3/PNRS/figures/Weights_ExplainedVariance/Weights_explainedVariance_by_Weight.png){ width=302px }
+![Weights explainedVariance by explainedVariance](./example3/PNRS/figures/Weights_ExplainedVariance/Weights_explainedVariance_by_explainedVariance.png){ width=302px }
+![AbsWeights explainedVariance by brainFeature](./example3/PNRS/figures/Weights_ExplainedVariance/AbsWeights_explainedVariance_by_brainFeature.png){ width=298px }
+![AbsWeights explainedVariance by Weight](./example3/PNRS/figures/Weights_ExplainedVariance/AbsWeights_explainedVariance_by_Weight.png){ width=302px }
+![AbsWeights explainedVariance by explainedVariance](./example3/PNRS/figures/Weights_ExplainedVariance/AbsWeights_explainedVariance_by_explainedVariance.png){ width=302px }
+![pValue Variance by brainFeature](./example3/PNRS/figures/pValues_ExplainedVariance/pValue_Variance_by_brainFeature.png){ width=302px }
+![logpValue Variance by brainFeature](./example3/PNRS/figures/pValues_ExplainedVariance/logpValue_Variance_by_brainFeature.png){ width=302px }
+![pValue Variance by brainFeature](./example3/PNRS/figures/pValues_ExplainedVariance_2_samples/pValue_Variance_by_brainFeature.png){ width=302px }
+![logpValue Variance by brainFeature](./example3/PNRS/figures/pValues_ExplainedVariance_2_samples/logpValue_Variance_by_brainFeature.png){ width=302px }
+![Scores](./example3/PNRS/figures/scores/Scores.png){ width=302px }
+![Scores by networks](./example3/PNRS/figures/scores/Scores_by_networks.png){ width=302px }
+![scatter Top feature](./example3/PNRS/figures/scatter_plots/by_top_connection/scatter_Top_feature.png){ width=302px }
+![dscatter Top feature](./example3/PNRS/figures/scatter_plots/by_top_connection/dscatter_Top_feature.png){ width=302px }
+![gscatter Top feature by FoG](./example3/PNRS/figures/scatter_plots/by_top_connection/gscatter_Top_feature_by_FoG.png){ width=302px }
+![gscatter Top feature by sex](./example3/PNRS/figures/scatter_plots/by_top_connection/gscatter_Top_feature_by_sex.png){ width=302px }
+![gscatter Top feature by Age at session](./example3/PNRS/figures/scatter_plots/by_top_connection/gscatter_Top_feature_by_Age_at_session.png){ width=302px }
+![gscatter Top feature by scanner model](./example3/PNRS/figures/scatter_plots/by_top_connection/gscatter_Top_feature_by_scanner_model.png){ width=302px }
+![gscatter Top feature by var1](./example3/PNRS/figures/scatter_plots/by_top_connection/gscatter_Top_feature_by_var1.png){ width=302px }
+![gscatter Top feature by variable 2](./example3/PNRS/figures/scatter_plots/by_top_connection/gscatter_Top_feature_by_variable_2.png){ width=302px }
+![gscatter Top feature by var4](./example3/PNRS/figures/scatter_plots/by_top_connection/gscatter_Top_feature_by_var4.png){ width=302px }
+![scatter top 000 point 1 percent](./example3/PNRS/figures/scatter_plots/by_top_connection/scatter_top_000_point_1_percent.png){ width=302px }
+![dscatter top 000 point 1 percent](./example3/PNRS/figures/scatter_plots/by_top_connection/dscatter_top_000_point_1_percent.png){ width=302px }
+![gscatter top 000 point 1 percent by FoG](./example3/PNRS/figures/scatter_plots/by_top_connection/gscatter_top_000_point_1_percent_by_FoG.png){ width=302px }
+![gscatter top 000 point 1 percent by sex](./example3/PNRS/figures/scatter_plots/by_top_connection/gscatter_top_000_point_1_percent_by_sex.png){ width=302px }
+![gscatter top 000 point 1 percent by Age at session](./example3/PNRS/figures/scatter_plots/by_top_connection/gscatter_top_000_point_1_percent_by_Age_at_session.png){ width=302px }
+![gscatter top 000 point 1 percent by scanner model](./example3/PNRS/figures/scatter_plots/by_top_connection/gscatter_top_000_point_1_percent_by_scanner_model.png){ width=302px }
+![gscatter top 000 point 1 percent by var1](./example3/PNRS/figures/scatter_plots/by_top_connection/gscatter_top_000_point_1_percent_by_var1.png){ width=302px }
+![gscatter top 000 point 1 percent by variable 2](./example3/PNRS/figures/scatter_plots/by_top_connection/gscatter_top_000_point_1_percent_by_variable_2.png){ width=302px }
+![gscatter top 000 point 1 percent by var4](./example3/PNRS/figures/scatter_plots/by_top_connection/gscatter_top_000_point_1_percent_by_var4.png){ width=302px }
+![scatter top 000 point 2 percent](./example3/PNRS/figures/scatter_plots/by_top_connection/scatter_top_000_point_2_percent.png){ width=302px }
+![dscatter top 000 point 2 percent](./example3/PNRS/figures/scatter_plots/by_top_connection/dscatter_top_000_point_2_percent.png){ width=302px }
+![gscatter top 000 point 2 percent by FoG](./example3/PNRS/figures/scatter_plots/by_top_connection/gscatter_top_000_point_2_percent_by_FoG.png){ width=302px }
+![gscatter top 000 point 2 percent by sex](./example3/PNRS/figures/scatter_plots/by_top_connection/gscatter_top_000_point_2_percent_by_sex.png){ width=302px }
+![gscatter top 000 point 2 percent by Age at session](./example3/PNRS/figures/scatter_plots/by_top_connection/gscatter_top_000_point_2_percent_by_Age_at_session.png){ width=302px }
+![gscatter top 000 point 2 percent by scanner model](./example3/PNRS/figures/scatter_plots/by_top_connection/gscatter_top_000_point_2_percent_by_scanner_model.png){ width=302px }
+![gscatter top 000 point 2 percent by var1](./example3/PNRS/figures/scatter_plots/by_top_connection/gscatter_top_000_point_2_percent_by_var1.png){ width=302px }
+![gscatter top 000 point 2 percent by variable 2](./example3/PNRS/figures/scatter_plots/by_top_connection/gscatter_top_000_point_2_percent_by_variable_2.png){ width=302px }
+![gscatter top 000 point 2 percent by var4](./example3/PNRS/figures/scatter_plots/by_top_connection/gscatter_top_000_point_2_percent_by_var4.png){ width=302px }
+![scatter top 000 point 5 percent](./example3/PNRS/figures/scatter_plots/by_top_connection/scatter_top_000_point_5_percent.png){ width=302px }
+![dscatter top 000 point 5 percent](./example3/PNRS/figures/scatter_plots/by_top_connection/dscatter_top_000_point_5_percent.png){ width=302px }
+![gscatter top 000 point 5 percent by FoG](./example3/PNRS/figures/scatter_plots/by_top_connection/gscatter_top_000_point_5_percent_by_FoG.png){ width=302px }
+![gscatter top 000 point 5 percent by sex](./example3/PNRS/figures/scatter_plots/by_top_connection/gscatter_top_000_point_5_percent_by_sex.png){ width=302px }
+![gscatter top 000 point 5 percent by Age at session](./example3/PNRS/figures/scatter_plots/by_top_connection/gscatter_top_000_point_5_percent_by_Age_at_session.png){ width=306px }
+![gscatter top 000 point 5 percent by scanner model](./example3/PNRS/figures/scatter_plots/by_top_connection/gscatter_top_000_point_5_percent_by_scanner_model.png){ width=302px }
+![gscatter top 000 point 5 percent by var1](./example3/PNRS/figures/scatter_plots/by_top_connection/gscatter_top_000_point_5_percent_by_var1.png){ width=302px }
+![gscatter top 000 point 5 percent by variable 2](./example3/PNRS/figures/scatter_plots/by_top_connection/gscatter_top_000_point_5_percent_by_variable_2.png){ width=302px }
+![gscatter top 000 point 5 percent by var4](./example3/PNRS/figures/scatter_plots/by_top_connection/gscatter_top_000_point_5_percent_by_var4.png){ width=302px }
+![scatter top 001 point 0 percent](./example3/PNRS/figures/scatter_plots/by_top_connection/scatter_top_001_point_0_percent.png){ width=302px }
+![dscatter top 001 point 0 percent](./example3/PNRS/figures/scatter_plots/by_top_connection/dscatter_top_001_point_0_percent.png){ width=302px }
+![gscatter top 001 point 0 percent by FoG](./example3/PNRS/figures/scatter_plots/by_top_connection/gscatter_top_001_point_0_percent_by_FoG.png){ width=302px }
+![gscatter top 001 point 0 percent by sex](./example3/PNRS/figures/scatter_plots/by_top_connection/gscatter_top_001_point_0_percent_by_sex.png){ width=302px }
+![gscatter top 001 point 0 percent by Age at session](./example3/PNRS/figures/scatter_plots/by_top_connection/gscatter_top_001_point_0_percent_by_Age_at_session.png){ width=302px }
+![gscatter top 001 point 0 percent by scanner model](./example3/PNRS/figures/scatter_plots/by_top_connection/gscatter_top_001_point_0_percent_by_scanner_model.png){ width=302px }
+![gscatter top 001 point 0 percent by var1](./example3/PNRS/figures/scatter_plots/by_top_connection/gscatter_top_001_point_0_percent_by_var1.png){ width=302px }
+![gscatter top 001 point 0 percent by variable 2](./example3/PNRS/figures/scatter_plots/by_top_connection/gscatter_top_001_point_0_percent_by_variable_2.png){ width=302px }
+![gscatter top 001 point 0 percent by var4](./example3/PNRS/figures/scatter_plots/by_top_connection/gscatter_top_001_point_0_percent_by_var4.png){ width=302px }
+![scatter top 002 point 0 percent](./example3/PNRS/figures/scatter_plots/by_top_connection/scatter_top_002_point_0_percent.png){ width=302px }
+![dscatter top 002 point 0 percent](./example3/PNRS/figures/scatter_plots/by_top_connection/dscatter_top_002_point_0_percent.png){ width=302px }
+![gscatter top 002 point 0 percent by FoG](./example3/PNRS/figures/scatter_plots/by_top_connection/gscatter_top_002_point_0_percent_by_FoG.png){ width=302px }
+![gscatter top 002 point 0 percent by sex](./example3/PNRS/figures/scatter_plots/by_top_connection/gscatter_top_002_point_0_percent_by_sex.png){ width=302px }
+![gscatter top 002 point 0 percent by Age at session](./example3/PNRS/figures/scatter_plots/by_top_connection/gscatter_top_002_point_0_percent_by_Age_at_session.png){ width=302px }
+![gscatter top 002 point 0 percent by scanner model](./example3/PNRS/figures/scatter_plots/by_top_connection/gscatter_top_002_point_0_percent_by_scanner_model.png){ width=302px }
+![gscatter top 002 point 0 percent by var1](./example3/PNRS/figures/scatter_plots/by_top_connection/gscatter_top_002_point_0_percent_by_var1.png){ width=302px }
+![gscatter top 002 point 0 percent by variable 2](./example3/PNRS/figures/scatter_plots/by_top_connection/gscatter_top_002_point_0_percent_by_variable_2.png){ width=302px }
+![gscatter top 002 point 0 percent by var4](./example3/PNRS/figures/scatter_plots/by_top_connection/gscatter_top_002_point_0_percent_by_var4.png){ width=302px }
+![scatter top 005 point 0 percent](./example3/PNRS/figures/scatter_plots/by_top_connection/scatter_top_005_point_0_percent.png){ width=302px }
+![dscatter top 005 point 0 percent](./example3/PNRS/figures/scatter_plots/by_top_connection/dscatter_top_005_point_0_percent.png){ width=302px }
+![gscatter top 005 point 0 percent by FoG](./example3/PNRS/figures/scatter_plots/by_top_connection/gscatter_top_005_point_0_percent_by_FoG.png){ width=306px }
+![gscatter top 005 point 0 percent by sex](./example3/PNRS/figures/scatter_plots/by_top_connection/gscatter_top_005_point_0_percent_by_sex.png){ width=302px }
+![gscatter top 005 point 0 percent by Age at session](./example3/PNRS/figures/scatter_plots/by_top_connection/gscatter_top_005_point_0_percent_by_Age_at_session.png){ width=302px }
+![gscatter top 005 point 0 percent by scanner model](./example3/PNRS/figures/scatter_plots/by_top_connection/gscatter_top_005_point_0_percent_by_scanner_model.png){ width=302px }
+![gscatter top 005 point 0 percent by var1](./example3/PNRS/figures/scatter_plots/by_top_connection/gscatter_top_005_point_0_percent_by_var1.png){ width=302px }
+![gscatter top 005 point 0 percent by variable 2](./example3/PNRS/figures/scatter_plots/by_top_connection/gscatter_top_005_point_0_percent_by_variable_2.png){ width=302px }
+![gscatter top 005 point 0 percent by var4](./example3/PNRS/figures/scatter_plots/by_top_connection/gscatter_top_005_point_0_percent_by_var4.png){ width=302px }
+![scatter top 010 point 0 percent](./example3/PNRS/figures/scatter_plots/by_top_connection/scatter_top_010_point_0_percent.png){ width=302px }
+![dscatter top 010 point 0 percent](./example3/PNRS/figures/scatter_plots/by_top_connection/dscatter_top_010_point_0_percent.png){ width=302px }
+![gscatter top 010 point 0 percent by FoG](./example3/PNRS/figures/scatter_plots/by_top_connection/gscatter_top_010_point_0_percent_by_FoG.png){ width=302px }
+![gscatter top 010 point 0 percent by sex](./example3/PNRS/figures/scatter_plots/by_top_connection/gscatter_top_010_point_0_percent_by_sex.png){ width=302px }
+![gscatter top 010 point 0 percent by Age at session](./example3/PNRS/figures/scatter_plots/by_top_connection/gscatter_top_010_point_0_percent_by_Age_at_session.png){ width=302px }
+![gscatter top 010 point 0 percent by scanner model](./example3/PNRS/figures/scatter_plots/by_top_connection/gscatter_top_010_point_0_percent_by_scanner_model.png){ width=298px }
+![gscatter top 010 point 0 percent by var1](./example3/PNRS/figures/scatter_plots/by_top_connection/gscatter_top_010_point_0_percent_by_var1.png){ width=302px }
+![gscatter top 010 point 0 percent by variable 2](./example3/PNRS/figures/scatter_plots/by_top_connection/gscatter_top_010_point_0_percent_by_variable_2.png){ width=302px }
+![gscatter top 010 point 0 percent by var4](./example3/PNRS/figures/scatter_plots/by_top_connection/gscatter_top_010_point_0_percent_by_var4.png){ width=302px }
+![scatter top 025 point 0 percent](./example3/PNRS/figures/scatter_plots/by_top_connection/scatter_top_025_point_0_percent.png){ width=302px }
+![dscatter top 025 point 0 percent](./example3/PNRS/figures/scatter_plots/by_top_connection/dscatter_top_025_point_0_percent.png){ width=302px }
+![gscatter top 025 point 0 percent by FoG](./example3/PNRS/figures/scatter_plots/by_top_connection/gscatter_top_025_point_0_percent_by_FoG.png){ width=302px }
+![gscatter top 025 point 0 percent by sex](./example3/PNRS/figures/scatter_plots/by_top_connection/gscatter_top_025_point_0_percent_by_sex.png){ width=302px }
+![gscatter top 025 point 0 percent by Age at session](./example3/PNRS/figures/scatter_plots/by_top_connection/gscatter_top_025_point_0_percent_by_Age_at_session.png){ width=302px }
+![gscatter top 025 point 0 percent by scanner model](./example3/PNRS/figures/scatter_plots/by_top_connection/gscatter_top_025_point_0_percent_by_scanner_model.png){ width=302px }
+![gscatter top 025 point 0 percent by var1](./example3/PNRS/figures/scatter_plots/by_top_connection/gscatter_top_025_point_0_percent_by_var1.png){ width=306px }
+![gscatter top 025 point 0 percent by variable 2](./example3/PNRS/figures/scatter_plots/by_top_connection/gscatter_top_025_point_0_percent_by_variable_2.png){ width=302px }
+![gscatter top 025 point 0 percent by var4](./example3/PNRS/figures/scatter_plots/by_top_connection/gscatter_top_025_point_0_percent_by_var4.png){ width=302px }
+![scatter top 050 point 0 percent](./example3/PNRS/figures/scatter_plots/by_top_connection/scatter_top_050_point_0_percent.png){ width=302px }
+![dscatter top 050 point 0 percent](./example3/PNRS/figures/scatter_plots/by_top_connection/dscatter_top_050_point_0_percent.png){ width=302px }
+![gscatter top 050 point 0 percent by FoG](./example3/PNRS/figures/scatter_plots/by_top_connection/gscatter_top_050_point_0_percent_by_FoG.png){ width=302px }
+![gscatter top 050 point 0 percent by sex](./example3/PNRS/figures/scatter_plots/by_top_connection/gscatter_top_050_point_0_percent_by_sex.png){ width=302px }
+![gscatter top 050 point 0 percent by Age at session](./example3/PNRS/figures/scatter_plots/by_top_connection/gscatter_top_050_point_0_percent_by_Age_at_session.png){ width=302px }
+![gscatter top 050 point 0 percent by scanner model](./example3/PNRS/figures/scatter_plots/by_top_connection/gscatter_top_050_point_0_percent_by_scanner_model.png){ width=302px }
+![gscatter top 050 point 0 percent by var1](./example3/PNRS/figures/scatter_plots/by_top_connection/gscatter_top_050_point_0_percent_by_var1.png){ width=302px }
+![gscatter top 050 point 0 percent by variable 2](./example3/PNRS/figures/scatter_plots/by_top_connection/gscatter_top_050_point_0_percent_by_variable_2.png){ width=302px }
+![gscatter top 050 point 0 percent by var4](./example3/PNRS/figures/scatter_plots/by_top_connection/gscatter_top_050_point_0_percent_by_var4.png){ width=302px }
+![scatter top 100 point 0 percent](./example3/PNRS/figures/scatter_plots/by_top_connection/scatter_top_100_point_0_percent.png){ width=302px }
+![dscatter top 100 point 0 percent](./example3/PNRS/figures/scatter_plots/by_top_connection/dscatter_top_100_point_0_percent.png){ width=302px }
+![gscatter top 100 point 0 percent by FoG](./example3/PNRS/figures/scatter_plots/by_top_connection/gscatter_top_100_point_0_percent_by_FoG.png){ width=302px }
+![gscatter top 100 point 0 percent by sex](./example3/PNRS/figures/scatter_plots/by_top_connection/gscatter_top_100_point_0_percent_by_sex.png){ width=302px }
+![gscatter top 100 point 0 percent by Age at session](./example3/PNRS/figures/scatter_plots/by_top_connection/gscatter_top_100_point_0_percent_by_Age_at_session.png){ width=302px }
+![gscatter top 100 point 0 percent by scanner model](./example3/PNRS/figures/scatter_plots/by_top_connection/gscatter_top_100_point_0_percent_by_scanner_model.png){ width=302px }
+![gscatter top 100 point 0 percent by var1](./example3/PNRS/figures/scatter_plots/by_top_connection/gscatter_top_100_point_0_percent_by_var1.png){ width=302px }
+![gscatter top 100 point 0 percent by variable 2](./example3/PNRS/figures/scatter_plots/by_top_connection/gscatter_top_100_point_0_percent_by_variable_2.png){ width=302px }
+![gscatter top 100 point 0 percent by var4](./example3/PNRS/figures/scatter_plots/by_top_connection/gscatter_top_100_point_0_percent_by_var4.png){ width=302px }
+![scatter Aud](./example3/PNRS/figures/scatter_plots/by_networks/scatter_Aud.png){ width=302px }
+![dscatter Aud](./example3/PNRS/figures/scatter_plots/by_networks/dscatter_Aud.png){ width=302px }
+![gscatter Aud by FoG](./example3/PNRS/figures/scatter_plots/by_networks/gscatter_Aud_by_FoG.png){ width=302px }
+![gscatter Aud by sex](./example3/PNRS/figures/scatter_plots/by_networks/gscatter_Aud_by_sex.png){ width=302px }
+![gscatter Aud by Age at session](./example3/PNRS/figures/scatter_plots/by_networks/gscatter_Aud_by_Age_at_session.png){ width=302px }
+![gscatter Aud by scanner model](./example3/PNRS/figures/scatter_plots/by_networks/gscatter_Aud_by_scanner_model.png){ width=306px }
+![gscatter Aud by var1](./example3/PNRS/figures/scatter_plots/by_networks/gscatter_Aud_by_var1.png){ width=302px }
+![gscatter Aud by variable 2](./example3/PNRS/figures/scatter_plots/by_networks/gscatter_Aud_by_variable_2.png){ width=302px }
+![gscatter Aud by var4](./example3/PNRS/figures/scatter_plots/by_networks/gscatter_Aud_by_var4.png){ width=302px }
+![scatter CiO](./example3/PNRS/figures/scatter_plots/by_networks/scatter_CiO.png){ width=302px }
+![dscatter CiO](./example3/PNRS/figures/scatter_plots/by_networks/dscatter_CiO.png){ width=302px }
+![gscatter CiO by FoG](./example3/PNRS/figures/scatter_plots/by_networks/gscatter_CiO_by_FoG.png){ width=302px }
+![gscatter CiO by sex](./example3/PNRS/figures/scatter_plots/by_networks/gscatter_CiO_by_sex.png){ width=302px }
+![gscatter CiO by Age at session](./example3/PNRS/figures/scatter_plots/by_networks/gscatter_CiO_by_Age_at_session.png){ width=302px }
+![gscatter CiO by scanner model](./example3/PNRS/figures/scatter_plots/by_networks/gscatter_CiO_by_scanner_model.png){ width=302px }
+![gscatter CiO by var1](./example3/PNRS/figures/scatter_plots/by_networks/gscatter_CiO_by_var1.png){ width=302px }
+![gscatter CiO by variable 2](./example3/PNRS/figures/scatter_plots/by_networks/gscatter_CiO_by_variable_2.png){ width=302px }
+![gscatter CiO by var4](./example3/PNRS/figures/scatter_plots/by_networks/gscatter_CiO_by_var4.png){ width=302px }
+![scatter DAn](./example3/PNRS/figures/scatter_plots/by_networks/scatter_DAn.png){ width=306px }
+![dscatter DAn](./example3/PNRS/figures/scatter_plots/by_networks/dscatter_DAn.png){ width=302px }
+![gscatter DAn by FoG](./example3/PNRS/figures/scatter_plots/by_networks/gscatter_DAn_by_FoG.png){ width=302px }
+![gscatter DAn by sex](./example3/PNRS/figures/scatter_plots/by_networks/gscatter_DAn_by_sex.png){ width=302px }
+![gscatter DAn by Age at session](./example3/PNRS/figures/scatter_plots/by_networks/gscatter_DAn_by_Age_at_session.png){ width=302px }
+![gscatter DAn by scanner model](./example3/PNRS/figures/scatter_plots/by_networks/gscatter_DAn_by_scanner_model.png){ width=302px }
+![gscatter DAn by var1](./example3/PNRS/figures/scatter_plots/by_networks/gscatter_DAn_by_var1.png){ width=302px }
+![gscatter DAn by variable 2](./example3/PNRS/figures/scatter_plots/by_networks/gscatter_DAn_by_variable_2.png){ width=302px }
+![gscatter DAn by var4](./example3/PNRS/figures/scatter_plots/by_networks/gscatter_DAn_by_var4.png){ width=302px }
+![scatter Def](./example3/PNRS/figures/scatter_plots/by_networks/scatter_Def.png){ width=302px }
+![dscatter Def](./example3/PNRS/figures/scatter_plots/by_networks/dscatter_Def.png){ width=302px }
+![gscatter Def by FoG](./example3/PNRS/figures/scatter_plots/by_networks/gscatter_Def_by_FoG.png){ width=302px }
+![gscatter Def by sex](./example3/PNRS/figures/scatter_plots/by_networks/gscatter_Def_by_sex.png){ width=302px }
+![gscatter Def by Age at session](./example3/PNRS/figures/scatter_plots/by_networks/gscatter_Def_by_Age_at_session.png){ width=302px }
+![gscatter Def by scanner model](./example3/PNRS/figures/scatter_plots/by_networks/gscatter_Def_by_scanner_model.png){ width=302px }
+![gscatter Def by var1](./example3/PNRS/figures/scatter_plots/by_networks/gscatter_Def_by_var1.png){ width=302px }
+![gscatter Def by variable 2](./example3/PNRS/figures/scatter_plots/by_networks/gscatter_Def_by_variable_2.png){ width=302px }
+![gscatter Def by var4](./example3/PNRS/figures/scatter_plots/by_networks/gscatter_Def_by_var4.png){ width=302px }
+![scatter FPn](./example3/PNRS/figures/scatter_plots/by_networks/scatter_FPn.png){ width=302px }
+![dscatter FPn](./example3/PNRS/figures/scatter_plots/by_networks/dscatter_FPn.png){ width=302px }
+![gscatter FPn by FoG](./example3/PNRS/figures/scatter_plots/by_networks/gscatter_FPn_by_FoG.png){ width=302px }
+![gscatter FPn by sex](./example3/PNRS/figures/scatter_plots/by_networks/gscatter_FPn_by_sex.png){ width=302px }
+![gscatter FPn by Age at session](./example3/PNRS/figures/scatter_plots/by_networks/gscatter_FPn_by_Age_at_session.png){ width=302px }
+![gscatter FPn by scanner model](./example3/PNRS/figures/scatter_plots/by_networks/gscatter_FPn_by_scanner_model.png){ width=302px }
+![gscatter FPn by var1](./example3/PNRS/figures/scatter_plots/by_networks/gscatter_FPn_by_var1.png){ width=302px }
+![gscatter FPn by variable 2](./example3/PNRS/figures/scatter_plots/by_networks/gscatter_FPn_by_variable_2.png){ width=302px }
+![gscatter FPn by var4](./example3/PNRS/figures/scatter_plots/by_networks/gscatter_FPn_by_var4.png){ width=302px }
+![scatter Lan](./example3/PNRS/figures/scatter_plots/by_networks/scatter_Lan.png){ width=302px }
+![dscatter Lan](./example3/PNRS/figures/scatter_plots/by_networks/dscatter_Lan.png){ width=302px }
+![gscatter Lan by FoG](./example3/PNRS/figures/scatter_plots/by_networks/gscatter_Lan_by_FoG.png){ width=302px }
+![gscatter Lan by sex](./example3/PNRS/figures/scatter_plots/by_networks/gscatter_Lan_by_sex.png){ width=302px }
+![gscatter Lan by Age at session](./example3/PNRS/figures/scatter_plots/by_networks/gscatter_Lan_by_Age_at_session.png){ width=302px }
+![gscatter Lan by scanner model](./example3/PNRS/figures/scatter_plots/by_networks/gscatter_Lan_by_scanner_model.png){ width=302px }
+![gscatter Lan by var1](./example3/PNRS/figures/scatter_plots/by_networks/gscatter_Lan_by_var1.png){ width=302px }
+![gscatter Lan by variable 2](./example3/PNRS/figures/scatter_plots/by_networks/gscatter_Lan_by_variable_2.png){ width=306px }
+![gscatter Lan by var4](./example3/PNRS/figures/scatter_plots/by_networks/gscatter_Lan_by_var4.png){ width=302px }
+![scatter OrA](./example3/PNRS/figures/scatter_plots/by_networks/scatter_OrA.png){ width=302px }
+![dscatter OrA](./example3/PNRS/figures/scatter_plots/by_networks/dscatter_OrA.png){ width=302px }
+![gscatter OrA by FoG](./example3/PNRS/figures/scatter_plots/by_networks/gscatter_OrA_by_FoG.png){ width=302px }
+![gscatter OrA by sex](./example3/PNRS/figures/scatter_plots/by_networks/gscatter_OrA_by_sex.png){ width=302px }
+![gscatter OrA by Age at session](./example3/PNRS/figures/scatter_plots/by_networks/gscatter_OrA_by_Age_at_session.png){ width=302px }
+![gscatter OrA by scanner model](./example3/PNRS/figures/scatter_plots/by_networks/gscatter_OrA_by_scanner_model.png){ width=302px }
+![gscatter OrA by var1](./example3/PNRS/figures/scatter_plots/by_networks/gscatter_OrA_by_var1.png){ width=302px }
+![gscatter OrA by variable 2](./example3/PNRS/figures/scatter_plots/by_networks/gscatter_OrA_by_variable_2.png){ width=302px }
+![gscatter OrA by var4](./example3/PNRS/figures/scatter_plots/by_networks/gscatter_OrA_by_var4.png){ width=302px }
+![scatter PMm](./example3/PNRS/figures/scatter_plots/by_networks/scatter_PMm.png){ width=302px }
+![dscatter PMm](./example3/PNRS/figures/scatter_plots/by_networks/dscatter_PMm.png){ width=302px }
+![gscatter PMm by FoG](./example3/PNRS/figures/scatter_plots/by_networks/gscatter_PMm_by_FoG.png){ width=302px }
+![gscatter PMm by sex](./example3/PNRS/figures/scatter_plots/by_networks/gscatter_PMm_by_sex.png){ width=302px }
+![gscatter PMm by Age at session](./example3/PNRS/figures/scatter_plots/by_networks/gscatter_PMm_by_Age_at_session.png){ width=302px }
+![gscatter PMm by scanner model](./example3/PNRS/figures/scatter_plots/by_networks/gscatter_PMm_by_scanner_model.png){ width=298px }
+![gscatter PMm by var1](./example3/PNRS/figures/scatter_plots/by_networks/gscatter_PMm_by_var1.png){ width=302px }
+![gscatter PMm by variable 2](./example3/PNRS/figures/scatter_plots/by_networks/gscatter_PMm_by_variable_2.png){ width=302px }
+![gscatter PMm by var4](./example3/PNRS/figures/scatter_plots/by_networks/gscatter_PMm_by_var4.png){ width=302px }
+![scatter Smn](./example3/PNRS/figures/scatter_plots/by_networks/scatter_Smn.png){ width=302px }
+![dscatter Smn](./example3/PNRS/figures/scatter_plots/by_networks/dscatter_Smn.png){ width=302px }
+![gscatter Smn by FoG](./example3/PNRS/figures/scatter_plots/by_networks/gscatter_Smn_by_FoG.png){ width=302px }
+![gscatter Smn by sex](./example3/PNRS/figures/scatter_plots/by_networks/gscatter_Smn_by_sex.png){ width=302px }
+![gscatter Smn by Age at session](./example3/PNRS/figures/scatter_plots/by_networks/gscatter_Smn_by_Age_at_session.png){ width=302px }
+![gscatter Smn by scanner model](./example3/PNRS/figures/scatter_plots/by_networks/gscatter_Smn_by_scanner_model.png){ width=302px }
+![gscatter Smn by var1](./example3/PNRS/figures/scatter_plots/by_networks/gscatter_Smn_by_var1.png){ width=302px }
+![gscatter Smn by variable 2](./example3/PNRS/figures/scatter_plots/by_networks/gscatter_Smn_by_variable_2.png){ width=302px }
+![gscatter Smn by var4](./example3/PNRS/figures/scatter_plots/by_networks/gscatter_Smn_by_var4.png){ width=302px }
+![scatter VMm](./example3/PNRS/figures/scatter_plots/by_networks/scatter_VMm.png){ width=302px }
+![dscatter VMm](./example3/PNRS/figures/scatter_plots/by_networks/dscatter_VMm.png){ width=302px }
+![gscatter VMm by FoG](./example3/PNRS/figures/scatter_plots/by_networks/gscatter_VMm_by_FoG.png){ width=302px }
+![gscatter VMm by sex](./example3/PNRS/figures/scatter_plots/by_networks/gscatter_VMm_by_sex.png){ width=302px }
+![gscatter VMm by Age at session](./example3/PNRS/figures/scatter_plots/by_networks/gscatter_VMm_by_Age_at_session.png){ width=302px }
+![gscatter VMm by scanner model](./example3/PNRS/figures/scatter_plots/by_networks/gscatter_VMm_by_scanner_model.png){ width=302px }
+![gscatter VMm by var1](./example3/PNRS/figures/scatter_plots/by_networks/gscatter_VMm_by_var1.png){ width=302px }
+![gscatter VMm by variable 2](./example3/PNRS/figures/scatter_plots/by_networks/gscatter_VMm_by_variable_2.png){ width=302px }
+![gscatter VMm by var4](./example3/PNRS/figures/scatter_plots/by_networks/gscatter_VMm_by_var4.png){ width=302px }
+![scatter Vi1](./example3/PNRS/figures/scatter_plots/by_networks/scatter_Vi1.png){ width=302px }
+![dscatter Vi1](./example3/PNRS/figures/scatter_plots/by_networks/dscatter_Vi1.png){ width=302px }
+![gscatter Vi1 by FoG](./example3/PNRS/figures/scatter_plots/by_networks/gscatter_Vi1_by_FoG.png){ width=302px }
+![gscatter Vi1 by sex](./example3/PNRS/figures/scatter_plots/by_networks/gscatter_Vi1_by_sex.png){ width=302px }
+![gscatter Vi1 by Age at session](./example3/PNRS/figures/scatter_plots/by_networks/gscatter_Vi1_by_Age_at_session.png){ width=302px }
+![gscatter Vi1 by scanner model](./example3/PNRS/figures/scatter_plots/by_networks/gscatter_Vi1_by_scanner_model.png){ width=302px }
+![gscatter Vi1 by var1](./example3/PNRS/figures/scatter_plots/by_networks/gscatter_Vi1_by_var1.png){ width=302px }
+![gscatter Vi1 by variable 2](./example3/PNRS/figures/scatter_plots/by_networks/gscatter_Vi1_by_variable_2.png){ width=302px }
+![gscatter Vi1 by var4](./example3/PNRS/figures/scatter_plots/by_networks/gscatter_Vi1_by_var4.png){ width=302px }
+![scatter Vi2](./example3/PNRS/figures/scatter_plots/by_networks/scatter_Vi2.png){ width=302px }
+![dscatter Vi2](./example3/PNRS/figures/scatter_plots/by_networks/dscatter_Vi2.png){ width=302px }
+![gscatter Vi2 by FoG](./example3/PNRS/figures/scatter_plots/by_networks/gscatter_Vi2_by_FoG.png){ width=302px }
+![gscatter Vi2 by sex](./example3/PNRS/figures/scatter_plots/by_networks/gscatter_Vi2_by_sex.png){ width=302px }
+![gscatter Vi2 by Age at session](./example3/PNRS/figures/scatter_plots/by_networks/gscatter_Vi2_by_Age_at_session.png){ width=302px }
+![gscatter Vi2 by scanner model](./example3/PNRS/figures/scatter_plots/by_networks/gscatter_Vi2_by_scanner_model.png){ width=302px }
+![gscatter Vi2 by var1](./example3/PNRS/figures/scatter_plots/by_networks/gscatter_Vi2_by_var1.png){ width=302px }
+![gscatter Vi2 by variable 2](./example3/PNRS/figures/scatter_plots/by_networks/gscatter_Vi2_by_variable_2.png){ width=302px }
+![gscatter Vi2 by var4](./example3/PNRS/figures/scatter_plots/by_networks/gscatter_Vi2_by_var4.png){ width=302px }
+![ExplainedVariance N 11](./example3/PNRS/figures/ExplainedVariance_and_Null/ExplainedVariance_N_11.png){ width=302px }
+![Correlations N 11](./example3/PNRS/figures/ExplainedVariance_and_Null/Correlations_N_11.png){ width=302px }
+![ExplainedVariancebynetworks N 12](./example3/PNRS/figures/ExplainedVariance_and_Null/ExplainedVariancebynetworks_N_12.png){ width=302px }
+![Correlationsbynetworks N 12](./example3/PNRS/figures/ExplainedVariance_and_Null/Correlationsbynetworks_N_12.png){ width=302px }
+![ExplainedVariancebynetworks Negcorr  N 12](./example3/PNRS/figures/ExplainedVariance_and_Null/ExplainedVariancebynetworks_Negcorr__N_12.png){ width=302px }
+![Correlationsbynetworks Negcorr  N 12](./example3/PNRS/figures/ExplainedVariance_and_Null/Correlationsbynetworks_Negcorr__N_12.png){ width=302px }

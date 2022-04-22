@@ -206,4 +206,4 @@ These figures show the R value or percentage of explained variance based on the 
 
 Here is an example figure:
 
-![Correlations](./example1/PNRS/figures/ExplainedVariance_and_Null/Correlations_N_11.png)
+![Correlations](./example1/PNRS/figures/ExplainedVariance_and_Null/Correlations_N_11.png){ width=302px }

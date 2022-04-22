@@ -4,7 +4,8 @@ plugins:
   - search
 markdown_extensions:
   - attr_list
-pages:
+docs_dir: docs
+nav:
 - Overview: PolyNeuro_Risk_Scores.md
 - Installation and set-up: install_and_setup.md
 - Detailed specifications for input variables, files and data: detailed_description.md

@@ -46,6 +46,20 @@ run_BWAS (path_imaging_reference,...
     'path_parcellation_table',path_parcellation_table) 
 ```
 
+```Container
+singularity run -B $base_folder:$base_folder $container bwas \
+-path_imaging_reference $path_imaging_reference \
+-path_demographics_table_reference $path_demographics_Table_reference \
+-path_dictionary_demographics_table_reference $path_dictionary_demographics_Table_reference \
+-path_group_design_table_reference $path_group_Design_Table_reference \
+-output_folder $output_folder_BWAS \
+-path_parcellation_table $path_parcellation_table \
+-model $model
+
+```
+The expression "-B $base_folder:$base_folder" in the container command, mounts the folder $base_folder as a virtual unit located in $base_folder. Its required
+when the container does not have access to this path  in the local unit and part or all the data is located.
+
 Once the run is completed, all the files will be saved in the folder you defined as output folder (in this example is `/home/example1/BWAS`). This folder will contain the following subfolders:
 
 ```markdown

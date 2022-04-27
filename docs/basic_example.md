@@ -89,31 +89,7 @@ singularity run -B $base_folder:$base_folder container_bwas.sif bwas \
 The expression "-B $base_folder:$base_folder" in the container command, mounts the folder $base_folder as a virtual unit located in $base_folder. Its required
 when the container does not have access to this path  in the local unit and part or all the data is located.
 
-PNRS
 
-```
-singularity run -B $base_folder:$base_folder $container pnrs \
--path_imaging_target $path_imaging_target \
--path_betaweights $path_betaweights \
--path_Rsquared $path_Rsquared \
--path_reference_table_by_networks $path_reference_table_by_networks \
--path_demographics_Table $path_demographics_Table_reference \
--path_dictionary_demographics_Table $path_dictionary_demographics_Table_reference \
--path_group_Design_Table $path_group_Design_Table_reference \
--output_folder $output_folder_PNRS
-```
-
-fconn_residualizer
-
-```
-singularity run -B $base_folcer:$base_folder $container fcon_residualizer \
--path_imaging_reference $path_imaging_reference \
--path_demographics_table_reference $path_demographics_Table_reference \
--path_dictionary_demographics_table_reference $path_dictionary_demographics_Table_reference \
--path_group_design_table_reference $path_group_Design_Table_reference \
--output_folder $output_folder_fconn_residualizer
-
-```
 
 ## PNRS: Estimating risk
 
@@ -173,4 +149,16 @@ The section [Exploring outputs](./exploring_outputs.md) describes all the output
 
 ### Runing the code using the container
 
+PNRS
 
+```
+singularity run -B $base_folder:$base_folder $container pnrs \
+-path_imaging_target $path_imaging_target \
+-path_betaweights $path_betaweights \
+-path_Rsquared $path_Rsquared \
+-path_reference_table_by_networks $path_reference_table_by_networks \
+-path_demographics_Table $path_demographics_Table_reference \
+-path_dictionary_demographics_Table $path_dictionary_demographics_Table_reference \
+-path_group_Design_Table $path_group_Design_Table_reference \
+-output_folder $output_folder_PNRS
+```

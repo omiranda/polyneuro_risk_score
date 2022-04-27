@@ -1,6 +1,9 @@
-# Testing
+# Only figures
 
-text_to_readthedocs
+Here you can find all the figures the toolbox make.
+
+
+## Example using functional connectivity
 
 ![Weights explainedVariance by brainFeature](./example1/BWAS/figures/Weights_ExplainedVariance/Weights_explainedVariance_by_brainFeature.png){ width=302px }
 ![Weights explainedVariance by Weight](./example1/BWAS/figures/Weights_ExplainedVariance/Weights_explainedVariance_by_Weight.png){ width=302px }
@@ -194,6 +197,10 @@ text_to_readthedocs
 ![ExplainedVariancebynetworks Negcorr  N 15](./example1/PNRS/figures/ExplainedVariance_and_Null/ExplainedVariancebynetworks_Negcorr__N_15.png){ width=302px }
 ![Correlationsbynetworks Negcorr  N 28](./example1/PNRS/figures/ExplainedVariance_and_Null/Correlationsbynetworks_Negcorr__N_28.png){ width=756px }
 ![Correlationsbynetworks Negcorr  N 15](./example1/PNRS/figures/ExplainedVariance_and_Null/Correlationsbynetworks_Negcorr__N_15.png){ width=302px }
+
+
+## Example using cortical thickness data
+
 ![Weights explainedVariance by brainFeature](./example3/BWAS/figures/Weights_ExplainedVariance/Weights_explainedVariance_by_brainFeature.png){ width=302px }
 ![Weights explainedVariance by Weight](./example3/BWAS/figures/Weights_ExplainedVariance/Weights_explainedVariance_by_Weight.png){ width=306px }
 ![Weights explainedVariance by explainedVariance](./example3/BWAS/figures/Weights_ExplainedVariance/Weights_explainedVariance_by_explainedVariance.png){ width=306px }

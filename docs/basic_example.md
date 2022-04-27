@@ -72,7 +72,9 @@ Bonus: Consider re-runing the code using the following model `model='lutein_PCA1
 
 
 BWAS
+
 To run the container 
+
 ```Container
 singularity run -B $base_folder:$base_folder container_bwas.sif bwas \
 -path_imaging_reference $path_imaging_reference \

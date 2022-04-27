@@ -73,6 +73,17 @@ Bonus: Consider re-runing the code using the following model `model='lutein_PCA1
 
 BWAS
 
+```Matlab
+                        path_imaging_reference = '/home/example1/input_data/fconn.mat';
+             path_demographics_Table_reference = '/home/example1/input_data/demographcis_Table.csv';
+  path_dictionary_demographics_Table_reference = '/home/example1/input_data/Dictionary_for_demographics_Table.csv';
+             path_group_Design_Table_reference = '/home/example1/input_data/Group_Design_Table.csv';
+                            output_folder_BWAS = '/home/example1/BWAS';
+                        path_parcellation_table= '/home/example1/input_data/parcel.mat';
+               path_Group_Color_Table_reference= '/home/example1/input_data/Group_Color_Table.csv';
+                        model='lutein_PCA1 ~ brain_feature-1';
+```
+
 To run the container 
 
 ```Container
@@ -89,7 +100,19 @@ singularity run -B $base_folder:$base_folder container_bwas.sif bwas \
 The expression "-B $base_folder:$base_folder" in the container command, mounts the folder $base_folder as a virtual unit located in $base_folder. Its required
 when the container does not have access to this path  in the local unit and part or all the data is located.
 
-
+```markdown
+├── /home/example1  
+    ├── BWAS
+        └── tables
+        ├── figures
+            └── weights_explainedvariance
+            ├── scatter_plots
+               └── by_networks
+            └── relativecontributions_plots
+            └── pvalues_explainedvariance
+            └── manhattan_plots
+        └── ciftis
+```
 
 ## PNRS: Estimating risk
 

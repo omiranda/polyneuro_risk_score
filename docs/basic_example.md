@@ -174,6 +174,22 @@ The section [Exploring outputs](./exploring_outputs.md) describes all the output
 ### Runing the code using the container
 
 PNRS
+```Container
+
+                       path_imaging_target = '/home/example1/input_data/fconn.mat'
+            path_demographics_Table_target = '/home/example1/input_data/demographcis_Table.csv'
+ path_dictionary_demographics_Table_target = '/home/example1/input_data/Dictionary_for_demographics_Table.csv'
+
+                          path_betaweights = '/home/example1/BWAS/tables/brain_feature.csv'
+                             path_Rsquared = '/home/example1/BWAS/tables/Rsquared.csv'
+          path_reference_table_by_networks = '/home/example1/BWAS/tables/correlations_by_networks.csv'
+
+                         output_folder_PNS = '/home/example1/PNRS'
+            path_group_Design_Table_target = '/home/example1/input_data/Group_Design_Table.csv'
+             path_Group_Color_Table_target = '/home/example1/input_data/Group_Color_Table.csv'
+                               base_folder = '/home'
+
+```
 
 ```
 singularity run -B $base_folder:$base_folder $container pnrs \

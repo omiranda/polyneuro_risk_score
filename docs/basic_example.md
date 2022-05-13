@@ -73,7 +73,7 @@ Bonus: Consider re-runing the code using the following model `model='lutein_PCA1
 
 BWAS
 
-```Matlab
+```Container
                         path_imaging_reference = '/home/example1/input_data/fconn.mat';
              path_demographics_Table_reference = '/home/example1/input_data/demographcis_Table.csv';
   path_dictionary_demographics_Table_reference = '/home/example1/input_data/Dictionary_for_demographics_Table.csv';
@@ -82,6 +82,7 @@ BWAS
                         path_parcellation_table= '/home/example1/input_data/parcel.mat';
                path_Group_Color_Table_reference= '/home/example1/input_data/Group_Color_Table.csv';
                         model='lutein_PCA1 ~ brain_feature-1';
+                        base_folder='/home/'
 ```
 
 To run the container 

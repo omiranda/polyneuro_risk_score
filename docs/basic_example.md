@@ -70,6 +70,7 @@ Bonus: Consider re-runing the code using the following model `model='lutein_PCA1
 
 ### Runing the code using the container
 
+With a running version of Singularity, and the most up to date container, in a shell terminal you can run the BWAS, polyneuro risk score scripts. To run BWAS, you need to define the following variables :  
 
 BWAS
 
@@ -84,6 +85,8 @@ BWAS
                         model='lutein_PCA1 ~ brain_feature-1';
                         base_folder='/home/'
 ```
+Once the variables are defined, you can excecute the BWAS script using the line below in your favourite shell terminal 
+
 
 To run the container 
 
@@ -115,9 +118,11 @@ when the container does not have access to this path  in the local unit and part
         └── ciftis
 ```
 
+Once the \\( \beta\\)-weights are calculated, you can use them to predict scores in an independent sample. Weights and explained variance files are saved in a subfolder named `tables/` within the folder that contains the outputs of the BWAS analyses. See [Detailed specs.](./detailed_description.md) for details about input arguments/
+
 ## PNRS: Estimating risk
 
-Once the \\( \beta\\)-weights are calculated, you can use them to predict scores in an independent sample. Weights and explained variance files are saved in a subfolder named `tables/` within the folder that contains the outputs of the BWAS analyses. See [Detailed specs.](./detailed_description.md) for details about input arguments/
+
 ### Runing the code using Matlab
 First, you need to define input arguments:
 
@@ -173,6 +178,8 @@ The section [Exploring outputs](./exploring_outputs.md) describes all the output
 
 ### Runing the code using the container
 
+With a running version of Singularity, and the most up to date container, in a shell terminal you can run the polyneuro risk score scripts. To run PNRS, you need to define the following variables :  
+
 PNRS
 ```Container
 
@@ -190,6 +197,8 @@ PNRS
                                base_folder = '/home'
 
 ```
+To execute the script you need to type the following line in your favourite shell terminal. 
+If you use the flag "-path_reference_table_by_networks" you also need to complete the arguments "-path_group_Design_Table_target" and "-path_Group_Color_Table_target"
 
 ```
 singularity run -B $base_folder:$base_folder $container pnrs \

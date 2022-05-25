@@ -66,6 +66,53 @@ The section [Exploring outputs](./exploring_outputs.md) describes all the output
 
 
 ### Runing the code using the container
+Once you have a running version of Singularity, you need to open a terminal and define the following variables: 
+```Container
+                        path_imaging_reference = '/home/example3/input_data/cortical_thickness.mat';
+             path_demographics_Table_reference = '/home/example3/input_data/demographics_Table.csv';
+  path_dictionary_demographics_Table_reference = '/home/example3/input_data/Dictionary_for_demographics_Table.csv';
+             path_group_Design_Table_reference = '/home/example3/input_data/Group_Design_Table.csv';
+                            output_folder_BWAS = '/home/example3/BWAS';
+                        path_parcellation_table= '/home/example3/input_data/HCP_ColeAnticevic.csv';
+               path_Group_Color_Table_reference= '/home/example3/input_data/Group_Color_Table.csv';
+                        model='var3 ~ brain_feature-1';
+                                    base_folder= '/home/'
+```
+
+Now, you can call the function as follows:
+
+```Container
+        singularity run -B $base_folder:$base_folder container_bwas.sif bwas \
+        -path_imaging_reference path_imaging_reference \
+        -path_demographics_table_reference $path_demographics_Table_reference \
+        -path_dictionary_demographics_table_reference $path_dictionary_demographics_Table_reference \
+        -path_group_design_table_reference $path_group_Design_Table_reference \
+        -output_folder $output_folder_BWAS \
+        -path_parcellation_table $path_parcellation_table \
+        -model $model
+```
+
+Once the run is completed, all the files will be saved in the folder you defined as output folder (in this example is `/home/example3/BWAS`). This folder will contain the following subfolders:
+
+```markdown
+├── /home/example3  
+    ├── BWAS
+        └── tables
+        ├── figures
+            └── weights_explainedvariance
+            ├── scatter_plots
+               └── by_networks
+            └── relativecontributions_plots
+            └── pvalues_explainedvariance
+            └── manhattan_plots
+        └── ciftis
+```
+The section [Exploring outputs](./exploring_outputs.md) describes all the outputs.
+
+
+
+
+
 
 
 ## PNRS: Estimating risk
@@ -125,5 +172,57 @@ The section [Exploring outputs](./exploring_outputs.md) describes all the output
 
 
 ### Runing the code using the container
+UPDATE ALL WHAT COMES AFTER THIS LINE 
+
+First, you need to define input arguments:
+
+```Matlab SHOULD SAY CONTAINER
+
+                       path_imaging_target = '/home/example3/input_data/fconn.mat';
+            path_demographics_Table_target = '/home/example3/input_data/demographcis_Table.csv';
+ path_dictionary_demographics_Table_target = '/home/example3/input_data/Dictionary_for_demographics_Table.csv';
+
+                          path_betaweights = '/home/example3/BWAS/tables/brain_feature.csv';
+                             path_Rsquared = '/home/example3/BWAS/tables/Rsquared.csv';
+          path_reference_table_by_networks = '/home/example3/BWAS/tables/correlations_by_networks.csv';
+
+                         output_folder_PNS = '/home/example3/PNRS';
+            path_group_Design_Table_target = '/home/example3/input_data/Group_Design_Table.csv';
+             path_Group_Color_Table_target = '/home/example3/input_data/Group_Color_Table.csv';
+
+```
+Now, you can call the function as follows:
+
+```Matlab update for container
+PBScores=run_PNRS(path_imaging_target,...
+    path_betaweights,...
+    path_Rsquared,...
+    'output_folder',output_folder_PNS,...
+    'path_demographics_Table',path_demographics_Table_target,...
+    'path_dictionary_demographics_Table',path_dictionary_demographics_Table_target,...
+    'path_group_Design_Table',path_group_Design_Table_target,...
+    'path_Group_Color_Table',path_Group_Color_Table_target,...
+    'path_parcellation_table',path_parcellation_table,...
+    'path_reference_table_by_networks',path_reference_table_by_networks);
+```
+
+Once the run is completed, all the files will be saved in the folder you defined as output folder (in this example is `/home/example3/PNRS`). This folder will contain the following subfolders:
+
+```markdown
+├── /home/example3/
+    ├── PNRS
+        └── tables
+            └── weights_explainedvariance
+        └── figures
+            └── weights_explainedvariance
+            └── scores
+            └── scatter_plots
+                └── by_top_connection
+                └── by_networks
+            └── pvalues_explainedvariance_2_samples
+            └── pvalues_explainedvariance
+            └── explainedvariance_and_null
+```
+The section [Exploring outputs](./exploring_outputs.md) describes all the outputs.
 
 

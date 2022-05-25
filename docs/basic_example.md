@@ -83,7 +83,7 @@ BWAS
                         path_parcellation_table= '/home/example1/input_data/parcel.mat';
                path_Group_Color_Table_reference= '/home/example1/input_data/Group_Color_Table.csv';
                         model='lutein_PCA1 ~ brain_feature-1';
-                        base_folder='/home/'
+                        base_folder='/home/example1/'
 ```
 Once the variables are defined, you can excecute the BWAS script using the line below in your favourite shell terminal 
 
@@ -194,7 +194,7 @@ PNRS
                          output_folder_PNS = '/home/example1/PNRS'
             path_group_Design_Table_target = '/home/example1/input_data/Group_Design_Table.csv'
              path_Group_Color_Table_target = '/home/example1/input_data/Group_Color_Table.csv'
-                               base_folder = '/home'
+                               base_folder = '/home/example1/'
 
 ```
 To execute the script you need to type the following line in your favourite shell terminal. 

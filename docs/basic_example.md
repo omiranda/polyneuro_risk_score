@@ -91,14 +91,15 @@ Once the variables are defined, you can excecute the BWAS script using the line 
 To run the container 
 
 ```Container
-singularity run -B $base_folder:$base_folder container_bwas.sif bwas \
--path_imaging_reference $path_imaging_reference \
--path_demographics_table_reference $path_demographics_Table_reference \
--path_dictionary_demographics_table_reference $path_dictionary_demographics_Table_reference \
--path_group_design_table_reference $path_group_Design_Table_reference \
--output_folder $output_folder_BWAS \
--path_parcellation_table $path_parcellation_table \
--model $model
+        singularity run -B $base_folder:$base_folder container_bwas.sif bwas \
+        -path_imaging_reference $path_imaging_reference \
+        -path_demographics_table_reference $path_demographics_Table_reference \
+        -path_dictionary_demographics_table_reference $path_dictionary_demographics_Table_reference \
+        -path_group_design_table_reference $path_group_Design_Table_reference \
+        -output_folder $output_folder_BWAS \
+        -model $model \
+        -path_parcellation_table $path_parcellation_table
+
 
 ```
 The expression "-B $base_folder:$base_folder" in the container command, mounts the folder $base_folder as a virtual unit located in $base_folder. Its required

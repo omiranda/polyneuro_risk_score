@@ -1,4 +1,4 @@
-This page details the steps to set up the code to estimate polyneuro risk scores (written by ).
+This page details the steps to set up the code to estimate polyneuro risk scores.
 
 Repo location: 
 

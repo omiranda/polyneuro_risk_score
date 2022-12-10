@@ -1,6 +1,6 @@
 This page details the steps to set up the code to estimate polyneuro risk scores.
 
-Repo location: 
+Repo location: https://github.com/DCAN-Labs/BWAS
 
 Development team:
 

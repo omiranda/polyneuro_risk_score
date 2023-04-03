@@ -2,6 +2,10 @@ This page details the steps to set up the code to estimate polyneuro risk scores
 
 Repo location: [https://github.com/DCAN-Labs/BWAS](https://github.com/DCAN-Labs/BWAS)
 
+Cite as:
+Oscar Miranda-Dominguez, Greg Conan, Cristian Morales-Carrasco, & Damien Fair. (2023). DCAN-Labs/BWAS: BWAS PNRS first release (First). Zenodo. https://doi.org/10.5281/zenodo.7796462
+
+
 Development team:
 
 - Oscar Miranda-Domínguez (miran045@umn.edu), main developer.
